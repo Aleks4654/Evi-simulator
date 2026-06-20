@@ -1,14 +1,18 @@
 // --- НАЛАШТУВАННЯ ---
-// Вкажи тут реальну кількість варіантів, які ти завантажив у папку data
 const AVAILABLE_VARIANTS = 1; 
+
+// ВСТАВ СВОЇ ДАНІ ТЕЛЕГРАМ ТУТ (в лапках):
+const TELEGRAM_BOT_TOKEN = '8917414128:AAFEYegWbpJTvmAYw1RsRkRA9WI-90xSvyA';
+const TELEGRAM_CHAT_ID = '541143465';
 
 // --- СТАН ДОДАТКУ (State) ---
 const state = {
+    currentVariant: null, // Запам'ятовуємо номер варіанта
     questions: [],
     currentQuestionIndex: 0,
-    userAnswers: {}, // Зберігає індекси вибраних відповідей: { id: selectedIndex }
-    markedForReview: new Set(), // IDs питань, які позначені прапорцем
-    timeLeft: 150 * 60, // 150 хвилин у секундах
+    userAnswers: {},
+    markedForReview: new Set(),
+    timeLeft: 150 * 60,
     timerInterval: null
 };
 
@@ -24,10 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
     renderVariantsList();
 });
 
-// Генеруємо кнопки варіантів (тільки існуючі)
 function renderVariantsList() {
     const list = document.getElementById('variants-list');
-    list.innerHTML = ''; // Очищуємо список на всяк випадок
+    list.innerHTML = '';
     
     for (let i = 1; i <= AVAILABLE_VARIANTS; i++) {
         const btn = document.createElement('button');
@@ -38,7 +41,6 @@ function renderVariantsList() {
     }
 }
 
-// Завантаження JSON даних
 async function loadVariant(variantNum) {
     try {
         const response = await fetch(`data/variant_${variantNum}.json`);
@@ -46,10 +48,11 @@ async function loadVariant(variantNum) {
         
         const data = await response.json();
         state.questions = data;
+        state.currentVariant = variantNum; // Зберігаємо обраний варіант
         
         startTest();
     } catch (error) {
-        alert(`Помилка завантаження Варіанта ${variantNum}. Переконайтеся, що файл data/variant_${variantNum}.json існує.`);
+        alert(`Помилка завантаження Варіанта ${variantNum}. Переконайтеся, що файл існує.`);
         console.error(error);
     }
 }
@@ -62,7 +65,6 @@ function startTest() {
 
     document.getElementById('total-q-num').textContent = state.questions.length;
     
-    // Прив'язка подій
     document.getElementById('prev-btn').onclick = () => navigate(-1);
     document.getElementById('next-btn').onclick = () => navigate(1);
     document.getElementById('finish-btn').onclick = finishTest;
@@ -101,7 +103,6 @@ function startTimer() {
     }, 1000);
 }
 
-// Рендер поточного питання
 function renderQuestion() {
     const q = state.questions[state.currentQuestionIndex];
     
@@ -148,23 +149,18 @@ function renderQuestion() {
     document.getElementById('next-btn').disabled = state.currentQuestionIndex === state.questions.length - 1;
 }
 
-// Рендер бокової сітки з заголовками блоків
 function renderGrid() {
     const grid = document.getElementById('navigation-grid');
     grid.innerHTML = '';
 
-    let currentBlockName = ""; // Змінна для відстеження поточного блоку
+    let currentBlockName = "";
 
     state.questions.forEach((q, index) => {
-        // Якщо назва блоку змінилася (наприклад, з ТЗНК на Іноземну мову)
         if (q.block !== currentBlockName) {
             currentBlockName = q.block;
-            
-            // Створюємо текстовий розділювач
             const blockHeader = document.createElement('div');
             blockHeader.className = 'col-span-5 text-xs font-bold text-gray-500 uppercase tracking-wider mt-4 mb-1 border-b pb-1 text-center';
             blockHeader.textContent = currentBlockName;
-            
             grid.appendChild(blockHeader);
         }
 
@@ -193,20 +189,34 @@ function navigate(direction) {
     renderGrid();
 }
 
-// --- РЕЗУЛЬТАТИ ---
+// --- РЕЗУЛЬТАТИ ТА ТЕЛЕГРАМ ---
 function finishTest() {
     clearInterval(state.timerInterval);
     
-    let rawScore = 0;
+    // Окремі лічильники для блоків
+    let scoreTZNK = 0;
+    let scoreEng = 0;
+    let maxTZNK = 0;
+    let maxEng = 0;
+
     state.questions.forEach(q => {
+        // Рахуємо максимальну кількість питань у кожному блоці
+        if (q.block === 'ТЗНК') maxTZNK++;
+        if (q.block === 'Іноземна мова') maxEng++;
+
+        // Рахуємо правильні відповіді
         if (state.userAnswers[q.id] === q.correctAnswer) {
-            rawScore++;
+            if (q.block === 'ТЗНК') scoreTZNK++;
+            if (q.block === 'Іноземна мова') scoreEng++;
         }
     });
 
+    const rawScore = scoreTZNK + scoreEng;
     const maxScore = state.questions.length;
+    // Формула переведення у 200-бальну шкалу
     const scaledScore = rawScore === 0 ? 100 : Math.round(100 + (rawScore / maxScore) * 100);
 
+    // Відображення на екрані
     screens.test.classList.remove('flex');
     screens.test.classList.add('hidden');
     screens.results.classList.remove('hidden');
@@ -217,6 +227,36 @@ function finishTest() {
     document.getElementById('scaled-score').textContent = scaledScore;
 
     renderDetailedResults();
+
+    // Відправка результатів у Telegram
+    sendToTelegram(state.currentVariant, scoreTZNK, maxTZNK, scoreEng, maxEng, scaledScore);
+}
+
+function sendToTelegram(variant, tznk, maxTznk, eng, maxEng, scaled) {
+    if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID || TELEGRAM_BOT_TOKEN === 'ТВІЙ_ТОКЕН_ВІД_BOTFATHER') {
+        console.log("Telegram Token/ID не налаштовано. Повідомлення не відправлено.");
+        return;
+    }
+
+    // Формуємо красиве повідомлення для Telegram (з емодзі та жирним текстом)
+    const text = `📊 *Новий результат ЄВІ!*\n\n` +
+                 `📁 *Варіант:* ${variant}\n` +
+                 `🧠 *ТЗНК:* ${tznk} / ${maxTznk}\n` +
+                 `🇬🇧 *Іноземна мова:* ${eng} / ${maxEng}\n\n` +
+                 `🏆 *Загальний бал (100-200):* ${scaled}`;
+
+    const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+
+    // Робимо HTTP запит до API Telegram
+    fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            chat_id: TELEGRAM_CHAT_ID,
+            text: text,
+            parse_mode: 'Markdown'
+        })
+    }).catch(err => console.error("Помилка відправки в Telegram:", err));
 }
 
 function renderDetailedResults() {
