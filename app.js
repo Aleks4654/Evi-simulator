@@ -1,3 +1,7 @@
+// --- НАЛАШТУВАННЯ ---
+// Вкажи тут реальну кількість варіантів, які ти завантажив у папку data
+const AVAILABLE_VARIANTS = 1; 
+
 // --- СТАН ДОДАТКУ (State) ---
 const state = {
     questions: [],
@@ -20,10 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
     renderVariantsList();
 });
 
-// Генеруємо кнопки варіантів (1-10)
+// Генеруємо кнопки варіантів (тільки існуючі)
 function renderVariantsList() {
     const list = document.getElementById('variants-list');
-    for (let i = 1; i <= 10; i++) {
+    list.innerHTML = ''; // Очищуємо список на всяк випадок
+    
+    for (let i = 1; i <= AVAILABLE_VARIANTS; i++) {
         const btn = document.createElement('button');
         btn.className = "w-full py-3 px-4 bg-gray-100 hover:bg-blue-50 hover:text-blue-600 border border-gray-200 rounded-lg text-left font-medium transition flex justify-between items-center";
         btn.innerHTML = `<span>Варіант ${i}</span> <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
@@ -142,7 +148,7 @@ function renderQuestion() {
     document.getElementById('next-btn').disabled = state.currentQuestionIndex === state.questions.length - 1;
 }
 
-// ОНОВЛЕНА ФУНКЦІЯ: Рендер бокової сітки з заголовками блоків
+// Рендер бокової сітки з заголовками блоків
 function renderGrid() {
     const grid = document.getElementById('navigation-grid');
     grid.innerHTML = '';
@@ -156,7 +162,6 @@ function renderGrid() {
             
             // Створюємо текстовий розділювач
             const blockHeader = document.createElement('div');
-            // col-span-5 означає, що заголовок займе всю ширину сітки (всі 5 колонок)
             blockHeader.className = 'col-span-5 text-xs font-bold text-gray-500 uppercase tracking-wider mt-4 mb-1 border-b pb-1 text-center';
             blockHeader.textContent = currentBlockName;
             
@@ -230,4 +235,36 @@ function renderDetailedResults() {
         const el = document.createElement('div');
         el.className = `p-6 border rounded-lg ${isCorrect ? 'border-green-300 bg-green-50/30' : 'border-red-300 bg-red-50/30'}`;
         
-        let optionsHtml = `<ul class="mt-4 space-y
+        let optionsHtml = `<ul class="mt-4 space-y-2">`;
+        q.options.forEach((optText, i) => {
+            let itemClasses = "p-3 rounded-md border text-sm flex gap-3";
+            let icon = `<span class="w-5 h-5 inline-block"></span>`;
+
+            if (i === q.correctAnswer) {
+                itemClasses += " bg-green-100 border-green-400 font-medium text-green-900";
+                icon = `✅`;
+            } else if (i === userAnswerIndex && !isCorrect) {
+                itemClasses += " bg-red-100 border-red-400 text-red-900 line-through opacity-80";
+                icon = `❌`;
+            } else {
+                itemClasses += " bg-white border-gray-200 text-gray-600";
+            }
+
+            optionsHtml += `<li class="${itemClasses}">${icon} <span>${optText}</span></li>`;
+        });
+        optionsHtml += `</ul>`;
+
+        el.innerHTML = `
+            <div class="flex justify-between items-start mb-3">
+                <h3 class="font-bold text-lg"><span class="text-gray-500 mr-2">#${index + 1}</span> ${q.question}</h3>
+                <span class="px-3 py-1 rounded-full text-xs font-bold border ${statusClass} whitespace-nowrap ml-4">${statusText}</span>
+            </div>
+            ${optionsHtml}
+            <div class="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r text-sm text-gray-800">
+                <p class="font-bold mb-1 text-blue-800">Пояснення:</p>
+                <p>${q.explanation}</p>
+            </div>
+        `;
+        container.appendChild(el);
+    });
+}
