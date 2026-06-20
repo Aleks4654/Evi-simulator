@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Симулятор ЄВІ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans h-screen flex flex-col overflow-hidden">
+
+    <div id="start-screen" class="flex flex-col items-center justify-center h-full">
+        <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-md text-center">
+            <h1 class="text-3xl font-bold text-blue-600 mb-2">Симулятор ЄВІ</h1>
+            <p class="text-gray-500 mb-6">Оберіть варіант для початку тестування</p>
+            <div id="variants-list" class="flex flex-col gap-3 max-h-96 overflow-y-auto custom-scrollbar pr-2">
+                </div>
+        </div>
+    </div>
+
+    <div id="test-screen" class="hidden flex-col h-full w-full max-w-7xl mx-auto bg-white shadow-xl">
+        <header class="flex justify-between items-center p-4 bg-blue-600 text-white">
+            <div class="text-xl font-bold">Час до завершення: <span id="timer" class="font-mono">150:00</span></div>
+            <button id="finish-btn" class="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg font-semibold transition">
+                Завершити тест
+            </button>
+        </header>
+
+        <div class="flex flex-1 overflow-hidden">
+            <main class="flex-1 flex flex-col p-6 overflow-y-auto custom-scrollbar">
+                <div id="content-area" class="flex flex-col lg:flex-row gap-6 h-full">
+                    <div id="passage-container" class="hidden lg:w-1/2 bg-gray-50 p-6 rounded-lg border overflow-y-auto custom-scrollbar text-justify leading-relaxed">
+                        </div>
+                    <div id="question-container" class="flex-1 flex flex-col">
+                        <div class="mb-4">
+                            <span id="question-block-badge" class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">ТЗНК</span>
+                            <span class="text-gray-500 text-sm ml-2">Завдання <span id="current-q-num">1</span> з <span id="total-q-num">63</span></span>
+                        </div>
+                        <h2 id="question-text" class="text-xl font-medium mb-6">Текст питання</h2>
+                        <div id="options-container" class="flex flex-col gap-3">
+                            </div>
+                    </div>
+                </div>
+            </main>
+
+            <aside class="w-72 bg-gray-100 border-l p-4 flex flex-col h-full">
+                <h3 class="text-center font-semibold mb-4 text-gray-700">Навігація по тесту</h3>
+                <div class="flex justify-center mb-4">
+                    <label class="flex items-center space-x-2 cursor-pointer bg-white px-3 py-2 rounded shadow-sm border border-yellow-300 w-full justify-center">
+                        <input type="checkbox" id="mark-review-checkbox" class="form-checkbox h-5 w-5 text-yellow-500 rounded focus:ring-yellow-400">
+                        <span class="text-sm font-medium text-gray-700">Сумніваюсь (Повернутися)</span>
+                    </label>
+                </div>
+                <div id="navigation-grid" class="grid grid-cols-5 gap-2 overflow-y-auto custom-scrollbar pb-4 content-start">
+                    </div>
+            </aside>
+        </div>
+
+        <footer class="flex justify-between items-center p-4 bg-gray-50 border-t">
+            <button id="prev-btn" class="px-6 py-2 border border-gray-300 rounded-lg hover:bg-gray-200 disabled:opacity-50 transition">Попереднє</button>
+            <button id="next-btn" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 transition">Наступне</button>
+        </footer>
+    </div>
+
+    <div id="results-screen" class="hidden flex-col h-full w-full overflow-y-auto bg-gray-50 p-8 custom-scrollbar">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-lg w-full">
+            <h1 class="text-4xl font-bold text-center text-blue-600 mb-2">Ваш результат</h1>
+            <div class="flex justify-center gap-8 my-8 text-center">
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100 w-1/3">
+                    <p class="text-gray-500">Сирий бал</p>
+                    <p class="text-4xl font-bold text-blue-700"><span id="raw-score">0</span> / <span id="max-score">0</span></p>
+                </div>
+                <div class="bg-green-50 p-6 rounded-lg border border-green-100 w-1/3">
+                    <p class="text-gray-500">Шкала 100-200</p>
+                    <p class="text-4xl font-bold text-green-700" id="scaled-score">100</p>
+                </div>
+            </div>
+            
+            <h2 class="text-2xl font-bold mb-6 border-b pb-2">Детальний розбір завдань:</h2>
+            <div id="results-breakdown" class="flex flex-col gap-6">
+                </div>
+            
+            <div class="mt-8 text-center">
+                <button onclick="location.reload()" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
+                    Повернутися на головну
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
