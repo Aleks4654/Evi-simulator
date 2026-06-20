@@ -1,0 +1,47 @@
+[
+  {
+    "id": 101,
+    "block": "ТЗНК (Логіка)",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі програмісти п'ють каву. Олена п'є каву. Який з наведених висновків є логічно правильним?",
+    "options": [
+      "Олена є програмістом.",
+      "Олена не є програмістом.",
+      "Усі, хто п'ють каву, є програмістами.",
+      "Жоден з висновків не є логічно обов'язковим."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це класична помилка підтвердження консеквенту (наслідку). Із твердження «Якщо А (програміст), то Б (п'є каву)» не випливає, що наявність Б обов'язково означає А. Каву можуть пити й інші люди, не тільки програмісти. Тому жоден із перших трьох висновків не є 100% правильним."
+  },
+  {
+    "id": 102,
+    "block": "ТЗНК (Математика)",
+    "type": "normal",
+    "passage": null,
+    "question": "Товар коштував 2000 грн. Спочатку його ціну підвищили на 20%, а потім знизили на 20%. Якою стала ціна товару?",
+    "options": [
+      "2000 грн",
+      "1920 грн",
+      "2040 грн",
+      "1800 грн"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Підвищення на 20%: 2000 + (2000 * 0.20) = 2400 грн. Зниження на 20% відбувається вже від НОВОЇ ціни. Тобто: 2400 - (2400 * 0.20) = 2400 - 480 = 1920 грн. Як бачимо, ціна не повертається до початкової."
+  },
+  {
+    "id": 103,
+    "block": "Foreign Language",
+    "type": "reading",
+    "passage": "Read the text below.\n\nArtificial Intelligence (AI) is transforming the modern workplace faster than previously anticipated. According to a recent study, over 60% of administrative tasks can now be fully automated using large language models. However, contrary to the widespread fear of mass unemployment, many economists argue that AI will create more specialized roles than it destroys. The transition period, nonetheless, will require massive upskilling initiatives from both governments and private sectors. Workers who adapt to co-working with AI tools report a 40% increase in daily productivity and significantly lower burnout rates.",
+    "question": "According to the passage, what is the main argument made by many economists regarding AI in the workplace?",
+    "options": [
+      "AI will lead to unavoidable mass unemployment globally.",
+      "Administrative tasks should not be automated to save jobs.",
+      "AI is expected to create a larger number of specialized jobs than it eliminates.",
+      "Governments are solely responsible for upskilling the current workforce."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті прямо зазначено: «...many economists argue that AI will create more specialized roles than it destroys» (багато економістів стверджують, що ШІ створить більше спеціалізованих ролей, ніж знищить). Варіант A суперечить цьому (це страх, а не думка економістів). Варіант D неправильний, бо в тексті сказано про ініціативи «from both governments and private sectors»."
+  }
+]
