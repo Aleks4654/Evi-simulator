@@ -1,0 +1,948 @@
+[
+  {
+    "id": 1,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі птахи мають пір'я. Пінгвін — птах. Який висновок логічно обов'язково випливає з цих тверджень?",
+    "options": [
+      "Пінгвіни вміють літати.",
+      "Пінгвіни мають пір'я.",
+      "Деякі птахи не мають пір'я.",
+      "Пінгвіни живуть в Антарктиді."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це класичний категоричний силогізм. Якщо істинне загальне правило, що всі птахи мають пір'я, і відомо, що пінгвін належить до класу птахів, то пінгвін обов'язково має пір'я. Інші варіанти (здатність літати чи місце проживання) з наведених двох тверджень логічно не випливають."
+  },
+  {
+    "id": 2,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Визначте логічне відношення між словами в парі «ДЕРЕВО : ЛІС» та знайдіть аналогічну пару серед запропонованих.",
+    "options": [
+      "Крапля : океан",
+      "Книга : сторінка",
+      "Пташка : небо",
+      "Учень : вчитель"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Відношення «ДЕРЕВО : ЛІС» — це відношення частини до цілого (дерева є складовими частинами, що утворюють ліс). Аналогічним є відношення «крапля : океан» (краплі утворюють океан). «Книга : сторінка» є помилковим варіантом, оскільки тут порядок зворотний (ціле : частина)."
+  },
+  {
+    "id": 3,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Сучасні міста стикаються з проблемою 'теплового острова', коли міська забудова поглинає та утримує сонячне тепло. Це призводить до підвищення температури в центрі міста порівняно з передмістями. Для пом'якшення цього ефекту архітектори пропонують збільшувати площу зелених насаджень, створювати 'зелені дахи' та використовувати світлі матеріали для покриття доріг, що відбивають сонячне проміння.",
+    "question": "Що з наведеного, згідно з текстом, НЕ є способом зменшення ефекту 'теплового острова'?",
+    "options": [
+      "Створення садів на дахах будівель.",
+      "Збільшення кількості парків та скверів.",
+      "Використання темного асфальту для доріг.",
+      "Застосування матеріалів, що відбивають світло."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті зазначається, що для пом'якшення ефекту потрібно використовувати 'світлі матеріали для покриття доріг, що відбивають сонячне проміння'. Темний асфальт, навпаки, поглинає тепло, тому він не є способом вирішення проблеми, а швидше погіршує її."
+  },
+  {
+    "id": 4,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Дослідження показують, що люди, які регулярно читають художню літературу, мають вищий рівень емпатії. Вони краще розуміють емоції та мотиви інших. Це пояснюється тим, що під час читання романів мозок імітує соціальні взаємодії, дозволяючи читачеві 'прожити' досвід персонажів. Наукова література, навпаки, активізує переважно аналітичні центри мозку.",
+    "question": "Який головний висновок можна зробити з цього тексту?",
+    "options": [
+      "Читання наукової літератури не має жодного позитивного впливу на мозок.",
+      "Емпатія є вродженою рисою, але художня література може її замінити.",
+      "Художня література слугує своєрідним тренажером для розвитку соціальних навичок.",
+      "Люди з високим рівнем емпатії частіше стають письменниками художніх творів."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Головна думка тексту полягає в тому, що читання художньої літератури імітує соціальні взаємодії та підвищує емпатію. Тобто процес читання виступає тренажером для соціальних навичок та розуміння людей. Інші твердження або прямо суперечать тексту, або є домислами (як-от залежність професії письменника від емпатії)."
+  },
+  {
+    "id": 5,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Керівник відділу заявив: «Щоб підвищити продуктивність, ми повинні дозволити співробітникам працювати віддалено два дні на тиждень». Яке з наведених тверджень є прихованою передумовою цієї заяви?",
+    "options": [
+      "Співробітники хочуть працювати віддалено всі п'ять днів на тиждень.",
+      "Віддалена робота не призводить до зниження якості виконання завдань співробітниками.",
+      "Керівник відділу сам віддає перевагу віддаленому формату роботи.",
+      "Продуктивність відділу наразі є найнижчою серед усіх підрозділів компанії."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Передумова — це приховане, але необхідне припущення, на якому базується аргумент. Щоб очікувати підвищення загальної продуктивності від впровадження віддаленої роботи, керівник обов'язково має припускати, що сама по собі віддалена робота як мінімум не шкодить якості та ефективності виконання обов'язків."
+  },
+  {
+    "id": 6,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Яке з наведених тверджень є логічним запереченням (суперечить) фразі: «Жоден студент нашого курсу не отримав двійку на іспиті»?",
+    "options": [
+      "Деякі студенти нашого курсу отримали відмінно.",
+      "Принаймні один студент нашого курсу отримав двійку.",
+      "Усі студенти нашого курсу склали іспит на максимальний бал.",
+      "Студенти інших курсів часто отримували двійки."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У логіці суперечністю (контрадикторністю) до загальнозаперечного судження («Жоден S не є P») є частковостверджувальне судження («Деякі S є P», тобто існує хоча б один). Якщо виявиться, що принаймні один студент курсу отримав двійку, вихідна фраза «Жоден студент...» відразу стане хибною."
+  },
+  {
+    "id": 7,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "В епоху цифрових технологій доступність інформації стала безпрецедентною. Будь-який факт можна перевірити за кілька секунд. Проте ця легкість має зворотний бік: виникає ілюзія знання. Люди рідше запам'ятовують інформацію, покладаючись на те, що завжди можуть знайти її в Інтернеті. Це явище отримало назву 'ефект Google'. В результаті, замість накопичення глибоких внутрішніх знань, ми стаємо просто операторами пошукових систем.",
+    "question": "У чому, на думку автора, полягає головна загроза 'ефекту Google'?",
+    "options": [
+      "У швидкому поширенні неперевіреної та відверто хибної інформації.",
+      "У тому, що популярні пошукові системи можуть стати платними.",
+      "У зниженні здатності людей фіксувати та зберігати знання у власній пам'яті.",
+      "У формуванні залежності від постійного доступу до швидкісного Інтернету."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Автор прямо вказує на наслідки ефекту Google: «Люди рідше запам'ятовують інформацію... замість накопичення глибоких внутрішніх знань». Отже, проблема полягає в деградації пам'яті та здатності засвоювати інформацію, а не в інтернет-залежності чи фейках."
+  },
+  {
+    "id": 8,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Після того як у місті ввели безкоштовний проїзд у громадському транспорті, рівень заторів на дорогах знизився на 20%. Який з наведених висновків є найбільш коректним з точки зору логіки?",
+    "options": [
+      "Безкоштовний проїзд став єдиною причиною зменшення заторів.",
+      "Зменшення заторів, ймовірно, пов'язане з тим, що частина водіїв пересіла на громадський транспорт.",
+      "Введення безкоштовного проїзду завжди призводитиме до зниження заторів у будь-якому іншому місті.",
+      "Містяни почали загалом рідше виходити з дому та подорожувати містом."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Збіг у часі двох подій (кореляція) дає підстави припустити причинно-наслідковий зв'язок, але не гарантує його абсолютності. Ми не можемо стверджувати, що це «єдина» причина (могли розширити дороги) або що це правило діє «завжди». Варіант B використовує обережне слово «ймовірно» і логічно пояснює механізм явища."
+  },
+  {
+    "id": 9,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Дано умову: «Якщо йде дощ, то асфальт обов'язково мокрий». Відомо, що асфальт сухий (не мокрий). Який логічний висновок з цього випливає?",
+    "options": [
+      "Дощ щойно закінчився.",
+      "Дощ зараз іде, але дуже слабкий.",
+      "Надворі немає дощу.",
+      "Асфальт накритий спеціальним навісом."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це застосування логічного закону Modus Tollens (заперечення наслідку веде до заперечення причини). Якщо умова A (дощ) викликає наслідок B (мокрий асфальт), і відомо, що B хибне (асфальт сухий), то A також є хибним. Отже, дощу точно немає."
+  },
+  {
+    "id": 10,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Оберіть пару слів, яка має такі ж логічні відношення, як у парі «СВІТЛО : ТЕМРЯВА».",
+    "options": [
+      "Звук : тиша",
+      "Колір : веселка",
+      "День : сонце",
+      "Радість : сміх"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Відношення між «світлом» і «темрявою» — це відношення явища та його повної відсутності (темрява — це фізична відсутність світла). Аналогічним є відношення «звук : тиша», оскільки тиша — це стан повної відсутності звукових коливань."
+  },
+  {
+    "id": 11,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Незважаючи на гучні заяви розробників про те, що новий алгоритм штучного інтелекту зможе повністю замінити редакторів, результати тестування виявилися досить скромними. Так, програма чудово виправляє орфографічні помилки, але вона абсолютно не здатна вловити іронію, підтекст або стилістичні нюанси авторського тексту. Тому професія редактора найближчим часом точно не зникне.",
+    "question": "Яке ставлення автора до здатності штучного інтелекту повноцінно замінити людину-редактора?",
+    "options": [
+      "Захоплене та надмірно оптимістичне.",
+      "Скептичне та критичне.",
+      "Нейтральне та абсолютно байдуже.",
+      "Стривожене через швидку втрату робочих місць."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Автор використовує лексику, що виражає сумнів: «гучні заяви», «скромні результати», «абсолютно не здатна». Його висновок полягає в тому, що ШІ не впорається з глибокою роботою над текстом. Такий тон аналізу називається критичним і скептичним."
+  },
+  {
+    "id": 12,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі менеджери — лідери. Деякі лідери — екстраверти. Який з наведених висновків обов'язково є логічно правильним?",
+    "options": [
+      "Усі менеджери — екстраверти.",
+      "Деякі менеджери — екстраверти.",
+      "Жоден менеджер не є екстравертом.",
+      "Жодного достовірного висновку з цих тверджень зробити не можна."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це класичний приклад логічної помилки нерозподіленого середнього терміна. Те, що множина 'менеджерів' входить у множину 'лідерів', а множина 'екстравертів' перетинається з 'лідерами', жодним чином не гарантує, що 'менеджери' та 'екстраверти' перетинаються між собою. Вони можуть перетинатися, а можуть і ні, тому достовірного висновку зробити не можна."
+  },
+  {
+    "id": 13,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "На змаганнях з бігу Антон фінішував раніше за Бориса, але пізніше за Віктора. Григорій фінішував раніше за Антона, але пізніше за Віктора. Хто прийшов останнім?",
+    "options": [
+      "Антон",
+      "Борис",
+      "Віктор",
+      "Григорій"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Будуємо послідовність (від першого до останнього). Антон раніше за Бориса (А > Б). Антон пізніше за Віктора (В > А > Б). Григорій раніше за Антона, але пізніше за Віктора (В > Г > А). Об'єднуємо все в єдиний ланцюжок: Віктор > Григорій > Антон > Борис. Отже, останнім прийшов Борис."
+  },
+  {
+    "id": 14,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Перед вами двоє людей: один завжди каже правду (Правдивець), а інший завжди бреше (Брехун). Перший каже: «Ми обидва брехуни». Хто є хто?",
+    "options": [
+      "Перший — Брехун, другий — Правдивець.",
+      "Обидва кажуть правду.",
+      "Обидва Брехуни.",
+      "Перший — Правдивець, другий — Брехун."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Використовуємо метод від супротивного. Якби перший був Правдивцем, його фраза «Ми обидва брехуни» була б правдою, що означало б, що він сам брехун — виникає парадокс. Отже, перший може бути тільки Брехуном. Оскільки він Брехун, його фраза «Ми обидва брехуни» є брехнею. Це означає, що вони НЕ обидва брехуни. Оскільки перший точно Брехун, то другий обов'язково має бути Правдивцем."
+  },
+  {
+    "id": 15,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Жоден кіт не вміє читати. Усі сфінкси — коти. Який висновок логічно випливає з цих двох тверджень?",
+    "options": [
+      "Деякі сфінкси вміють читати.",
+      "Жоден сфінкс не вміє читати.",
+      "Усі, хто не вміє читати, — сфінкси.",
+      "Деякі коти вміють читати."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це категоричний силогізм. Якщо властивість (не вміє читати) поширюється на весь клас (коти), а підклас (сфінкси) повністю входить до цього класу, то властивість обов'язково поширюється і на підклас. Отже, жоден сфінкс не вміє читати."
+  },
+  {
+    "id": 16,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Четверо друзів (Андрій, Максим, Олег, Тарас) мають різні професії: лікар, програміст, юрист, кухар. Максим не юрист і не програміст. Андрій і юрист грають у теніс. Олег — кухар. Яка професія у Тараса?",
+    "options": [
+      "Лікар",
+      "Програміст",
+      "Юрист",
+      "Кухар"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Використовуємо метод виключення. 1) Олег = кухар. 2) Максим не юрист, не програміст і не кухар (бо це Олег), отже, Максим = лікар. 3) Андрій грає в теніс із юристом, отже, Андрій не юрист. Він також не кухар і не лікар, тому Андрій = програміст. 4) Для Тараса залишається єдина професія — юрист."
+  },
+  {
+    "id": 17,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Дано правило: «Щоб стати космонавтом, необхідно мати ідеальне здоров'я». Відомо, що у Сергія ідеальне здоров'я. Який висновок логічно обґрунтований?",
+    "options": [
+      "Сергій обов'язково стане космонавтом.",
+      "Сергій не зможе стати космонавтом.",
+      "Сергій задовольняє одну з необхідних умов, щоб стати космонавтом.",
+      "Усі люди з ідеальним здоров'ям стають космонавтами."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Тут перевіряється розуміння 'необхідної' та 'достатньої' умови. Ідеальне здоров'я є необхідною умовою (без нього не стати космонавтом), але не достатньою (потрібні ще знання, підготовка тощо). Тому наявність здоров'я не гарантує, що Сергій стане космонавтом, а лише підтверджує виконання однієї з вимог."
+  },
+  {
+    "id": 18,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У трьох закритих коробках лежать різні фрукти: яблука, груші, банани (по одному виду в кожній). На першій коробці написано «Яблука», на другій — «Груші», на третій — «Яблука або банани». Відомо, що всі три написи ХИБНІ. Що лежить у першій коробці?",
+    "options": [
+      "Яблука",
+      "Груші",
+      "Банани",
+      "Неможливо визначити"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Оскільки напис на третій коробці («Яблука або банани») хибний, там точно лежать груші. Залишаються яблука і банани для коробок 1 і 2. Напис на першій коробці («Яблука») теж хибний, отже, там не яблука, і оскільки груші вже в третій, у першій коробці можуть бути лише банани. Відповідно, яблука лежать у другій коробці."
+  },
+  {
+    "id": 19,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Твердження «Не всі птахи вміють літати» логічно еквівалентне якому з наведених суджень?",
+    "options": [
+      "Усі птахи не вміють літати.",
+      "Жоден птах не вміє літати.",
+      "Деякі птахи не вміють літати.",
+      "Деякі птахи вміють літати."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Заперечення загальностверджувального судження («Не всі...») в логіці дорівнює частковозаперечному судженню («Деякі... не...»). Якщо твердження, що 'абсолютно всі вміють', є хибним, це просто означає, що існує хоча б один (або 'деякі'), хто цього не вміє."
+  },
+  {
+    "id": 20,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Деякі студенти не люблять математику. Усі поети не люблять математику. Чи можна з цього зробити логічний висновок, що деякі студенти є поетами?",
+    "options": [
+      "Так, це логічно обов'язковий висновок.",
+      "Ні, з цих тверджень такий висновок не випливає.",
+      "Так, але тільки якщо більшість студентів — поети.",
+      "Висновок був би правильним, якби всі поети любили математику."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Наявність спільної характеристики (нелюбов до математики) не робить об'єкти з двох різних множин ідентичними. Це типова помилка висновку з двох заперечних засновків (або помилка середнього терміна). Студенти і поети можуть бути двома групами, які взагалі ніяк не перетинаються."
+  },
+  {
+    "id": 21,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "П'ятеро автомобілів різного кольору стоять у ряд на парковці. Червоний автомобіль стоїть правіше від синього, але лівіше від чорного. Білий автомобіль стоїть найпершим зліва. Зелений стоїть поруч із чорним і є останнім у ряду. Який колір у автомобіля, що стоїть рівно посередині (третім)?",
+    "options": [
+      "Синій",
+      "Червоний",
+      "Чорний",
+      "Зелений"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Розставляємо автомобілі за місцями (1-2-3-4-5). Білий — 1-й. Зелений останній — 5-й. Зелений поруч із чорним, отже чорний — 4-й. У нас залишилися 2-ге та 3-тє місця для червоного і синього. Оскільки червоний правіше від синього, то синій — 2-й, а червоний — 3-й (він також відповідає умові «лівіше від чорного»). Отже, посередині стоїть червоний."
+  },
+  {
+    "id": 22,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Відомо, що: «Якщо компанія виплачує дивіденди, то вона отримала прибуток». Яке з наведених тверджень логічно обов'язково випливає з цього?",
+    "options": [
+      "Якщо компанія отримала прибуток, вона виплачує дивіденди.",
+      "Якщо компанія не отримала прибуток, вона не виплачує дивіденди.",
+      "Якщо компанія не виплачує дивіденди, вона не отримала прибуток.",
+      "Будь-яка компанія з прибутком завжди виплачує дивіденди."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це застосування закону контрапозиції (Modus Tollens). Якщо з умови А (дивіденди) випливає наслідок В (прибуток), то за відсутності В (немає прибутку) обов'язково відсутнє і А (немає дивідендів). Варіанти А і D хибні, оскільки компанія може мати прибуток, але не виплачувати дивіденди, реінвестуючи його."
+  },
+  {
+    "id": 23,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Вкладник поклав 10 000 грн на банківський депозит під 10% річних з щорічною капіталізацією відсотків. Яка сума буде на його рахунку через 2 роки?",
+    "options": [
+      "12 000 грн",
+      "12 100 грн",
+      "11 000 грн",
+      "12 200 грн"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Використовуємо формулу складних відсотків: $S = P(1 + r)^n$. Перший рік: 10000 + 10% = 11000 грн. Другий рік відсотки нараховуються на нову суму (з урахуванням капіталізації): 11000 + 10% = 11000 + 1100 = 12100 грн."
+  },
+  {
+    "id": 24,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "4 насоси однакової потужності можуть відкачати воду з басейну за 6 годин. За скільки годин відкачають цю ж воду 3 такі насоси?",
+    "options": [
+      "4.5 години",
+      "8 годин",
+      "7.5 годин",
+      "9 годин"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це задача на обернену пропорційність: чим менше насосів, тим більше часу потрібно. Обчислимо загальний обсяг роботи у «насосо-годинах»: 4 * 6 = 24. Щоб знайти час для 3 насосів, ділимо загальний обсяг на їх кількість: 24 / 3 = 8 годин."
+  },
+  {
+    "id": 25,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Батькові 40 років, а синові 10. Через скільки років батько буде вдвічі старший за сина?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Нехай $x$ — кількість років, що має пройти. Тоді вік батька буде $(40 + x)$, а вік сина — $(10 + x)$. Складаємо рівняння: $40 + x = 2(10 + x)$. Розкриваємо дужки: $40 + x = 20 + 2x$. Переносимо змінні: $x = 20$. Отже, через 20 років батькові буде 60, а синові 30."
+  },
+  {
+    "id": 26,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Довжину прямокутника збільшили на 20%, а ширину зменшили на 10%. Як змінилася площа прямокутника?",
+    "options": [
+      "Збільшилася на 10%",
+      "Збільшилася на 8%",
+      "Зменшилася на 2%",
+      "Не змінилася"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Нехай початкова площа $S = a \times b$. Нова довжина становить $1.2a$, нова ширина — $0.9b$. Нова площа $S' = 1.2a \times 0.9b = 1.08ab = 1.08S$. Отже, площа становить 108% від початкової, тобто вона збільшилася на 8%."
+  },
+  {
+    "id": 27,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "З двох міст, відстань між якими 300 км, одночасно назустріч один одному виїхали два автомобілі. Швидкість першого 70 км/год, другого — 80 км/год. Через який час вони зустрінуться?",
+    "options": [
+      "1.5 години",
+      "2 години",
+      "2.5 години",
+      "3 години"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Швидкість зближення при русі назустріч дорівнює сумі швидкостей: $V_{збл} = 70 + 80 = 150$ км/год. Час до зустрічі обчислюється за формулою $t = S / V_{збл}$. Підставляємо значення: 300 / 150 = 2 години."
+  },
+  {
+    "id": 28,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У гральній колоді 36 карт. Яка ймовірність того, що навмання витягнута карта виявиться тузом або королем?",
+    "options": [
+      "1/9",
+      "2/9",
+      "1/4",
+      "1/18"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Класичне визначення ймовірності: $P = m / n$. У колоді з 36 карт ($n = 36$) є 4 тузи і 4 королі. Загальна кількість сприятливих подій (витягнути туза або короля): $m = 4 + 4 = 8$. Ймовірність: $P = 8 / 36$. Скорочуємо дріб на 4 і отримуємо 2/9."
+  },
+  {
+    "id": 29,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Середнє арифметичне п'яти чисел дорівнює 12. Коли до них додали ще одне число, середнє арифметичне стало 14. Яке число додали?",
+    "options": [
+      "2",
+      "14",
+      "24",
+      "26"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Якщо середнє арифметичне п'яти чисел дорівнює 12, то їх сума становить 5 * 12 = 60. Коли додали шосте число, середнє арифметичне стало 14, отже, нова сума становить 6 * 14 = 84. Додане число дорівнює різниці сум: 84 - 60 = 24."
+  },
+  {
+    "id": 30,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Діагональ екрана телевізора дорівнює 50 дюймів, а його ширина — 40 дюймів. Знайдіть висоту екрана.",
+    "options": [
+      "20 дюймів",
+      "30 дюймів",
+      "45 дюймів",
+      "10 дюймів"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Екран має форму прямокутника. Діагональ, ширина та висота утворюють прямокутний трикутник, де діагональ є гіпотенузою. За теоремою Піфагора: $c^2 = a^2 + b^2$. Звідси висота $b = \\sqrt{c^2 - a^2} = \\sqrt{50^2 - 40^2} = \\sqrt{2500 - 1600} = \\sqrt{900} = 30$ дюймів."
+  },
+  {
+    "id": 31,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Змішали 200 г 10%-го розчину солі та 300 г 20%-го розчину солі. Яка концентрація утвореного розчину?",
+    "options": [
+      "14%",
+      "15%",
+      "16%",
+      "18%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Знайдемо масу чистої солі в обох розчинах. У першому: 200 * 0.10 = 20 г. У другому: 300 * 0.20 = 60 г. Загальна маса солі: 20 + 60 = 80 г. Загальна маса нового розчину: 200 + 300 = 500 г. Нова концентрація: (80 / 500) * 100% = 16%."
+  },
+  {
+    "id": 32,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Графік лінійної функції $y = kx + b$ проходить через точки (0; 3) та (2; 7). Знайдіть значення коефіцієнта $k$.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Підставимо координати першої точки (0; 3) у рівняння: $3 = k \\cdot 0 + b$, отже $b = 3$. Тепер підставимо координати другої точки (2; 7) і знайдене значення $b$: $7 = k \\cdot 2 + 3$. Розв'язуємо рівняння: $2k = 7 - 3$, звідси $2k = 4$, тобто $k = 2$."
+  },
+  {
+    "id": 33,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "За 3 ручки і 2 зошити заплатили 54 грн. Скільки коштує один зошит, якщо він дешевший за ручку на 3 грн?",
+    "options": [
+      "8 грн",
+      "9 грн",
+      "10 грн",
+      "12 грн"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Нехай $x$ — ціна зошита, тоді ціна ручки становить $(x + 3)$ грн. Складаємо рівняння за загальну вартість покупки: $3(x + 3) + 2x = 54$. Розкриваємо дужки: $3x + 9 + 2x = 54$. Об'єднуємо подібні доданки: $5x = 45$. Звідси $x = 9$. Отже, один зошит коштує 9 грн."
+  },
+  {
+    "id": 34,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The fashion industry has undergone a dramatic transformation over the last two decades. The rise of \"fast fashion\" has made trendy clothing accessible at incredibly low prices. Brands introduce new collections weekly, encouraging consumers to buy more and discard items after only a few wears. While this business model has generated massive profits and democratized style, it has come at a severe environmental cost.\n\nFast fashion is now one of the most polluting industries globally. The production of cheap garments relies heavily on synthetic fabrics, such as polyester, which are derived from fossil fuels and take hundreds of years to decompose. Furthermore, the dyeing process dumps toxic chemicals into rivers, severely affecting the health of local communities in developing countries where most of these factories are located.\n\nHowever, a shift in consumer consciousness is beginning to take place. An increasing number of shoppers are becoming aware of the environmental footprint of their wardrobes. This has led to the emergence of \"slow fashion,\" a movement that advocates for buying fewer, higher-quality items that are designed to last. Second-hand shops and clothing rental services are also experiencing a surge in popularity, proving that sustainability and style can coexist.\n\nDespite these positive trends, experts warn that individual choices alone are not enough. They argue that governments must implement stricter regulations on fashion brands, forcing them to take responsibility for the entire lifecycle of their products. Until systemic changes are made, the fast fashion machine will continue to pose a significant threat to our planet.",
+    "question": "What is the main point of the first paragraph?",
+    "options": [
+      "Fast fashion has made clothes too expensive for the average person.",
+      "The fashion industry has changed by producing cheap, quickly discarded clothes.",
+      "People today wear their clothing for a longer time than in the past.",
+      "Weekly collections have significantly decreased fashion brand profits."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У першому абзаці розповідається про те, що індустрія моди змінилася через появу «швидкої моди» (fast fashion), коли модний одяг став дешевим, а люди купують його часто і швидко викидають."
+  },
+  {
+    "id": 35,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The fashion industry has undergone a dramatic transformation over the last two decades. The rise of \"fast fashion\" has made trendy clothing accessible at incredibly low prices. Brands introduce new collections weekly, encouraging consumers to buy more and discard items after only a few wears. While this business model has generated massive profits and democratized style, it has come at a severe environmental cost.\n\nFast fashion is now one of the most polluting industries globally. The production of cheap garments relies heavily on synthetic fabrics, such as polyester, which are derived from fossil fuels and take hundreds of years to decompose. Furthermore, the dyeing process dumps toxic chemicals into rivers, severely affecting the health of local communities in developing countries where most of these factories are located.\n\nHowever, a shift in consumer consciousness is beginning to take place. An increasing number of shoppers are becoming aware of the environmental footprint of their wardrobes. This has led to the emergence of \"slow fashion,\" a movement that advocates for buying fewer, higher-quality items that are designed to last. Second-hand shops and clothing rental services are also experiencing a surge in popularity, proving that sustainability and style can coexist.\n\nDespite these positive trends, experts warn that individual choices alone are not enough. They argue that governments must implement stricter regulations on fashion brands, forcing them to take responsibility for the entire lifecycle of their products. Until systemic changes are made, the fast fashion machine will continue to pose a significant threat to our planet.",
+    "question": "According to the text, why is the use of polyester problematic?",
+    "options": [
+      "It makes clothes too heavy to wear comfortably.",
+      "It is too expensive for most fast fashion brands to use.",
+      "It comes from fossil fuels and takes a very long time to break down.",
+      "It causes clothes to lose their color quickly after washing."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У другому абзаці чітко зазначено причину шкоди поліестеру: «synthetic fabrics, such as polyester, which are derived from fossil fuels and take hundreds of years to decompose» (виробляється з викопного палива і розкладається сотні років)."
+  },
+  {
+    "id": 36,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The fashion industry has undergone a dramatic transformation over the last two decades. The rise of \"fast fashion\" has made trendy clothing accessible at incredibly low prices. Brands introduce new collections weekly, encouraging consumers to buy more and discard items after only a few wears. While this business model has generated massive profits and democratized style, it has come at a severe environmental cost.\n\nFast fashion is now one of the most polluting industries globally. The production of cheap garments relies heavily on synthetic fabrics, such as polyester, which are derived from fossil fuels and take hundreds of years to decompose. Furthermore, the dyeing process dumps toxic chemicals into rivers, severely affecting the health of local communities in developing countries where most of these factories are located.\n\nHowever, a shift in consumer consciousness is beginning to take place. An increasing number of shoppers are becoming aware of the environmental footprint of their wardrobes. This has led to the emergence of \"slow fashion,\" a movement that advocates for buying fewer, higher-quality items that are designed to last. Second-hand shops and clothing rental services are also experiencing a surge in popularity, proving that sustainability and style can coexist.\n\nDespite these positive trends, experts warn that individual choices alone are not enough. They argue that governments must implement stricter regulations on fashion brands, forcing them to take responsibility for the entire lifecycle of their products. Until systemic changes are made, the fast fashion machine will continue to pose a significant threat to our planet.",
+    "question": "The word \"surge\" in the third paragraph is closest in meaning to:",
+    "options": [
+      "sudden increase",
+      "slow decline",
+      "complete stop",
+      "small change"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Слово «surge» означає «раптове зростання» або «сплеск». У тексті йдеться про зростання популярності секонд-хендів («surge in popularity»). Найближчий синонім — «sudden increase»."
+  },
+  {
+    "id": 37,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The fashion industry has undergone a dramatic transformation over the last two decades. The rise of \"fast fashion\" has made trendy clothing accessible at incredibly low prices. Brands introduce new collections weekly, encouraging consumers to buy more and discard items after only a few wears. While this business model has generated massive profits and democratized style, it has come at a severe environmental cost.\n\nFast fashion is now one of the most polluting industries globally. The production of cheap garments relies heavily on synthetic fabrics, such as polyester, which are derived from fossil fuels and take hundreds of years to decompose. Furthermore, the dyeing process dumps toxic chemicals into rivers, severely affecting the health of local communities in developing countries where most of these factories are located.\n\nHowever, a shift in consumer consciousness is beginning to take place. An increasing number of shoppers are becoming aware of the environmental footprint of their wardrobes. This has led to the emergence of \"slow fashion,\" a movement that advocates for buying fewer, higher-quality items that are designed to last. Second-hand shops and clothing rental services are also experiencing a surge in popularity, proving that sustainability and style can coexist.\n\nDespite these positive trends, experts warn that individual choices alone are not enough. They argue that governments must implement stricter regulations on fashion brands, forcing them to take responsibility for the entire lifecycle of their products. Until systemic changes are made, the fast fashion machine will continue to pose a significant threat to our planet.",
+    "question": "What does the \"slow fashion\" movement encourage people to do?",
+    "options": [
+      "Buy cheap clothes more frequently.",
+      "Purchase fewer clothes that are of better quality.",
+      "Stop wearing synthetic clothes completely.",
+      "Only buy clothes from developing countries."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Третій абзац пояснює, що «slow fashion» закликає купувати менше речей, але вищої якості, які слугуватимуть довше («buying fewer, higher-quality items that are designed to last»)."
+  },
+  {
+    "id": 38,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The fashion industry has undergone a dramatic transformation over the last two decades. The rise of \"fast fashion\" has made trendy clothing accessible at incredibly low prices. Brands introduce new collections weekly, encouraging consumers to buy more and discard items after only a few wears. While this business model has generated massive profits and democratized style, it has come at a severe environmental cost.\n\nFast fashion is now one of the most polluting industries globally. The production of cheap garments relies heavily on synthetic fabrics, such as polyester, which are derived from fossil fuels and take hundreds of years to decompose. Furthermore, the dyeing process dumps toxic chemicals into rivers, severely affecting the health of local communities in developing countries where most of these factories are located.\n\nHowever, a shift in consumer consciousness is beginning to take place. An increasing number of shoppers are becoming aware of the environmental footprint of their wardrobes. This has led to the emergence of \"slow fashion,\" a movement that advocates for buying fewer, higher-quality items that are designed to last. Second-hand shops and clothing rental services are also experiencing a surge in popularity, proving that sustainability and style can coexist.\n\nDespite these positive trends, experts warn that individual choices alone are not enough. They argue that governments must implement stricter regulations on fashion brands, forcing them to take responsibility for the entire lifecycle of their products. Until systemic changes are made, the fast fashion machine will continue to pose a significant threat to our planet.",
+    "question": "What do experts believe is necessary to truly solve the problem of fast fashion?",
+    "options": [
+      "Consumers must stop buying clothes completely.",
+      "Second-hand shops must lower their prices.",
+      "Governments need to create strict rules for clothing brands.",
+      "Factories should be moved from developing to developed countries."
+    ],
+    "correctAnswer": 2,
+    "explanation": "В останньому абзаці вказано думку експертів: самих лише зусиль покупців недостатньо, уряди повинні запровадити суворіші правила для брендів («governments must implement stricter regulations on fashion brands»)."
+  },
+  {
+    "id": 39,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "In today's fast-paced digital world, multitasking has become a way of life for many people. It is common to see individuals replying to emails while participating in a video conference, or scrolling through social media while watching television. Many pride themselves on their ability to juggle several tasks simultaneously, believing it makes them more efficient and productive.\n\nHowever, cognitive psychologists have a different perspective. Numerous studies have demonstrated that the human brain is not actually capable of true multitasking. Instead of processing multiple tasks at the exact same time, the brain rapidly switches its attention from one activity to another. This phenomenon, known as 'task-switching', requires a significant amount of mental energy and ultimately slows us down.\n\nResearch shows that when people attempt to do two complex tasks at once, their error rate increases dramatically. Furthermore, the constant shifting of focus leads to a buildup of stress hormones, which can cause mental fatigue and decrease overall cognitive capacity over time. A study conducted by Stanford University found that heavy multitaskers are actually worse at filtering out irrelevant information compared to those who focus on a single task.\n\nTo combat the negative effects of task-switching, experts recommend practicing 'deep work'. This involves dedicating uninterrupted blocks of time to a single, demanding task without any digital distractions. By turning off notifications and focusing solely on one objective, individuals can achieve a state of flow, resulting in higher quality work and a greater sense of accomplishment.",
+    "question": "How do many people feel about their ability to multitask?",
+    "options": [
+      "They feel stressed and exhausted by it.",
+      "They are proud of it because they think it improves productivity.",
+      "They believe it is a bad habit that they need to stop.",
+      "They think it is only possible for younger generations."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У першому абзаці сказано: «Many pride themselves on their ability to juggle several tasks... believing it makes them more efficient and productive» (Багато хто пишається цією здатністю, вважаючи, що це робить їх більш продуктивними)."
+  },
+  {
+    "id": 40,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "In today's fast-paced digital world, multitasking has become a way of life for many people. It is common to see individuals replying to emails while participating in a video conference, or scrolling through social media while watching television. Many pride themselves on their ability to juggle several tasks simultaneously, believing it makes them more efficient and productive.\n\nHowever, cognitive psychologists have a different perspective. Numerous studies have demonstrated that the human brain is not actually capable of true multitasking. Instead of processing multiple tasks at the exact same time, the brain rapidly switches its attention from one activity to another. This phenomenon, known as 'task-switching', requires a significant amount of mental energy and ultimately slows us down.\n\nResearch shows that when people attempt to do two complex tasks at once, their error rate increases dramatically. Furthermore, the constant shifting of focus leads to a buildup of stress hormones, which can cause mental fatigue and decrease overall cognitive capacity over time. A study conducted by Stanford University found that heavy multitaskers are actually worse at filtering out irrelevant information compared to those who focus on a single task.\n\nTo combat the negative effects of task-switching, experts recommend practicing 'deep work'. This involves dedicating uninterrupted blocks of time to a single, demanding task without any digital distractions. By turning off notifications and focusing solely on one objective, individuals can achieve a state of flow, resulting in higher quality work and a greater sense of accomplishment.",
+    "question": "According to cognitive psychologists, what actually happens in the brain when we \"multitask\"?",
+    "options": [
+      "The brain processes several tasks simultaneously.",
+      "The brain grows new neural connections to handle the load.",
+      "The brain quickly shifts its focus back and forth between different tasks.",
+      "The brain completely shuts down one side to focus on the other."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У другому абзаці психологи стверджують, що мозок не здатний до справжньої багатозадачності, натомість він просто швидко перемикає увагу з одного на інше («rapidly switches its attention from one activity to another»)."
+  },
+  {
+    "id": 41,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "In today's fast-paced digital world, multitasking has become a way of life for many people. It is common to see individuals replying to emails while participating in a video conference, or scrolling through social media while watching television. Many pride themselves on their ability to juggle several tasks simultaneously, believing it makes them more efficient and productive.\n\nHowever, cognitive psychologists have a different perspective. Numerous studies have demonstrated that the human brain is not actually capable of true multitasking. Instead of processing multiple tasks at the exact same time, the brain rapidly switches its attention from one activity to another. This phenomenon, known as 'task-switching', requires a significant amount of mental energy and ultimately slows us down.\n\nResearch shows that when people attempt to do two complex tasks at once, their error rate increases dramatically. Furthermore, the constant shifting of focus leads to a buildup of stress hormones, which can cause mental fatigue and decrease overall cognitive capacity over time. A study conducted by Stanford University found that heavy multitaskers are actually worse at filtering out irrelevant information compared to those who focus on a single task.\n\nTo combat the negative effects of task-switching, experts recommend practicing 'deep work'. This involves dedicating uninterrupted blocks of time to a single, demanding task without any digital distractions. By turning off notifications and focusing solely on one objective, individuals can achieve a state of flow, resulting in higher quality work and a greater sense of accomplishment.",
+    "question": "What did the study by Stanford University discover about heavy multitaskers?",
+    "options": [
+      "They are better at ignoring distractions than single-taskers.",
+      "They struggle to ignore irrelevant information.",
+      "They experience less stress than those who work deeply.",
+      "They can complete tasks twice as fast as other people."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Третій абзац згадує дослідження Стенфорда, яке виявило, що завзяті мультитаскери гірше відфільтровують непотрібну інформацію («worse at filtering out irrelevant information»), тобто їм важко ігнорувати відволікаючі фактори."
+  },
+  {
+    "id": 42,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "In today's fast-paced digital world, multitasking has become a way of life for many people. It is common to see individuals replying to emails while participating in a video conference, or scrolling through social media while watching television. Many pride themselves on their ability to juggle several tasks simultaneously, believing it makes them more efficient and productive.\n\nHowever, cognitive psychologists have a different perspective. Numerous studies have demonstrated that the human brain is not actually capable of true multitasking. Instead of processing multiple tasks at the exact same time, the brain rapidly switches its attention from one activity to another. This phenomenon, known as 'task-switching', requires a significant amount of mental energy and ultimately slows us down.\n\nResearch shows that when people attempt to do two complex tasks at once, their error rate increases dramatically. Furthermore, the constant shifting of focus leads to a buildup of stress hormones, which can cause mental fatigue and decrease overall cognitive capacity over time. A study conducted by Stanford University found that heavy multitaskers are actually worse at filtering out irrelevant information compared to those who focus on a single task.\n\nTo combat the negative effects of task-switching, experts recommend practicing 'deep work'. This involves dedicating uninterrupted blocks of time to a single, demanding task without any digital distractions. By turning off notifications and focusing solely on one objective, individuals can achieve a state of flow, resulting in higher quality work and a greater sense of accomplishment.",
+    "question": "What is the main principle of \"deep work\" as recommended by experts?",
+    "options": [
+      "Working for very long hours without taking any breaks.",
+      "Combining easy tasks with difficult ones to save time.",
+      "Focusing entirely on one difficult task without interruptions.",
+      "Listening to relaxing music while checking emails."
+    ],
+    "correctAnswer": 2,
+    "explanation": "В останньому абзаці пояснюється, що «deep work» (глибока робота) означає присвячення часу одній складній задачі без жодних цифрових відволікань («dedicating uninterrupted blocks of time to a single, demanding task without any digital distractions»)."
+  },
+  {
+    "id": 43,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "In today's fast-paced digital world, multitasking has become a way of life for many people. It is common to see individuals replying to emails while participating in a video conference, or scrolling through social media while watching television. Many pride themselves on their ability to juggle several tasks simultaneously, believing it makes them more efficient and productive.\n\nHowever, cognitive psychologists have a different perspective. Numerous studies have demonstrated that the human brain is not actually capable of true multitasking. Instead of processing multiple tasks at the exact same time, the brain rapidly switches its attention from one activity to another. This phenomenon, known as 'task-switching', requires a significant amount of mental energy and ultimately slows us down.\n\nResearch shows that when people attempt to do two complex tasks at once, their error rate increases dramatically. Furthermore, the constant shifting of focus leads to a buildup of stress hormones, which can cause mental fatigue and decrease overall cognitive capacity over time. A study conducted by Stanford University found that heavy multitaskers are actually worse at filtering out irrelevant information compared to those who focus on a single task.\n\nTo combat the negative effects of task-switching, experts recommend practicing 'deep work'. This involves dedicating uninterrupted blocks of time to a single, demanding task without any digital distractions. By turning off notifications and focusing solely on one objective, individuals can achieve a state of flow, resulting in higher quality work and a greater sense of accomplishment.",
+    "question": "The word \"combat\" in the final paragraph is closest in meaning to:",
+    "options": [
+      "support",
+      "fight against",
+      "create",
+      "ignore"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Дієслово «combat» у контексті «combat the negative effects» означає «боротися з» або «протистояти». Найкращий синонім серед запропонованих — «fight against»."
+  },
+  {
+    "id": 44,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The government plans to ______ taxes next year in order to reduce the budget deficit.",
+    "options": [
+      "rise",
+      "raise",
+      "arise",
+      "lift"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Дієслово 'raise' (піднімати щось) є перехідним і завжди вимагає після себе прямого додатка (raise taxes, raise hands). Натомість 'rise' (підніматися, зростати) — неперехідне дієслово і використовується без додатка (prices rise, the sun rises)."
+  },
+  {
+    "id": 45,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: I only caught a ______ of the thief as he quickly ran around the corner.",
+    "options": [
+      "glance",
+      "stare",
+      "gaze",
+      "glimpse"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Стійкий вираз 'catch a glimpse of' означає 'побачити мигцем, помітити на мить'. 'Glance' — це швидкий, але навмисний погляд (кинути погляд), 'stare' — пильно дивитися, витріщатися, а 'gaze' — довго і мрійливо дивитися."
+  },
+  {
+    "id": 46,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The suspect continued to ______ having any involvement in the bank robbery.",
+    "options": [
+      "refuse",
+      "deny",
+      "reject",
+      "decline"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Дієслово 'deny' (заперечувати факт) часто використовується з герундієм (having) і означає, що людина стверджує, ніби щось не є правдою. 'Refuse' (відмовлятися робити) вживається з інфінітивом (refuse to do), 'reject' — відхиляти (пропозицію, ідею)."
+  },
+  {
+    "id": 47,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: We had to ______ the meeting because the CEO was unexpectedly ill.",
+    "options": [
+      "put off",
+      "put away",
+      "put out",
+      "put up"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Фразове дієслово 'put off' означає 'відкладати на пізніше, переносити' (синонім postpone). Інші варіанти: 'put away' — прибирати на місце, 'put out' — гасити (наприклад, вогонь), 'put up' — будувати, встановлювати."
+  },
+  {
+    "id": 48,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Finding a good ______ in the current economic climate can be quite difficult for graduates.",
+    "options": [
+      "work",
+      "job",
+      "career",
+      "occupation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Перед пропуском стоїть неозначений артикль 'a' (a good...), тому нам потрібен злічуваний іменник. 'Job' (посада, робоче місце) є злічуваним (a job). Слово 'work' (робота як діяльність) є незлічуваним і не може вживатися з артиклем 'a'."
+  },
+  {
+    "id": 49,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The severe hurricane caused massive ______ to the coastal cities and infrastructure.",
+    "options": [
+      "injury",
+      "wound",
+      "harm",
+      "damage"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Слово 'damage' (шкода, пошкодження) використовується, коли йдеться про майно, будівлі або інфраструктуру. 'Injury' — це тілесне ушкодження людини (травма), 'wound' — рана (зазвичай від зброї), 'harm' частіше стосується шкоди здоров'ю або репутації."
+  },
+  {
+    "id": 50,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: When packing your suitcase, don't forget to ______ into account the unpredictable mountain weather.",
+    "options": [
+      "take",
+      "bring",
+      "keep",
+      "make"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Це перевірка знання ідіом. Стійкий вираз 'take into account' (або take into consideration) перекладається як 'брати до уваги', 'враховувати'. Інші дієслова з цим виразом не вживаються."
+  },
+  {
+    "id": 51,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: She is highly ______ of managing the entire marketing department on her own.",
+    "options": [
+      "able",
+      "capable",
+      "possible",
+      "skilled"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Прийменник 'of' та герундій 'managing' після пропуску є ключем до правильної відповіді. Правильна конструкція: 'be capable of doing something' (бути здатним на щось). Слово 'able' вимагає після себе інфінітива з часткою to (be able to do)."
+  },
+  {
+    "id": 52,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Could you please ______ me your laptop until tomorrow? Mine is broken.",
+    "options": [
+      "borrow",
+      "lend",
+      "owe",
+      "rent"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Дієслово 'lend' означає 'позичати комусь' (давати), тоді як 'borrow' означає 'позичати в когось' (брати). Оскільки в реченні є додаток 'me' (мені), правильним є 'lend' (чи міг би ти позичити/дати мені)."
+  },
+  {
+    "id": 53,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The new government policy will positively ______ the local economy over the next decade.",
+    "options": [
+      "effect",
+      "affect",
+      "cause",
+      "reflect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Класичне лексичне правило: 'affect' — це дієслово (впливати на щось), а 'effect' — це зазвичай іменник (вплив, результат). Після допоміжного дієслова 'will' нам потрібне смислове дієслово, тому правильний варіант — 'affect'."
+  },
+  {
+    "id": 54,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: I ______ for this company for five years by the end of next month.",
+    "options": [
+      "am working",
+      "have been working",
+      "will have been working",
+      "will be working"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Тут використовується час Future Perfect Continuous (will have been doing). Маркер «by the end of next month» (до кінця наступного місяця) вказує на майбутній рубіж, а «for five years» підкреслює тривалість дії до цього моменту."
+  },
+  {
+    "id": 55,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: If she ______ harder for the exam, she would be celebrating with us right now.",
+    "options": [
+      "studied",
+      "had studied",
+      "has studied",
+      "would study"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це змішаний тип умовного речення (Mixed Conditional). Умова (If-clause) стосується минулого (вона не вчилася в минулому) — тому використовується Past Perfect (had studied). Наслідок стосується теперішнього часу («right now») — тому використовується would + V1 (would be)."
+  },
+  {
+    "id": 56,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: We spent our summer vacation traveling across ______ United Kingdom and then visited Paris.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "-"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Правило використання артиклів із географічними назвами: перед назвами країн, що складаються з одного слова, артикль не ставиться (France, Paris). Однак, якщо назва країни містить слова Kingdom, States, Republic або Federation (наприклад, the United Kingdom, the USA), обов'язково вживається означений артикль «the»."
+  },
+  {
+    "id": 57,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: My brother is completely focused ______ passing his final exams next week.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Це перевірка на знання залежних прийменників (dependent prepositions). Прикметник «focused» (зосереджений) завжди вимагає після себе прийменника «on» (be focused on something / doing something)."
+  },
+  {
+    "id": 58,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: A new shopping mall ______ in the city center at the moment.",
+    "options": [
+      "builds",
+      "is building",
+      "is being built",
+      "has been built"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Маркер «at the moment» вказує на процес, що відбувається зараз (Present Continuous). Оскільки підмет (shopping mall) не виконує дію сам, а дія виконується над ним (його будують), нам потрібен пасивний стан — Present Continuous Passive (is + being + V3)."
+  },
+  {
+    "id": 59,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: The manager announced that the project ______ completed the previous day.",
+    "options": [
+      "is",
+      "was",
+      "has been",
+      "had been"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це правило узгодження часів (Reported Speech). Дієслово в головній частині стоїть у минулому часі («announced»). Фраза «the previous day» підказує, що в прямій мові був час Past Simple або Present Perfect. При переході в непряму мову вони змінюються на Past Perfect (had been)."
+  },
+  {
+    "id": 60,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: I clearly remember ______ the door before leaving the house, but now it is open.",
+    "options": [
+      "to lock",
+      "lock",
+      "locking",
+      "to have locked"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Дієслово «remember» змінює значення залежно від того, що йде після нього. «Remember to do» означає пам'ятати щось зробити в майбутньому (не забути). «Remember doing» (з герундієм) означає пам'ятати дію, яка вже відбулася в минулому (згадувати, як ти це робив). За контекстом він пам'ятає сам процес замикання дверей."
+  },
+  {
+    "id": 61,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: Hardly ______ the house when it started to rain heavily.",
+    "options": [
+      "I had left",
+      "had I left",
+      "did I leave",
+      "I left"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це правило інверсії (Inversion). Якщо речення починається з негативних або обмежувальних прислівників (Hardly, Scarcely, Never, Rarely), використовується зворотний (питальний) порядок слів: спочатку допоміжне дієслово (had), а потім підмет (I). Конструкція 'Hardly had + підмет + V3... when...' перекладається як 'Ледве я встиг..., як...'."
+  },
+  {
+    "id": 62,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: You ______ seen John at the party yesterday; he is currently on a business trip in Japan.",
+    "options": [
+      "mustn't have",
+      "shouldn't have",
+      "can't have",
+      "might not have"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Модальні дієслова дедукції (Modals of deduction). Для вираження 100% впевненості в тому, що дія НЕ МОГЛА відбутися в минулому, використовується конструкція «can't have + V3 / couldn't have + V3» (не може бути, щоб ти його бачив). Варіант «mustn't» тут не підходить, оскільки він виражає заборону, а не логічний висновок."
+  },
+  {
+    "id": 63,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: The woman ______ car was stolen yesterday is my neighbor.",
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це займенники у відносних підрядних реченнях (Relative Clauses). Нам потрібне слово, що вказує на приналежність: жінка, ЧИЯ (whose) машина була вкрадена. Займенник «who» означає «хто/який», а «whom» — «кому/якого»."
+  }
+]
+        
