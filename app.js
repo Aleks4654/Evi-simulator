@@ -35,7 +35,6 @@ function renderVariantsList() {
 // Завантаження JSON даних
 async function loadVariant(variantNum) {
     try {
-        // Запит до локального JSON (потребує локального сервера)
         const response = await fetch(`data/variant_${variantNum}.json`);
         if (!response.ok) throw new Error("Файл не знайдено");
         
@@ -44,14 +43,13 @@ async function loadVariant(variantNum) {
         
         startTest();
     } catch (error) {
-        alert(`Помилка завантаження Варіанта ${variantNum}. Переконайтеся, що файл data/variant_${variantNum}.json існує та ви використовуєте локальний сервер.`);
+        alert(`Помилка завантаження Варіанта ${variantNum}. Переконайтеся, що файл data/variant_${variantNum}.json існує.`);
         console.error(error);
     }
 }
 
 // --- ТЕСТУВАННЯ ---
 function startTest() {
-    // Зміна екранів
     screens.start.classList.add('hidden');
     screens.test.classList.remove('hidden');
     screens.test.classList.add('flex');
@@ -91,7 +89,6 @@ function startTimer() {
         const s = (state.timeLeft % 60).toString().padStart(2, '0');
         timerEl.textContent = `${m}:${s}`;
         
-        // Почервоніння таймера, якщо залишилось менше 5 хв
         if (state.timeLeft < 300) {
             timerEl.classList.add('text-red-300');
         }
@@ -106,7 +103,6 @@ function renderQuestion() {
     document.getElementById('question-block-badge').textContent = q.block;
     document.getElementById('question-text').textContent = q.question;
     
-    // Логіка спліт-скріну для завдань на читання
     const passageContainer = document.getElementById('passage-container');
     if (q.type === 'reading' && q.passage) {
         passageContainer.innerHTML = `<p class="whitespace-pre-line">${q.passage}</p>`;
@@ -115,7 +111,6 @@ function renderQuestion() {
         passageContainer.classList.add('hidden');
     }
 
-    // Рендер варіантів
     const optionsContainer = document.getElementById('options-container');
     optionsContainer.innerHTML = '';
     
@@ -126,7 +121,8 @@ function renderQuestion() {
                 <input type="radio" name="question-${q.id}" id="opt-${index}" class="option-radio" value="${index}" ${isChecked ? 'checked' : ''}>
                 <label for="opt-${index}" class="option-label">
                     <span class="w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center mr-3 mt-0.5 text-sm font-bold shrink-0 indicator">
-                        ${String.fromCharCode(65 + index)} </span>
+                        ${String.fromCharCode(65 + index)}
+                    </span>
                     <span class="text-gray-700">${optText}</span>
                 </label>
             </div>
@@ -134,7 +130,6 @@ function renderQuestion() {
         optionsContainer.insertAdjacentHTML('beforeend', optHtml);
     });
 
-    // Додаємо слухачі для збереження відповіді
     document.querySelectorAll('.option-radio').forEach(radio => {
         radio.addEventListener('change', (e) => {
             state.userAnswers[q.id] = parseInt(e.target.value);
@@ -142,25 +137,36 @@ function renderQuestion() {
         });
     });
 
-    // Оновлення стану чекбокса Review
     document.getElementById('mark-review-checkbox').checked = state.markedForReview.has(q.id);
-
-    // Керування станом кнопок Prev/Next
     document.getElementById('prev-btn').disabled = state.currentQuestionIndex === 0;
     document.getElementById('next-btn').disabled = state.currentQuestionIndex === state.questions.length - 1;
 }
 
-// Рендер бокової сітки
+// ОНОВЛЕНА ФУНКЦІЯ: Рендер бокової сітки з заголовками блоків
 function renderGrid() {
     const grid = document.getElementById('navigation-grid');
     grid.innerHTML = '';
 
+    let currentBlockName = ""; // Змінна для відстеження поточного блоку
+
     state.questions.forEach((q, index) => {
+        // Якщо назва блоку змінилася (наприклад, з ТЗНК на Іноземну мову)
+        if (q.block !== currentBlockName) {
+            currentBlockName = q.block;
+            
+            // Створюємо текстовий розділювач
+            const blockHeader = document.createElement('div');
+            // col-span-5 означає, що заголовок займе всю ширину сітки (всі 5 колонок)
+            blockHeader.className = 'col-span-5 text-xs font-bold text-gray-500 uppercase tracking-wider mt-4 mb-1 border-b pb-1 text-center';
+            blockHeader.textContent = currentBlockName;
+            
+            grid.appendChild(blockHeader);
+        }
+
         const item = document.createElement('div');
         item.textContent = index + 1;
         item.className = 'grid-item';
         
-        // Статуси
         if (state.userAnswers[q.id] !== undefined) item.classList.add('answered');
         else item.classList.add('unanswered');
         
@@ -186,7 +192,6 @@ function navigate(direction) {
 function finishTest() {
     clearInterval(state.timerInterval);
     
-    // Підрахунок балів
     let rawScore = 0;
     state.questions.forEach(q => {
         if (state.userAnswers[q.id] === q.correctAnswer) {
@@ -194,13 +199,9 @@ function finishTest() {
         }
     });
 
-    // Формула для шкали 100-200.
-    // У реальності таблиця УЦОЯО не є строго лінійною, проте для симулятора використаємо базову формулу:
-    // Scaled = 100 + (RawScore / MaxScore) * 100
     const maxScore = state.questions.length;
     const scaledScore = rawScore === 0 ? 100 : Math.round(100 + (rawScore / maxScore) * 100);
 
-    // Відображення
     screens.test.classList.remove('flex');
     screens.test.classList.add('hidden');
     screens.results.classList.remove('hidden');
@@ -222,7 +223,6 @@ function renderDetailedResults() {
         const isCorrect = userAnswerIndex === q.correctAnswer;
         const isUnanswered = userAnswerIndex === undefined;
 
-        // Кольорові класи для бейджика статусу
         const statusClass = isCorrect ? 'bg-green-100 text-green-800 border-green-200' : 
                             (isUnanswered ? 'bg-gray-100 text-gray-600 border-gray-200' : 'bg-red-100 text-red-800 border-red-200');
         const statusText = isCorrect ? 'Правильно' : (isUnanswered ? 'Немає відповіді' : 'Неправильно');
@@ -230,36 +230,4 @@ function renderDetailedResults() {
         const el = document.createElement('div');
         el.className = `p-6 border rounded-lg ${isCorrect ? 'border-green-300 bg-green-50/30' : 'border-red-300 bg-red-50/30'}`;
         
-        let optionsHtml = `<ul class="mt-4 space-y-2">`;
-        q.options.forEach((optText, i) => {
-            let itemClasses = "p-3 rounded-md border text-sm flex gap-3";
-            let icon = `<span class="w-5 h-5 inline-block"></span>`; // пустий відступ
-
-            if (i === q.correctAnswer) {
-                itemClasses += " bg-green-100 border-green-400 font-medium text-green-900";
-                icon = `✅`;
-            } else if (i === userAnswerIndex && !isCorrect) {
-                itemClasses += " bg-red-100 border-red-400 text-red-900 line-through opacity-80";
-                icon = `❌`;
-            } else {
-                itemClasses += " bg-white border-gray-200 text-gray-600";
-            }
-
-            optionsHtml += `<li class="${itemClasses}">${icon} <span>${optText}</span></li>`;
-        });
-        optionsHtml += `</ul>`;
-
-        el.innerHTML = `
-            <div class="flex justify-between items-start mb-3">
-                <h3 class="font-bold text-lg"><span class="text-gray-500 mr-2">#${index + 1}</span> ${q.question}</h3>
-                <span class="px-3 py-1 rounded-full text-xs font-bold border ${statusClass} whitespace-nowrap ml-4">${statusText}</span>
-            </div>
-            ${optionsHtml}
-            <div class="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r text-sm text-gray-800">
-                <p class="font-bold mb-1 text-blue-800">Пояснення:</p>
-                <p>${q.explanation}</p>
-            </div>
-        `;
-        container.appendChild(el);
-    });
-}
+        let optionsHtml = `<ul class="mt-4 space-y
