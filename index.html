@@ -12,8 +12,20 @@
     <div id="start-screen" class="flex flex-col items-center justify-center h-full">
         <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-md text-center">
             <h1 class="text-3xl font-bold text-blue-600 mb-2">Симулятор ЄВІ</h1>
-            <p class="text-gray-500 mb-6">Оберіть варіант для початку тестування</p>
-            <div id="variants-list" class="flex flex-col gap-3 max-h-96 overflow-y-auto custom-scrollbar pr-2">
+            <p class="text-gray-500 mb-5">Оберіть варіант для початку тестування</p>
+            
+            <div class="mb-6 bg-blue-50 p-5 rounded-lg text-blue-800 text-sm text-left border border-blue-100">
+              <p class="font-bold mb-3 text-base text-center border-b border-blue-200 pb-2">Структура тесту (63 питання):</p>
+              <ul class="space-y-2 mb-3">
+                <li class="flex items-center"><span class="font-bold text-blue-600 w-12">1-33:</span> <span>ТЗНК (Логіка та Математика)</span></li>
+                <li class="flex items-center"><span class="font-bold text-blue-600 w-12">34-63:</span> <span>Іноземна мова</span></li>
+              </ul>
+              <div class="mt-4 pt-3 border-t border-blue-200 text-center font-semibold text-red-600">
+                  ⏱ Час на виконання: 150 хвилин
+              </div>
+            </div>
+
+            <div id="variants-list" class="flex flex-col gap-3 max-h-64 overflow-y-auto custom-scrollbar pr-2">
                 </div>
         </div>
     </div>
@@ -30,7 +42,7 @@
             <main class="flex-1 flex flex-col p-6 overflow-y-auto custom-scrollbar">
                 <div id="content-area" class="flex flex-col lg:flex-row gap-6 h-full">
                     <div id="passage-container" class="hidden lg:w-1/2 bg-gray-50 p-6 rounded-lg border overflow-y-auto custom-scrollbar text-justify leading-relaxed">
-                        </div>
+                    </div>
                     <div id="question-container" class="flex-1 flex flex-col">
                         <div class="mb-4">
                             <span id="question-block-badge" class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">ТЗНК</span>
@@ -38,7 +50,7 @@
                         </div>
                         <h2 id="question-text" class="text-xl font-medium mb-6">Текст питання</h2>
                         <div id="options-container" class="flex flex-col gap-3">
-                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
@@ -78,7 +90,7 @@
             
             <h2 class="text-2xl font-bold mb-6 border-b pb-2">Детальний розбір завдань:</h2>
             <div id="results-breakdown" class="flex flex-col gap-6">
-                </div>
+            </div>
             
             <div class="mt-8 text-center">
                 <button onclick="location.reload()" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
