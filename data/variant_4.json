@@ -1,0 +1,77 @@
+[
+  {
+    "id": 301,
+    "block": "ТЗНК (Математика)",
+    "type": "normal",
+    "passage": null,
+    "question": "Ціна акції впала на 25%. На скільки відсотків має зрости нова ціна, щоб повернутися до початкового рівня?",
+    "options": [
+      "На 25%",
+      "На 30%",
+      "На 33.3%",
+      "На 50%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Нехай початкова ціна дорівнює 100. Після падіння на 25% вона стала 75. Щоб повернутися до 100, ціну потрібно збільшити на 25 одиниць. Тепер рахуємо, який відсоток 25 складає від нової ціни (75): (25 / 75) * 100% = 1/3 * 100% = 33.33%."
+  },
+  {
+    "id": 302,
+    "block": "ТЗНК (Логіка)",
+    "type": "normal",
+    "passage": null,
+    "question": "Знайдіть зайве слово в логічному ряду: Яблуко, Груша, Слива, Картопля, Вишня.",
+    "options": [
+      "Яблуко",
+      "Слива",
+      "Картопля",
+      "Вишня"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Картопля є овочем (або коренеплодом з побутової точки зору), тоді як яблуко, груша, слива та вишня — це фрукти/ягоди, що ростуть на деревах."
+  },
+  {
+    "id": 303,
+    "block": "Іноземна мова (Англійська)",
+    "type": "reading",
+    "passage": "Microplastics are tiny plastic particles less than five millimeters in diameter. They originate from a variety of sources, including the degradation of larger plastic items and the shedding of synthetic microfibers from clothing during washing. These particles have become a pervasive environmental pollutant, found everywhere from deep-sea trenches to mountain peaks. Marine life often mistakes microplastics for food, leading to physical damage and toxic exposure. Researchers are increasingly concerned about the potential health impacts on humans, as microplastics have now been detected in drinking water and human blood.",
+    "question": "According to the passage, how do synthetic clothes contribute to microplastic pollution?",
+    "options": [
+      "They are often discarded in deep-sea trenches.",
+      "They shed microfibers when they are washed.",
+      "They break down into larger plastic items over time.",
+      "They poison drinking water during the manufacturing process."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У тексті зазначено: «...and the shedding of synthetic microfibers from clothing during washing» (і виділення синтетичних мікроволокон з одягу під час прання). Це відповідає варіанту B."
+  },
+  {
+    "id": 304,
+    "block": "Іноземна мова (Англійська)",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the word that is closest in meaning to the underlined word: The manager's instructions were very <u>ambiguous</u>, so the team didn't know what to do.",
+    "options": [
+      "Clear",
+      "Strict",
+      "Unclear",
+      "Loud"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Слово 'ambiguous' перекладається як 'двозначний, неясний'. Найближчий синонім із запропонованих — 'Unclear' (незрозумілий, неясний). Контекст 'the team didn't know what to do' підтверджує це значення."
+  },
+  {
+    "id": 305,
+    "block": "ТЗНК (Математика)",
+    "type": "normal",
+    "passage": null,
+    "question": "У коробці 5 червоних, 3 синіх і 2 зелені кульки. Яка ймовірність того, що навмання витягнута кулька буде НЕ синьою?",
+    "options": [
+      "3/10",
+      "7/10",
+      "1/2",
+      "5/10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Загальна кількість кульок: 5 + 3 + 2 = 10. Кількість 'не синіх' кульок (тобто червоних і зелених разом): 5 + 2 = 7. Ймовірність витягнути не синю кульку дорівнює відношенню потрібних результатів до загальної кількості: 7/10."
+  }
+]
