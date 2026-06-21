@@ -1,0 +1,947 @@
+[
+  {
+    "id": 1,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі птахи мають пір'я. Пінгвін — це птах. Який висновок логічно випливає з цих тверджень?",
+    "options": [
+      "Пінгвіни вміють літати.",
+      "Усі тварини з пір'ям є птахами.",
+      "Пінгвін має пір'я.",
+      "Деякі птахи не вміють літати."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це класичний категоричний силогізм. Якщо весь клас 'птахи' має властивість 'мати пір'я', а 'пінгвін' належить до цього класу, він гарантовано переймає цю властивість. Уміння літати в умові не згадується."
+  },
+  {
+    "id": 2,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Знайдіть аналогічну пару до слів «БІБЛІОТЕКА : КНИГА».",
+    "options": [
+      "Лікарня : пацієнт",
+      "Картинна галерея : картина",
+      "Школа : вчитель",
+      "Автомобіль : колесо"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Відношення у парі — «спеціалізована установа/місце для зберігання та експозиції : об'єкт, який там зберігається/експонується». Найбільш точною аналогією є картинна галерея, де зберігаються і виставляються картини."
+  },
+  {
+    "id": 3,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Штучний інтелект (ШІ) стрімко змінює ринок праці. Оптимісти стверджують, що ШІ звільнить людей від рутинної роботи, дозволивши зосередитися на творчих і стратегічних завданнях, що призведе до створення нових, раніше неіснуючих професій. Натомість песимісти побоюються масового безробіття, оскільки алгоритми вже здатні писати тексти, створювати ілюстрації та код швидше за людей. Економісти ж пропонують дивитися на ситуацію прагматично: замість того, щоб конкурувати з ШІ, працівникам варто вчитися ефективно взаємодіяти з ним. Ті, хто опанує інструменти ШІ, найімовірніше, замінять тих, хто відмовиться від їх використання.",
+    "question": "Який прогноз щодо майбутнього ринку праці, згідно з текстом, дають оптимісти?",
+    "options": [
+      "ШІ повністю замінить людей у всіх сферах.",
+      "Зникне необхідність у здобутті вищої освіти.",
+      "Люди позбудуться рутини та отримають нові творчі професії.",
+      "Роботодавці почнуть платити працівникам менше грошей."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті чітко вказана позиція оптимістів: «ШІ звільнить людей від рутинної роботи, дозволивши зосередитися на творчих і стратегічних завданнях, що призведе до створення нових... професій»."
+  },
+  {
+    "id": 4,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Штучний інтелект (ШІ) стрімко змінює ринок праці. Оптимісти стверджують, що ШІ звільнить людей від рутинної роботи, дозволивши зосередитися на творчих і стратегічних завданнях, що призведе до створення нових, раніше неіснуючих професій. Натомість песимісти побоюються масового безробіття, оскільки алгоритми вже здатні писати тексти, створювати ілюстрації та код швидше за людей. Економісти ж пропонують дивитися на ситуацію прагматично: замість того, щоб конкурувати з ШІ, працівникам варто вчитися ефективно взаємодіяти з ним. Ті, хто опанує інструменти ШІ, найімовірніше, замінять тих, хто відмовиться від їх використання.",
+    "question": "Яку стратегію адаптації до змін пропонують економісти?",
+    "options": [
+      "Створювати профспілки для заборони ШІ на робочих місцях.",
+      "Намагатися працювати швидше та ефективніше за алгоритми.",
+      "Змінювати професію виключно на фізичну працю.",
+      "Опановувати інструменти ШІ та використовувати їх у своїй роботі."
+    ],
+    "correctAnswer": 3,
+    "explanation": "У тексті сказано: «замість того, щоб конкурувати з ШІ, працівникам варто вчитися ефективно взаємодіяти з ним». Останнє речення підтверджує, що виграють ті, хто опанує інструменти ШІ."
+  },
+  {
+    "id": 5,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Керівник транспортного департаменту заявляє: «Щоб розв'язати проблему заторів у нашому місті, ми повинні зробити проїзд у громадському транспорті повністю безкоштовним». Яке ключове припущення лежить в основі цієї пропозиції?",
+    "options": [
+      "Громадський транспорт у місті наразі працює у збиток.",
+      "Саме вартість квитка є головною причиною того, чому водії не користуються громадським транспортом.",
+      "Усі водії вміють користуватися громадським транспортом.",
+      "Будівництво нових доріг коштує дорожче, ніж субсидування транспорту."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Керівник пропонує змінити ЛИШЕ ціну (зробити безкоштовним), сподіваючись, що це зменшить затори (тобто водії пересядуть на автобуси). Це спрацює лише за умови припущення, що саме ціна відлякувала їх раніше, а не, наприклад, маршрути, комфорт чи швидкість."
+  },
+  {
+    "id": 6,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Яке з наведених суджень є логічним запереченням твердження: «Усі студенти нашої групи успішно склали іспит з математики»?",
+    "options": [
+      "Жоден студент нашої групи не склав іспит з математики.",
+      "Деякі студенти нашої групи не склали іспит з математики.",
+      "Усі студенти нашої групи склали іспит з фізики.",
+      "Деякі студенти нашої групи склали іспит з математики."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Щоб спростувати твердження, що дія стосується АБСОЛЮТНО ВСІХ («Усі S є P»), достатньо показати наявність хоча б одного винятку. Тому логічним запереченням є «Існує хоча б один студент (деякі студенти), який НЕ склав» («Деякі S не є P»)."
+  },
+  {
+    "id": 7,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Індустрія 'швидкої моди' (fast fashion) продукує понад 100 мільярдів одиниць одягу щороку, значна частина якого опиняється на звалищах вже через кілька місяців після покупки. Низька ціна речей стимулює надмірне споживання, створюючи ілюзію доступності. Однак справжня вартість такого одягу прихована: це виснаження водних ресурсів, використання токсичних барвників та експлуатація дешевої робочої сили в країнах, що розвиваються. Деякі екоактивісти закликають до бойкоту масмаркету, проте експерти зазначають, що без законодавчого регулювання поведінка споживачів кардинально не зміниться.",
+    "question": "Згідно з текстом, що є 'прихованою вартістю' дешевого одягу?",
+    "options": [
+      "Витрати на транспортування та зберігання.",
+      "Екологічна шкода та порушення трудових прав працівників.",
+      "Податки, які корпорації сплачують за утилізацію.",
+      "Переплата за брендові ярлики."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У тексті прямо вказано, що прихована вартість — це «виснаження водних ресурсів, використання токсичних барвників» (екологічна шкода) та «експлуатація дешевої робочої сили» (порушення трудових прав)."
+  },
+  {
+    "id": 8,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Медичне дослідження виявило, що люди, які щоденно випивають більше трьох чашок кави, частіше страждають на безсоння, ніж ті, хто кави не п'є. Журналіст у статті робить висновок: «Вживання кави є головною причиною безсоння у дорослих». У чому полягає логічна хиба цього висновку?",
+    "options": [
+      "Журналіст не вказав точний вік учасників дослідження.",
+      "Журналіст сплутав кореляцію із причинно-наслідковим зв'язком.",
+      "Журналіст не дослідив інші напої, такі як чай або енергетики.",
+      "Журналіст перебільшив кількість чашок кави."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Спільна поява двох явищ (кава і безсоння) не обов'язково означає, що одне викликає інше. Можливо, люди, які вже страждають на безсоння, п'ють багато кави вдень, щоб не заснути на роботі. Журналіст зробив висновок про причину лише на основі збігу (кореляції)."
+  },
+  {
+    "id": 9,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Дано правило: «Якщо надворі йде дощ, то асфальт мокрий». Ви подивилися у вікно і побачили, що асфальт повністю сухий. Який висновок є логічно беззаперечним?",
+    "options": [
+      "Надворі йде дощ, але асфальт швидко висихає.",
+      "Надворі дощу немає.",
+      "Дощ пройшов нещодавно.",
+      "Сонце світить яскраво."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це правило Modus Tollens. Якщо А (дощ) завжди викликає Б (мокрий асфальт), то відсутність наслідку Б (асфальт сухий) гарантує відсутність причини А. Отже, дощу немає."
+  },
+  {
+    "id": 10,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Знайдіть зайве слово в логічному ряду: Гітара, Скрипка, Віолончель, Флейта, Арфа.",
+    "options": [
+      "Скрипка",
+      "Віолончель",
+      "Флейта",
+      "Арфа"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Гітара, скрипка, віолончель та арфа належать до струнних інструментів (звук утворюється вібрацією струн). Флейта — це духовий інструмент (звук утворюється струменем повітря)."
+  },
+  {
+    "id": 11,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "У 212 році н.е. римський імператор Каракалла видав едикт, який надав римське громадянство всім вільним жителям імперії. На перший погляд, це був крок до загальної рівності та розширення прав. Проте більшість сучасних істориків вбачають у цьому рішенні суто фіскальний мотив. Громадяни Риму сплачували специфічні податки (наприклад, податок на спадщину та податок на звільнення рабів), від яких провінціали були звільнені. Розширивши громадянство, імператор суттєво збільшив базу платників податків, щоб профінансувати зростаючі витрати на утримання армії.",
+    "question": "Яка, на думку істориків, була справжня мета едикту Каракалли?",
+    "options": [
+      "Зробити всіх жителів імперії рівними у правах.",
+      "Заохотити провінціалів вступати до римської армії.",
+      "Збільшити надходження до державної скарбниці через нові податки.",
+      "Скасувати рабство на території Римської імперії."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті зазначено: «історики вбачають... суто фіскальний мотив» та «імператор суттєво збільшив базу платників податків, щоб профінансувати... витрати». Це відповідає варіанту В (збільшити надходження)."
+  },
+  {
+    "id": 12,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі лікарі мають вищу медичну освіту. Жодна людина з вищою медичною освітою не є неписьменною. Який висновок з цього випливає?",
+    "options": [
+      "Деякі лікарі є неписьменними.",
+      "Усі неписьменні люди — лікарі.",
+      "Жоден лікар не є неписьменним.",
+      "Люди без медичної освіти обов'язково неписьменні."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Якщо клас «лікарі» повністю входить у клас «люди з вищою освітою», а класи «люди з вищою освітою» і «неписьменні» взагалі не перетинаються, отже, класи «лікарі» та «неписьменні» теж не мають жодних спільних елементів. Жоден лікар не може бути неписьменним."
+  },
+  {
+    "id": 13,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Антон вищий за Бориса, Борис нижчий за Василя, а Василь вищий за Антона. Хто з хлопців найвищий?",
+    "options": [
+      "Антон",
+      "Борис",
+      "Василь",
+      "Неможливо визначити"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Будуємо відношення за зростом. Антон > Борис. Василь > Борис. Василь > Антон. Складаємо в єдиний ланцюжок: Василь > Антон > Борис. Найвищий — Василь."
+  },
+  {
+    "id": 14,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Перед вами три закриті коробки. В одній з них приз. На першій написано: «Приз тут». На другій: «Приз не тут». На третій: «Приз не в першій коробці». Відомо, що УСІ три написи є ХИБНИМИ. Де знаходиться приз?",
+    "options": [
+      "У першій коробці",
+      "У другій коробці",
+      "У третій коробці",
+      "Призу немає в жодній коробці"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Оскільки всі написи хибні, ми можемо їх інвертувати, щоб отримати правду. Напис на другій коробці «Приз не тут» є хибним, отже, правда звучить так: «Приз ТУТ». Це означає, що приз лежить саме в другій коробці."
+  },
+  {
+    "id": 15,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Деякі архітектори є художниками. Жоден художник не є дальтоніком. Яке твердження обов'язково істинне?",
+    "options": [
+      "Усі архітектори не є дальтоніками.",
+      "Жоден архітектор не є дальтоніком.",
+      "Деякі архітектори не є дальтоніками.",
+      "Усі дальтоніки — не архітектори."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ті архітектори, які одночасно є художниками (перетин множин), переймають властивості художників. Оскільки жоден художник не дальтонік, то й ці конкретні архітектори-художники точно не дальтоніки. Отже, ми гарантовано знаємо, що ДЕЯКІ архітектори не є дальтоніками."
+  },
+  {
+    "id": 16,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Чотири друзі — Олег, Петро, Роман і Сергій — сіли грати в карти за квадратним столом (кожен з одного боку). Олег сидить навпроти Романа. Петро сидить праворуч від Олега. Хто сидить ліворуч від Романа?",
+    "options": [
+      "Олег",
+      "Петро",
+      "Сергій",
+      "Неможливо визначити"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Якщо Петро сидить праворуч від Олега, то з позиції Романа (який сидить навпроти Олега і дивиться йому в обличчя), Петро знаходиться ЛІВОРУЧ. Отже, ліворуч від Романа сидить Петро."
+  },
+  {
+    "id": 17,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Правило каже: «Для того, щоб отримати студентську знижку на проїзд, необхідно пред'явити студентський квиток». Це означає, що наявність студентського квитка є...",
+    "options": [
+      "Достатньою умовою для отримання знижки.",
+      "Необхідною умовою для отримання знижки.",
+      "І необхідною, і достатньою умовою.",
+      "Ні необхідною, ні достатньою умовою."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Слово «необхідно» вказує саме на необхідну умову (без квитка знижки не буде). Однак це не гарантує, що квитка достатньо (можливо, знижка діє лише в навчальні місяці або лише в певних видах транспорту). Отже, це лише необхідна умова."
+  },
+  {
+    "id": 18,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Твердження «Неправда, що жоден кіт не любить воду» логічно рівноцінне твердженню...",
+    "options": [
+      "Усі коти люблять воду.",
+      "Деякі коти люблять воду.",
+      "Жоден кіт не любить воду.",
+      "Деякі коти не люблять воду."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Заперечення загальнозаперечного твердження («Жоден не...») дає частковостверджувальне («Деякі...»). Якщо неправда, що ВСІ до одного уникають води, значить існує принаймні один кіт, який воду любить. Тобто «Деякі коти люблять воду»."
+  },
+  {
+    "id": 19,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У класі 30 учнів. 20 з них вивчають англійську мову, 15 — німецьку. 5 учнів не вивчають жодної іноземної мови. Скільки учнів вивчають ОБИДВІ мови?",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Якщо 5 учнів не вчать жодну мову, то мови вчать 30 - 5 = 25 учнів. Сума тих, хто вчить англійську і німецьку, становить 20 + 15 = 35. Різниця між цією сумою та реальною кількістю учнів, які вчать мови, і є тими, хто вчить обидві (перетин): 35 - 25 = 10 учнів."
+  },
+  {
+    "id": 20,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Студент міркує: «Якщо я добре підготуюся до іспиту, я отримаю високий бал. Я отримав високий бал, отже, я добре підготувався». Яку логічну помилку він робить?",
+    "options": [
+      "Заперечення причини.",
+      "Підтвердження наслідку.",
+      "Хибне коло.",
+      "Жодної помилки, міркування бездоганне."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це класична помилка «підтвердження наслідку» (Affirming the consequent). Високий бал міг бути отриманий не лише через підготовку, а й через везіння, легкі запитання або списування. Успішний наслідок не гарантує єдиної причини."
+  },
+  {
+    "id": 21,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У розкладі є чотири лекції: історія, право, філософія та соціологія. Право йде після філософії, але перед соціологією. Історія стоїть у розкладі найпершою. Якою за рахунком йде лекція з права?",
+    "options": [
+      "Першою",
+      "Другою",
+      "Третьою",
+      "Четвертою"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Історія — 1-ша. Залишились три місця (2, 3, 4) для Філософії, Права та Соціології. За умовою: Філософія > Право > Соціологія. Відповідно, Філософія — 2-га, Право — 3-тє, Соціологія — 4-та. Право йде третім."
+  },
+  {
+    "id": 22,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Яке з наступних тверджень логічно еквівалентне твердженню: «Якщо надворі мороз, то вода замерзає»?",
+    "options": [
+      "Якщо вода замерзає, значить надворі мороз.",
+      "Якщо надворі не мороз, то вода не замерзає.",
+      "Якщо вода не замерзає, значить надворі немає морозу.",
+      "Вода замерзає тільки тоді, коли надворі мороз."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це закон контрапозиції (якщо А $\\rightarrow$ Б, то не-Б $\\rightarrow$ не-А). Якщо мороз обов'язково викликає замерзання води, то той факт, що вода залишається рідкою (не замерзає), є 100% доказом того, що морозу немає."
+  },
+  {
+    "id": 23,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Ціну на куртку спочатку знизили на 20%, а під час розпродажу нову ціну підвищили на 20%. Як змінилася кінцева ціна куртки порівняно з початковою?",
+    "options": [
+      "Залишилася такою ж.",
+      "Зменшилася на 4%.",
+      "Збільшилася на 4%.",
+      "Зменшилася на 10%."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Нехай початкова ціна 100 грн. Знижка 20% робить її 80 грн. Наступне підвищення на 20% рахується вже від 80 грн. 20% від 80 = 16 грн. Нова ціна: 80 + 16 = 96 грн. Порівняно зі 100 грн, ціна стала меншою на 4 грн (або на 4%)."
+  },
+  {
+    "id": 24,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Перша труба може самостійно заповнити басейн за 3 години, а друга труба — за 6 годин. За скільки годин обидві труби заповнять басейн, якщо працюватимуть разом?",
+    "options": [
+      "1.5 години",
+      "2 години",
+      "4.5 години",
+      "9 годин"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Продуктивність першої труби — 1/3 басейну за годину, другої — 1/6 басейну за годину. Разом за годину вони заповнять: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2 басейну. Якщо за 1 годину заповнюється половина, то весь басейн заповниться за 2 години."
+  },
+  {
+    "id": 25,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Батькові зараз 40 років, а його синові — 10. Через скільки років батько буде рівно втричі старший за сина?",
+    "options": [
+      "Через 5 років",
+      "Через 10 років",
+      "Через 15 років",
+      "Через 20 років"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Нехай пройде x років. Батькові стане 40 + x, синові 10 + x. За умовою: 40 + x = 3(10 + x). Розкриваємо дужки: 40 + x = 30 + 3x. Зводимо подібні: 10 = 2x, звідси x = 5. Перевірка: через 5 років батькові 45, сину 15. 45 / 15 = 3."
+  },
+  {
+    "id": 26,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Площа прямокутника становить 48 см², а одна з його сторін дорівнює 6 см. Знайдіть периметр цього прямокутника.",
+    "options": [
+      "14 см",
+      "28 см",
+      "32 см",
+      "54 см"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Площа прямокутника S = a * b. Якщо a = 6, то b = 48 / 6 = 8 см. Периметр обчислюється за формулою P = 2(a + b). Підставляємо: P = 2(6 + 8) = 2 * 14 = 28 см."
+  },
+  {
+    "id": 27,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "З двох міст, відстань між якими 280 км, одночасно назустріч один одному виїхали два автомобілі. Швидкість першого — 60 км/год, швидкість другого — 80 км/год. Через скільки годин вони зустрінуться?",
+    "options": [
+      "1.5 години",
+      "2 години",
+      "2.5 години",
+      "3 години"
+    ],
+    "correctAnswer": 1,
+    "explanation": "При русі назустріч швидкості додаються. Швидкість зближення становить 60 + 80 = 140 км/год. Час до зустрічі дорівнює відстані, поділеній на швидкість зближення: t = 280 / 140 = 2 години."
+  },
+  {
+    "id": 28,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "В урні лежать 4 білі, 6 чорних та 2 червоні кульки. Навмання витягують одну кульку. Яка ймовірність того, що вона буде БІЛОЮ?",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Загальна кількість кульок: 4 + 6 + 2 = 12 (це кількість всіх можливих результатів). Кількість сприятливих результатів (білі кульки) = 4. Ймовірність P = 4 / 12. Після скорочення дробу отримуємо 1/3."
+  },
+  {
+    "id": 29,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Середній вік 11 гравців футбольної команди становить 22 роки. Під час матчу один гравець отримав червону картку і покинув поле. Після цього середній вік гравців, що залишилися, став 21 рік. Скільки років гравцю, який покинув поле?",
+    "options": [
+      "22 роки",
+      "31 рік",
+      "32 роки",
+      "33 роки"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Сумарний вік усіх 11 гравців до вилучення: 11 * 22 = 242 роки. На полі залишилося 10 гравців, їхній середній вік 21 рік, отже сумарний вік: 10 * 21 = 210 років. Вік вилученого гравця — це різниця цих сум: 242 - 210 = 32 роки."
+  },
+  {
+    "id": 30,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У канцелярському магазині 3 ручки та 2 олівці коштують разом 44 грн. Водночас 1 ручка і 2 олівці коштують 20 грн. Скільки коштує одна ручка?",
+    "options": [
+      "8 грн",
+      "10 грн",
+      "12 грн",
+      "14 грн"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Складемо систему: 1) 3р + 2о = 44; 2) 1р + 2о = 20. Якщо від першого рівняння відняти друге, то кількість олівців скоротиться: (3р - 1р) + (2о - 2о) = 44 - 20. Отримаємо 2р = 24. Звідси ціна однієї ручки (р) дорівнює 12 грн."
+  },
+  {
+    "id": 31,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Маємо 200 грамів 20% розчину солі. До нього додали 300 грамів 10% розчину солі. Якою стала відсоткова концентрація солі у новому розчині?",
+    "options": [
+      "12%",
+      "14%",
+      "15%",
+      "18%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Кількість солі в 1-му розчині: 200 * 0.2 = 40 г. В 2-му розчині: 300 * 0.1 = 30 г. Загальна маса солі = 70 г. Загальна маса нового розчину = 200 + 300 = 500 г. Нова концентрація: (70 / 500) * 100% = 14%."
+  },
+  {
+    "id": 32,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Графік параболи задано рівнянням y = x² - 4x + 3. У якій точці цей графік перетинає вісь ординат (вісь Y)?",
+    "options": [
+      "(3; 0)",
+      "(0; -4)",
+      "(1; 0)",
+      "(0; 3)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Перетин з віссю Y завжди відбувається у точці, де координата x дорівнює 0. Підставимо x = 0 у рівняння: y = 0² - 4*0 + 3 = 3. Отже, координати точки перетину (0; 3)."
+  },
+  {
+    "id": 33,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Колекційна марка коштує 120 гривень і ще третину своєї власної вартості. Скільки коштує ця марка?",
+    "options": [
+      "150 грн",
+      "160 грн",
+      "180 грн",
+      "240 грн"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Нехай x — повна вартість марки. За умовою рівняння має вигляд: x = 120 + x/3. Перенесемо x/3 ліворуч: x - x/3 = 120. Отримаємо 2/3 * x = 120. Звідси x = (120 * 3) / 2 = 180 грн."
+  },
+  {
+    "id": 34,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Social media has fundamentally revolutionized the landscape of modern journalism. In the past, traditional journalism relied heavily on printed newspapers and scheduled television broadcasts. Citizens had to wait until the morning or the evening to get their daily dose of information. Today, however, platforms like Twitter, Facebook, and Telegram provide instantaneous updates. News breaks online first, and traditional media outlets often find themselves rushing to catch up with citizen journalists who broadcast events live from their smartphones.\n\nWhile this unprecedented speed and democratization of information have obvious benefits, they come at a significant cost. The race to be the first to publish often sacrifices accuracy. Consequently, the digital era has seen a massive surge in 'fake news' and unverified rumors spreading like wildfire. Algorithms designed to keep users engaged tend to prioritize sensationalism over factual reporting. \n\nFurthermore, social media creates 'echo chambers'. These are virtual environments where users are only exposed to information and opinions that align with their existing beliefs. By filtering out opposing viewpoints, echo chambers polarize societies and make constructive debate increasingly difficult, posing a major challenge to democratic institutions.",
+    "question": "According to the first paragraph, how did traditional journalism differ from modern news consumption?",
+    "options": [
+      "Traditional journalism was much faster than social media.",
+      "Traditional media relied on citizen journalists with smartphones.",
+      "People had to wait for scheduled broadcasts or morning papers to get news.",
+      "There were no newspapers available in the morning."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У першому абзаці сказано: 'Citizens had to wait until the morning or the evening to get their daily dose of information' (Громадянам доводилося чекати до ранку або вечора, щоб отримати щоденну порцію інформації). Варіант С ідеально це описує."
+  },
+  {
+    "id": 35,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Social media has fundamentally revolutionized the landscape of modern journalism. In the past, traditional journalism relied heavily on printed newspapers and scheduled television broadcasts. Citizens had to wait until the morning or the evening to get their daily dose of information. Today, however, platforms like Twitter, Facebook, and Telegram provide instantaneous updates. News breaks online first, and traditional media outlets often find themselves rushing to catch up with citizen journalists who broadcast events live from their smartphones.\n\nWhile this unprecedented speed and democratization of information have obvious benefits, they come at a significant cost. The race to be the first to publish often sacrifices accuracy. Consequently, the digital era has seen a massive surge in 'fake news' and unverified rumors spreading like wildfire. Algorithms designed to keep users engaged tend to prioritize sensationalism over factual reporting. \n\nFurthermore, social media creates 'echo chambers'. These are virtual environments where users are only exposed to information and opinions that align with their existing beliefs. By filtering out opposing viewpoints, echo chambers polarize societies and make constructive debate increasingly difficult, posing a major challenge to democratic institutions.",
+    "question": "What is mentioned as a negative consequence of the race to publish news first?",
+    "options": [
+      "Newspapers are becoming too expensive to print.",
+      "Accuracy is often sacrificed, leading to the spread of fake news.",
+      "Journalists are losing their jobs to social media influencers.",
+      "People are spending less time on their smartphones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У другому абзаці автор стверджує: 'The race to be the first to publish often sacrifices accuracy' (Гонка за тим, щоб опублікувати першим, часто жертвує точністю). Це призводить до поширення фейкових новин."
+  },
+  {
+    "id": 36,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Social media has fundamentally revolutionized the landscape of modern journalism. In the past, traditional journalism relied heavily on printed newspapers and scheduled television broadcasts. Citizens had to wait until the morning or the evening to get their daily dose of information. Today, however, platforms like Twitter, Facebook, and Telegram provide instantaneous updates. News breaks online first, and traditional media outlets often find themselves rushing to catch up with citizen journalists who broadcast events live from their smartphones.\n\nWhile this unprecedented speed and democratization of information have obvious benefits, they come at a significant cost. The race to be the first to publish often sacrifices accuracy. Consequently, the digital era has seen a massive surge in 'fake news' and unverified rumors spreading like wildfire. Algorithms designed to keep users engaged tend to prioritize sensationalism over factual reporting. \n\nFurthermore, social media creates 'echo chambers'. These are virtual environments where users are only exposed to information and opinions that align with their existing beliefs. By filtering out opposing viewpoints, echo chambers polarize societies and make constructive debate increasingly difficult, posing a major challenge to democratic institutions.",
+    "question": "Which of the following is closest in meaning to the word 'prioritize' in the second paragraph?",
+    "options": [
+      "To ignore completely",
+      "To treat something as more important than other things",
+      "To analyze mathematically",
+      "To hide from the public"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Дієслово 'prioritize' означає 'надавати пріоритет', 'вважати щось більш важливим'. У контексті: алгоритми ставлять сенсаційність вище за факти (вважають її важливішою)."
+  },
+  {
+    "id": 37,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Social media has fundamentally revolutionized the landscape of modern journalism. In the past, traditional journalism relied heavily on printed newspapers and scheduled television broadcasts. Citizens had to wait until the morning or the evening to get their daily dose of information. Today, however, platforms like Twitter, Facebook, and Telegram provide instantaneous updates. News breaks online first, and traditional media outlets often find themselves rushing to catch up with citizen journalists who broadcast events live from their smartphones.\n\nWhile this unprecedented speed and democratization of information have obvious benefits, they come at a significant cost. The race to be the first to publish often sacrifices accuracy. Consequently, the digital era has seen a massive surge in 'fake news' and unverified rumors spreading like wildfire. Algorithms designed to keep users engaged tend to prioritize sensationalism over factual reporting. \n\nFurthermore, social media creates 'echo chambers'. These are virtual environments where users are only exposed to information and opinions that align with their existing beliefs. By filtering out opposing viewpoints, echo chambers polarize societies and make constructive debate increasingly difficult, posing a major challenge to democratic institutions.",
+    "question": "How does the author define 'echo chambers' in the context of social media?",
+    "options": [
+      "Places where people can debate openly with opponents.",
+      "Environments where users only see opinions that match their own.",
+      "Special groups created by traditional journalists for research.",
+      "Algorithms that verify the factual accuracy of news."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Третій абзац дає чітке визначення: 'These are virtual environments where users are only exposed to information and opinions that align with their existing beliefs' (Це середовища, де користувачі бачать лише ту інформацію та думки, що збігаються з їхніми власними переконаннями)."
+  },
+  {
+    "id": 38,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Social media has fundamentally revolutionized the landscape of modern journalism. In the past, traditional journalism relied heavily on printed newspapers and scheduled television broadcasts. Citizens had to wait until the morning or the evening to get their daily dose of information. Today, however, platforms like Twitter, Facebook, and Telegram provide instantaneous updates. News breaks online first, and traditional media outlets often find themselves rushing to catch up with citizen journalists who broadcast events live from their smartphones.\n\nWhile this unprecedented speed and democratization of information have obvious benefits, they come at a significant cost. The race to be the first to publish often sacrifices accuracy. Consequently, the digital era has seen a massive surge in 'fake news' and unverified rumors spreading like wildfire. Algorithms designed to keep users engaged tend to prioritize sensationalism over factual reporting. \n\nFurthermore, social media creates 'echo chambers'. These are virtual environments where users are only exposed to information and opinions that align with their existing beliefs. By filtering out opposing viewpoints, echo chambers polarize societies and make constructive debate increasingly difficult, posing a major challenge to democratic institutions.",
+    "question": "What is the overall tone of the text regarding the impact of social media on journalism?",
+    "options": [
+      "Completely enthusiastic and positive",
+      "Humorous and entertaining",
+      "Analytical, highlighting both benefits and serious drawbacks",
+      "Extremely angry and aggressive"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Автор визнає переваги ('obvious benefits', 'unprecedented speed'), але також глибоко аналізує серйозні проблеми (фейки, ехо-камери). Такий збалансований підхід називається аналітичним (analytical)."
+  },
+  {
+    "id": 39,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Bicycles are ubiquitous today, serving as a primary mode of transport for millions, a tool for fitness, and a source of recreation. However, the modern bicycle is the result of decades of engineering evolution. The earliest ancestor of the bicycle was the 'dandy horse', invented in Germany in 1817. It had two wheels but lacked pedals; the rider simply pushed along the ground with their feet.\n\nIn the 1870s, the 'penny-farthing' became highly popular. It featured a massive front wheel and a tiny rear wheel, designed to allow the rider to travel faster with each pedal stroke. While iconic, the penny-farthing was notoriously dangerous. Because the rider sat very high up, a small bump in the road could send them flying over the handlebars, resulting in serious injuries.\n\nThe real breakthrough came in the late 1880s with the invention of the 'safety bicycle'. This model featured two wheels of equal size, a chain drive connecting the pedals to the rear wheel, and pneumatic rubber tires. It was safer, easier to ride, and more comfortable. The safety bicycle sparked a global craze and had a profound social impact, particularly for women. It granted them unprecedented independent mobility and contributed to the movement for practical women's clothing, replacing heavy Victorian dresses with more rational attire.",
+    "question": "How did a person ride the 'dandy horse' invented in 1817?",
+    "options": [
+      "By using a chain drive connected to the rear wheel.",
+      "By pedaling a massive front wheel.",
+      "By pushing against the ground with their feet.",
+      "By sitting high up and leaning backward."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У першому абзаці описується 'dandy horse': 'It had two wheels but lacked pedals; the rider simply pushed along the ground with their feet' (вершник просто відштовхувався від землі ногами)."
+  },
+  {
+    "id": 40,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Bicycles are ubiquitous today, serving as a primary mode of transport for millions, a tool for fitness, and a source of recreation. However, the modern bicycle is the result of decades of engineering evolution. The earliest ancestor of the bicycle was the 'dandy horse', invented in Germany in 1817. It had two wheels but lacked pedals; the rider simply pushed along the ground with their feet.\n\nIn the 1870s, the 'penny-farthing' became highly popular. It featured a massive front wheel and a tiny rear wheel, designed to allow the rider to travel faster with each pedal stroke. While iconic, the penny-farthing was notoriously dangerous. Because the rider sat very high up, a small bump in the road could send them flying over the handlebars, resulting in serious injuries.\n\nThe real breakthrough came in the late 1880s with the invention of the 'safety bicycle'. This model featured two wheels of equal size, a chain drive connecting the pedals to the rear wheel, and pneumatic rubber tires. It was safer, easier to ride, and more comfortable. The safety bicycle sparked a global craze and had a profound social impact, particularly for women. It granted them unprecedented independent mobility and contributed to the movement for practical women's clothing, replacing heavy Victorian dresses with more rational attire.",
+    "question": "Why was the 'penny-farthing' considered dangerous?",
+    "options": [
+      "Its chain drive frequently broke during rides.",
+      "The tires were made of solid metal.",
+      "The rider sat too low to see the road ahead.",
+      "The high seating position made it easy to fall over the handlebars."
+    ],
+    "correctAnswer": 3,
+    "explanation": "У другому абзаці пояснюється небезпека: 'Because the rider sat very high up, a small bump in the road could send them flying over the handlebars' (Через високу посадку невелика нерівність могла перекинути вершника через кермо)."
+  },
+  {
+    "id": 41,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Bicycles are ubiquitous today, serving as a primary mode of transport for millions, a tool for fitness, and a source of recreation. However, the modern bicycle is the result of decades of engineering evolution. The earliest ancestor of the bicycle was the 'dandy horse', invented in Germany in 1817. It had two wheels but lacked pedals; the rider simply pushed along the ground with their feet.\n\nIn the 1870s, the 'penny-farthing' became highly popular. It featured a massive front wheel and a tiny rear wheel, designed to allow the rider to travel faster with each pedal stroke. While iconic, the penny-farthing was notoriously dangerous. Because the rider sat very high up, a small bump in the road could send them flying over the handlebars, resulting in serious injuries.\n\nThe real breakthrough came in the late 1880s with the invention of the 'safety bicycle'. This model featured two wheels of equal size, a chain drive connecting the pedals to the rear wheel, and pneumatic rubber tires. It was safer, easier to ride, and more comfortable. The safety bicycle sparked a global craze and had a profound social impact, particularly for women. It granted them unprecedented independent mobility and contributed to the movement for practical women's clothing, replacing heavy Victorian dresses with more rational attire.",
+    "question": "Which of the following was NOT a feature of the 'safety bicycle'?",
+    "options": [
+      "Two wheels of the same size",
+      "A massive front wheel",
+      "Pneumatic rubber tires",
+      "A chain drive"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Величезне переднє колесо ('massive front wheel') було характеристикою старого пенні-фартинга. Безпечний велосипед ('safety bicycle') мав колеса однакового розміру ('two wheels of equal size')."
+  },
+  {
+    "id": 42,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Bicycles are ubiquitous today, serving as a primary mode of transport for millions, a tool for fitness, and a source of recreation. However, the modern bicycle is the result of decades of engineering evolution. The earliest ancestor of the bicycle was the 'dandy horse', invented in Germany in 1817. It had two wheels but lacked pedals; the rider simply pushed along the ground with their feet.\n\nIn the 1870s, the 'penny-farthing' became highly popular. It featured a massive front wheel and a tiny rear wheel, designed to allow the rider to travel faster with each pedal stroke. While iconic, the penny-farthing was notoriously dangerous. Because the rider sat very high up, a small bump in the road could send them flying over the handlebars, resulting in serious injuries.\n\nThe real breakthrough came in the late 1880s with the invention of the 'safety bicycle'. This model featured two wheels of equal size, a chain drive connecting the pedals to the rear wheel, and pneumatic rubber tires. It was safer, easier to ride, and more comfortable. The safety bicycle sparked a global craze and had a profound social impact, particularly for women. It granted them unprecedented independent mobility and contributed to the movement for practical women's clothing, replacing heavy Victorian dresses with more rational attire.",
+    "question": "According to the text, how did the safety bicycle impact women's lives?",
+    "options": [
+      "It forced them to stay at home more often.",
+      "It provided them with independent mobility and influenced their fashion.",
+      "It prevented them from wearing rational attire.",
+      "It allowed them to travel faster than men on penny-farthings."
+    ],
+    "correctAnswer": 1,
+    "explanation": "В останньому реченні сказано про жінок: 'It granted them unprecedented independent mobility and contributed to the movement for practical women's clothing' (Це дало їм незалежну мобільність і сприяло створенню більш практичного одягу)."
+  },
+  {
+    "id": 43,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Bicycles are ubiquitous today, serving as a primary mode of transport for millions, a tool for fitness, and a source of recreation. However, the modern bicycle is the result of decades of engineering evolution. The earliest ancestor of the bicycle was the 'dandy horse', invented in Germany in 1817. It had two wheels but lacked pedals; the rider simply pushed along the ground with their feet.\n\nIn the 1870s, the 'penny-farthing' became highly popular. It featured a massive front wheel and a tiny rear wheel, designed to allow the rider to travel faster with each pedal stroke. While iconic, the penny-farthing was notoriously dangerous. Because the rider sat very high up, a small bump in the road could send them flying over the handlebars, resulting in serious injuries.\n\nThe real breakthrough came in the late 1880s with the invention of the 'safety bicycle'. This model featured two wheels of equal size, a chain drive connecting the pedals to the rear wheel, and pneumatic rubber tires. It was safer, easier to ride, and more comfortable. The safety bicycle sparked a global craze and had a profound social impact, particularly for women. It granted them unprecedented independent mobility and contributed to the movement for practical women's clothing, replacing heavy Victorian dresses with more rational attire.",
+    "question": "What is the closest meaning of the word 'ubiquitous' in the first paragraph?",
+    "options": [
+      "Very expensive",
+      "Extremely rare",
+      "Found everywhere",
+      "Difficult to use"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Слово 'ubiquitous' перекладається як 'всюдний', 'той, що зустрічається скрізь'. Контекст ('serving as a primary mode of transport for millions') підтверджує, що велосипеди зараз є повсюди."
+  },
+  {
+    "id": 44,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: After carefully considering all the options, the committee has to ______ a final decision by Friday.",
+    "options": [
+      "do",
+      "take",
+      "make",
+      "get"
+    ],
+    "correctAnswer": 2,
+    "explanation": "В англійській мові існує стійка колокація 'to make a decision' (прийняти рішення). Дієслово 'do' з цим іменником не вживається."
+  },
+  {
+    "id": 45,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The doctor examined my throat and wrote me a ______ for some strong antibiotics.",
+    "options": [
+      "recipe",
+      "receipt",
+      "prescription",
+      "note"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це класичні 'хибні друзі перекладача'. 'Prescription' — це медичний рецепт від лікаря. 'Recipe' — це кулінарний рецепт для приготування їжі. 'Receipt' — це чек, який видають у магазині після покупки."
+  },
+  {
+    "id": 46,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Could you please keep an ______ on my suitcase while I go to buy a coffee?",
+    "options": [
+      "arm",
+      "ear",
+      "eye",
+      "hand"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ідіома 'to keep an eye on something/someone' перекладається як 'наглядати за чимось, приглянути'. Це сталий вираз, інші частини тіла тут не використовуються."
+  },
+  {
+    "id": 47,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: I have been trying for hours, but I just can't ______ out how to fix this computer error.",
+    "options": [
+      "figure",
+      "make",
+      "look",
+      "take"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Фразове дієслово 'figure out' означає 'зрозуміти', 'здогадатися', 'знайти рішення проблеми'. 'Make out' означає розібрати (наприклад, нечіткий почерк), 'look out' — бути обережним."
+  },
+  {
+    "id": 48,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The competitor company decided to take ______ of our temporary financial problems to launch their new product.",
+    "options": [
+      "benefit",
+      "advantage",
+      "profit",
+      "chance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Стійка колокація 'to take advantage of' означає 'скористатися (можливістю, ситуацією, слабкістю)'. Зі словом 'benefit' використовується прийменник 'from' (benefit from something)."
+  },
+  {
+    "id": 49,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: My father works for an international corporation and frequently goes on business ______ to Asia.",
+    "options": [
+      "travels",
+      "voyages",
+      "journeys",
+      "trips"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Правильний іменник для робочої поїздки або відрядження — 'business trip'. 'Travel' частіше використовується як дієслово або абстрактне незлічуване поняття. 'Voyage' — це довга подорож морем або в космос. 'Journey' — сам процес переміщення з точки А в точку Б."
+  },
+  {
+    "id": 50,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Excuse me, could you ______ me the way to the nearest subway station?",
+    "options": [
+      "say",
+      "tell",
+      "speak",
+      "talk"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Після дієслова 'tell' одразу йде прямий додаток — особа, якій кажуть (tell me, tell him). Дієслово 'say' вимагає прийменника 'to' (say to me), а 'speak/talk' означають 'розмовляти' і не використовуються в цій конструкції."
+  },
+  {
+    "id": 51,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Due to the severe thunderstorm warnings, the outdoor concert had to be called ______.",
+    "options": [
+      "out",
+      "off",
+      "away",
+      "down"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Фразове дієслово 'call off' є синонімом до слова 'cancel' і перекладається як 'скасовувати' (подію, зустріч, концерт)."
+  },
+  {
+    "id": 52,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The school's dress code is extremely ______; students are not even allowed to wear white sneakers.",
+    "options": [
+      "strict",
+      "hard",
+      "heavy",
+      "strong"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Для опису правил, законів або викладачів, які вимагають неухильного дотримання дисципліни, використовується прикметник 'strict' (суворий, жорсткий)."
+  },
+  {
+    "id": 53,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: If you really want to pass this exam, you need to ______ a serious effort.",
+    "options": [
+      "do",
+      "give",
+      "put",
+      "make"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ще одна класична колокація з 'make' / 'do'. В англійській мові ми 'make an effort' (докладаємо зусиль), незважаючи на те, що це дія."
+  },
+  {
+    "id": 54,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: By the time the police arrived at the bank, the robbers ______ with the money.",
+    "options": [
+      "escaped",
+      "have escaped",
+      "had escaped",
+      "were escaping"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це класичне узгодження часів у минулому. Грабіжники втекли ДО того, як приїхала поліція. Дія, яка відбулася в минулому раніше за іншу минулу дію, виражається часом Past Perfect (had + V3)."
+  },
+  {
+    "id": 55,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: If I ______ you, I would immediately apologize to the boss for the mistake.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "have been"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Умовне речення 2-го типу (Second Conditional), що виражає нереальну умову в теперішньому. Для дієслова 'to be' в такій конструкції традиційно використовується форма 'were' для всіх осіб ('If I were you' - на твоєму місці я б...)."
+  },
+  {
+    "id": 56,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: Last year, my friends and I decided to climb ______ Mount Hoverla in the Carpathians.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "-"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Правило артиклів з географічними назвами: перед назвами гірських хребтів ставиться 'the' (the Carpathians, the Alps), але перед назвами ОДИНИЧНИХ гір і вершин (Mount Hoverla, Mount Everest) артикль не ставиться (нульовий артикль '-' )."
+  },
+  {
+    "id": 57,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: Sarah is exceptionally good ______ solving complex mathematical puzzles.",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "on"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Залежні прийменники. Щоб сказати 'бути хорошим у чомусь / мати здібність до чогось', завжди використовується конструкція 'be good AT something / doing something'."
+  },
+  {
+    "id": 58,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: Thank you for the interview. I look forward ______ from you soon.",
+    "options": [
+      "to hear",
+      "hearing",
+      "to hearing",
+      "hear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Конструкція 'look forward to' (з нетерпінням чекати) є унікальною тим, що 'to' в ній є прийменником, а не часткою інфінітива. Тому після нього обов'язково йде герундій (дієслово з -ing) або іменник: 'look forward TO hearing'."
+  },
+  {
+    "id": 59,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: The first Harry Potter book ______ by J.K. Rowling in 1997.",
+    "options": [
+      "published",
+      "was published",
+      "has been published",
+      "had published"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Книга не могла опублікувати сама себе, тому потрібен пасивний стан (Passive Voice). Маркер часу 'in 1997' вказує на точний завершений час у минулому (Past Simple). Формула: was/were + V3 (was published)."
+  },
+  {
+    "id": 60,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: Never before ______ such a magnificent performance in my entire life.",
+    "options": [
+      "I have seen",
+      "have I seen",
+      "did I see",
+      "I saw"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це граматичне явище інверсії (Inversion). Якщо речення для емоційного підсилення починається із заперечного слова (Never, Rarely, Seldom), порядок слів стає питальним: допоміжне дієслово ставиться ПЕРЕД підметом (have I seen)."
+  },
+  {
+    "id": 61,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: The small town ______ I spent my childhood has completely changed over the last decade.",
+    "options": [
+      "which",
+      "where",
+      "when",
+      "that"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Відносне підрядне речення (Relative Clause). Мова йде про місце (The small town), і в підрядному реченні вказується дія, яка відбувалася В цьому місці ('I spent my childhood [there]'). Тому використовується відносний прислівник 'where' (де)."
+  },
+  {
+    "id": 62,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: You ______ bring your own laptop to the conference; the organizers will provide computers for everyone.",
+    "options": [
+      "mustn't",
+      "can't",
+      "shouldn't",
+      "don't have to"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Організатори надають комп'ютери, отже, приносити свій ноутбук НЕМАЄ НЕОБХІДНОСТІ (відсутність зобов'язання). Для цього в англійській використовується 'don't have to'. Варіант 'mustn't' означав би сувору заборону (тобі суворо заборонено його приносити), що не відповідає контексту."
+  },
+  {
+    "id": 63,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: I need to have my car ______ before we drive to the mountains this weekend.",
+    "options": [
+      "repair",
+      "to repair",
+      "repairing",
+      "repaired"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це 'Causative Form' (каузативна форма), яка використовується, коли ми організовуємо, щоб хтось інший зробив щось для нас (послугу). Її структура: 'have + об'єкт (my car) + V3 (Past Participle)'. Правильна відповідь: 'have my car repaired' (зробити так, щоб мою машину відремонтували)."
+  }
+]
