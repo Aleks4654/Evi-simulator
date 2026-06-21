@@ -1,0 +1,946 @@
+{
+    "id": 1,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі ссавці дихають легенями. Дельфін — це ссавець. Який висновок обов'язково випливає з цих тверджень?",
+    "options": [
+      "Дельфіни живуть у воді.",
+      "Усі, хто дихає легенями, є ссавцями.",
+      "Дельфін дихає легенями.",
+      "Деякі риби також дихають легенями."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це прямий силогізм. Якщо весь клас 'ссавці' має характеристику 'дихати легенями', а 'дельфін' належить до цього класу, він обов'язково переймає цю характеристику. Інші варіанти з наведених двох речень логічно не виводяться."
+  },
+  {
+    "id": 2,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Знайдіть аналогічну пару до слів «ПАПІР : ДЕРЕВО».",
+    "options": [
+      "Книга : сторінка",
+      "Скло : пісок",
+      "Стіл : меблі",
+      "Картина : художник"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Відношення у парі — «матеріал/виріб : сировина, з якої його виготовляють» (папір роблять із дерева). Аналогічним є «скло : пісок», оскільки скло виготовляють із кварцового піску."
+  },
+  {
+    "id": 3,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Прокрастинація — це не просто лінь або поганий тайм-менеджмент, як прийнято вважати. Сучасні дослідження в галузі нейробіології показують, що це механізм подолання стресу. Коли людина стикається із завданням, яке викликає в неї тривогу, невпевненість або страх невдачі, мозок сприймає це як загрозу. Щоб уникнути негативних емоцій, ми перемикаємося на більш приємні або прості справи, отримуючи миттєве полегшення, що закріплює цю звичку.",
+    "question": "Згідно з текстом, якою є справжня причина прокрастинації?",
+    "options": [
+      "Невміння правильно планувати свій робочий час.",
+      "Вроджена лінь та відсутність мотивації.",
+      "Спроба мозку уникнути негативних емоцій та стресу.",
+      "Надмірна кількість складних завдань на роботі."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті чітко сказано, що прокрастинація — це «механізм подолання стресу», і щоб уникнути негативних емоцій, мозок перемикається на інші справи. Варіант А (тайм-менеджмент) та В (лінь) прямо спростовуються у першому реченні."
+  },
+  {
+    "id": 4,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Перехід на відновлювані джерела енергії (ВДЕ), такі як сонце та вітер, є критично важливим для боротьби зі зміною клімату. Однак цей процес стикається з серйозною інфраструктурною проблемою: енергія від ВДЕ генерується непостійно (сонце не світить вночі, вітер стихає). Оскільки існуючі енергомережі розраховані на стабільну подачу струму від вугільних чи атомних станцій, масовий перехід на ВДЕ вимагає створення гігантських систем накопичення (батарей), які наразі є занадто дорогими у виробництві.",
+    "question": "Що є головною перешкодою для масового впровадження відновлюваної енергетики, згідно з текстом?",
+    "options": [
+      "Шкідливий вплив сонячних панелей на клімат.",
+      "Непостійність генерації та висока вартість систем накопичення енергії.",
+      "Відмова урядів фінансувати зелену енергетику.",
+      "Недостатня кількість вітряних днів у більшості регіонів планети."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Автор вказує на проблему: енергія генерується непостійно, що вимагає систем накопичення (батарей), які «наразі є занадто дорогими у виробництві». Це відповідає варіанту В."
+  },
+  {
+    "id": 5,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Директор супермаркету каже: «Ми повинні знизити ціни на базові продукти, щоб збільшити наш загальний прибуток». Яке припущення є необхідною передумовою цієї заяви?",
+    "options": [
+      "Покупці не звертають уваги на ціни базових продуктів.",
+      "Зниження цін приверне стільки нових покупців, що їхні покупки перекриють втрату маржі.",
+      "Конкуренти також планують знизити ціни на свої товари.",
+      "Супермаркет наразі працює у збиток."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Щоб зниження ціни (що саме по собі зменшує прибуток з одиниці товару) призвело до зростання ЗАГАЛЬНОГО прибутку, директор повинен припускати, що нижча ціна спричинить значне зростання обсягів продажу. Без цієї передумови його логіка не має сенсу."
+  },
+  {
+    "id": 6,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Яке з наведених суджень є логічним запереченням (суперечить) твердженню: «Кожен співробітник нашої компанії має вищу освіту»?",
+    "options": [
+      "Жоден співробітник нашої компанії не має вищої освіти.",
+      "Деякі співробітники нашої компанії мають вищу освіту.",
+      "Принаймні один співробітник нашої компанії не має вищої освіти.",
+      "Більшість співробітників нашої компанії не мають вищої освіти."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Щоб спростувати загальностверджувальне судження («Усі S є P»), достатньо знайти хоча б один виняток («Деякі S не є P» або «Існує хоча б один S, який не є P»). Тому наявність принаймні одного співробітника без вищої освіти повністю руйнує твердження «Кожен має»."
+  },
+  {
+    "id": 7,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Компанія X випустила новий смартфон, прибравши з нього роз'єм для навушників, мотивуючи це тим, що 'майбутнє за бездротовими технологіями'. Однак багато аналітиків ринку зазначають, що справжня мета цього кроку — змусити користувачів купувати фірмові бездротові навушники тієї ж компанії, які коштують втричі дорожче за звичайні дротові аналоги, тим самим збільшуючи прибутковість екосистеми бренду.",
+    "question": "Що аналітики вважають справжньою мотивацією Компанії X?",
+    "options": [
+      "Турбота про зручність користувачів.",
+      "Сприяння розвитку нових бездротових технологій у світі.",
+      "Штучне стимулювання продажів власних дорогих аксесуарів.",
+      "Здешевлення процесу виробництва смартфонів."
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті сказано, що аналітики бачать справжню мету в тому, щоб «змусити користувачів купувати фірмові бездротові навушники... збільшуючи прибутковість». Тобто це штучне стимулювання продажів власних аксесуарів."
+  },
+  {
+    "id": 8,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Статистика показує, що в місяці, коли зростають продажі морозива, також збільшується кількість сонячних опіків. Який висновок найімовірніше є правильним?",
+    "options": [
+      "Споживання морозива робить шкіру більш чутливою до сонця.",
+      "Сонячні опіки викликають у людей бажання їсти морозиво.",
+      "Обидва явища є наслідком спільної третьої причини — спекотної літньої погоди.",
+      "Заборона продажу морозива допоможе знизити кількість сонячних опіків."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це класичний приклад того, що кореляція (збіг у часі) не означає причинно-наслідкового зв'язку між самими подіями. Обидві події (морозиво і опіки) паралельно зростають через зовнішній фактор — літо та сонце."
+  },
+  {
+    "id": 9,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Дано правило: «Якщо студент успішно здав усі іспити, він отримує стипендію». Відомо, що Марко НЕ отримує стипендію. Який висновок є правильним?",
+    "options": [
+      "Марко успішно здав усі іспити, але сталася помилка.",
+      "Марко не здав принаймні один іспит.",
+      "Марко здав лише половину іспитів.",
+      "Усі студенти, які не здали іспити, не отримують стипендію."
+    ],
+    "correctAnswer": 1,
+    "explanation": "За правилом логіки Modus Tollens: якщо А (здав усе) веде до Б (стипендія), то відсутність Б (немає стипендії) означає відсутність А (не здав усе). Сказати 'не здав усе' — це те ж саме, що сказати 'завалив хоча б один іспит'."
+  },
+  {
+    "id": 10,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Знайдіть зайве слово в логічному ряду: Тюльпан, Троянда, Фікус, Ромашка, Нарцис.",
+    "options": [
+      "Тюльпан",
+      "Фікус",
+      "Ромашка",
+      "Нарцис"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Тюльпан, троянда, ромашка та нарцис — це квітучі садові/польові рослини, які вирощують заради квітів. Фікус — це вічнозелена кімнатна рослина (дерево/кущ), яка цінується переважно за своє листя."
+  },
+  {
+    "id": 11,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Коли мерія оголосила про будівництво нової автомагістралі через історичний центр, обуренню мешканців не було меж. Влада стверджує, що це розвантажить трафік на 15%. Проте незалежні урбаністи доводять: нові дороги лише стимулюють людей купувати більше авто, що через два роки призведе до ще гірших заторів (так званий індукований попит). Крім того, місто втратить свою унікальну архітектурну привабливість.",
+    "question": "Яким є ставлення автора до будівництва нової автомагістралі?",
+    "options": [
+      "Цілком схвальне, оскільки це вирішить проблему заторів.",
+      "Нейтральне, автор просто наводить факти обох сторін.",
+      "Критичне, автор поділяє побоювання урбаністів та мешканців.",
+      "Байдуже, оскільки автор не живе в цьому місті."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Автор використовує негативно забарвлену лексику ('обуренню не було меж', 'місто втратить') і наводить аргументи урбаністів як доведені факти ('урбаністи доводять', 'через два роки призведе до ще гірших заторів'). Це свідчить про його критичне ставлення до проєкту."
+  },
+  {
+    "id": 12,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі планети обертаються навколо зорі. Земля — планета. Місяць обертається навколо Землі. Який висновок хибний?",
+    "options": [
+      "Земля обертається навколо зорі.",
+      "Місяць є зорею.",
+      "Місяць не є планетою (в контексті цього силогізму).",
+      "Деякі небесні тіла обертаються не навколо зірок."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Висновок 'Місяць є зорею' є абсолютно хибним, оскільки з умов задачі Місяць обертається навколо планети (Землі), а планети обертаються навколо зірок. Місяць у цій ієрархії є супутником, а не зорею."
+  },
+  {
+    "id": 13,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Ганна старша за Віру, але молодша за Олену. Дарина старша за Олену. Хто з дівчат наймолодша?",
+    "options": [
+      "Ганна",
+      "Віра",
+      "Олена",
+      "Дарина"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Будуємо ланцюжок від старшої до молодшої: Ганна > Віра. Олена > Ганна (отже, Олена > Ганна > Віра). Дарина > Олена. Повний ланцюжок: Дарина > Олена > Ганна > Віра. Наймолодша — Віра."
+  },
+  {
+    "id": 14,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У кімнаті троє людей: А, Б і В. А каже: 'Ми всі троє — брехуни'. Б каже: 'Тільки А і В — брехуни'. Хто з них може говорити правду?",
+    "options": [
+      "Тільки А",
+      "Тільки Б",
+      "Обидва кажуть правду",
+      "Жоден не може казати правду"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Якби А казав правду, то він був би брехуном, що є парадоксом. Отже, А — 100% брехун (його твердження хибне). Б каже, що брехуни А і В. Оскільки А дійсно брехун, Б може бути правдивцем (якщо В теж брехун). Жодного логічного парадоксу у твердженні Б немає, тому Б може казати правду."
+  },
+  {
+    "id": 15,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Жоден програміст не любить друкувати на друкарській машинці. Деякі письменники — програмісти. Який висновок обов'язково істинний?",
+    "options": [
+      "Жоден письменник не любить друкувати на машинці.",
+      "Усі письменники люблять друкувати на машинці.",
+      "Деякі письменники не люблять друкувати на машинці.",
+      "Програмісти не вміють користуватися машинкою."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Оскільки частина письменників є програмістами (перетин множин), а ЖОДЕН програміст не любить машинки, то ця частина письменників-програмістів гарантовано не любить друкувати на машинці. Отже, висновок 'Деякі письменники не люблять...' є істинним."
+  },
+  {
+    "id": 16,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "На столі лежать три фігури: коло, квадрат і трикутник. Вони пофарбовані в червоний, синій і зелений кольори (по одному кольору на фігуру). Відомо, що квадрат не червоний і не зелений. Коло не зелене. Якого кольору трикутник?",
+    "options": [
+      "Червоний",
+      "Синій",
+      "Зелений",
+      "Неможливо визначити"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Квадрат не червоний і не зелений, отже він синій. Коло не зелене, і воно не може бути синім (це квадрат), отже коло — червоне. Для трикутника залишається лише один колір — зелений."
+  },
+  {
+    "id": 17,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "«Тільки ті, хто має квиток, можуть зайти до залу». Це означає, що наявність квитка є...",
+    "options": [
+      "Достатньою умовою для входу.",
+      "Необхідною умовою для входу.",
+      "І необхідною, і достатньою умовою.",
+      "Ні необхідною, ні достатньою умовою."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Слово «Тільки» вказує на необхідну умову (без квитка ти точно не зайдеш). Але це не достатня умова, адже можуть бути інші правила (наприклад, фейс-контроль, дрес-код), через які людину з квитком теж можуть не впустити."
+  },
+  {
+    "id": 18,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Твердження 'Немає жодного учня, який би не любив вихідні' є логічно еквівалентним якому з наступних?",
+    "options": [
+      "Усі учні люблять вихідні.",
+      "Деякі учні люблять вихідні.",
+      "Жоден учень не любить вихідні.",
+      "Не всі учні люблять вихідні."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Подвійне заперечення ('Немає жодного... який би не...') у формальній логіці дає загальностверджувальне судження ('Усі... роблять це'). Тобто, якщо відсутні ті, хто не любить, значить, люблять абсолютно всі."
+  },
+  {
+    "id": 19,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Відомо, що: 'Деякі A є B' та 'Усі B є C'. Який з висновків є правильним?",
+    "options": [
+      "Усі A є C.",
+      "Деякі A є C.",
+      "Усі C є A.",
+      "Жоден A не є C."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Якщо частина множини A знаходиться у множині B, а вся множина B повністю лежить усередині множини C, то та частина A, яка знаходиться в B, автоматично потрапляє в C. Отже, 'Деякі A є C'."
+  },
+  {
+    "id": 20,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Дано: 'Якщо сьогодні понеділок, то Іван на роботі'. Відомо, що Іван на роботі. Який висновок є логічно обґрунтованим?",
+    "options": [
+      "Сьогодні обов'язково понеділок.",
+      "Сьогодні може бути вівторок.",
+      "Сьогодні вихідний.",
+      "З цих умов не можна зробити жодного висновку про день тижня."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це класична помилка 'підтвердження наслідку'. З того, що умова (понеділок) гарантує результат (на роботі), не випливає, що цей результат виникає ТІЛЬКИ з цієї умови. Іван може бути на роботі і в середу, і в п'ятницю. Тому точного висновку про день зробити неможливо."
+  },
+  {
+    "id": 21,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У змаганнях беруть участь 4 команди: Червоні, Сині, Жовті та Зелені. Сині випередили Жовтих, але відстали від Зелених. Червоні фінішували одразу за Синіми. Яке місце посіли Жовті?",
+    "options": [
+      "Перше",
+      "Друге",
+      "Третє",
+      "Четверте"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Аналізуємо порядок (1-2-3-4). Сині відстали від Зелених: Зелені > Сині. Сині випередили Жовтих, отже Зелені > Сині > Жовті. Червоні фінішували ОДРАЗУ за Синіми, отже вони вклинилися між Синіми і Жовтими. Порядок: Зелені (1), Сині (2), Червоні (3), Жовті (4). Жовті — четверті."
+  },
+  {
+    "id": 22,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Якщо твердження 'Усі металеві предмети проводять струм' істинне, то яке з наступних тверджень обов'язково істинне?",
+    "options": [
+      "Якщо предмет проводить струм, то він металевий.",
+      "Якщо предмет не металевий, він не проводить струм.",
+      "Якщо предмет не проводить струм, то він не металевий.",
+      "Деякі неметалеві предмети не проводять струм."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це закон контрапозиції. Якщо A (метал) завжди викликає B (струм), то відсутність B (не проводить струм) означає гарантовану відсутність A (не метал). Інші варіанти є логічними помилками (наприклад, струм може проводити і солона вода)."
+  },
+  {
+    "id": 23,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Чоловік поклав 20 000 грн на депозит під 5% річних (із щорічною капіталізацією). Скільки грошей буде на рахунку через 2 роки?",
+    "options": [
+      "22 000 грн",
+      "22 050 грн",
+      "21 000 грн",
+      "22 500 грн"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Формула складних відсотків: $S = P(1 + r)^n$. За перший рік: $20000 + 5\\% = 21000$. За другий рік відсотки нараховуються на нову суму: $21000 + 5\\% = 21000 + 1050 = 22050$ грн."
+  },
+  {
+    "id": 24,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "5 малярів можуть пофарбувати паркан за 10 годин. За скільки годин пофарбують цей же паркан 2 маляри?",
+    "options": [
+      "4 години",
+      "15 годин",
+      "20 годин",
+      "25 годин"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це обернена пропорція: менше людей — більше часу. Обсяг роботи становить $5 \\times 10 = 50$ 'людино-годин'. Щоб дізнатися час для 2 малярів, ділимо загальний обсяг роботи на їхню кількість: $50 / 2 = 25$ годин."
+  },
+  {
+    "id": 25,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Матері 36 років, а доньці — 12. Через скільки років мати буде вдвічі старша за доньку?",
+    "options": [
+      "Через 6 років",
+      "Через 10 років",
+      "Через 12 років",
+      "Через 14 років"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Нехай пройде $x$ років. Матері стане $(36 + x)$, а доньці $(12 + x)$. За умовою, мати має бути вдвічі старшою: $36 + x = 2(12 + x)$. Розкриваємо дужки: $36 + x = 24 + 2x$. Переносимо $x$ в один бік: $12 = x$. Отже, через 12 років (матері буде 48, доньці 24)."
+  },
+  {
+    "id": 26,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Сторону квадрата збільшили на 30%. На скільки відсотків збільшилася площа квадрата?",
+    "options": [
+      "На 30%",
+      "На 60%",
+      "На 69%",
+      "На 90%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Нехай початкова сторона квадрата $a = 1$. Тоді його площа $S = 1^2 = 1$. Після збільшення на 30% сторона стала $a' = 1.3$. Нова площа $S' = 1.3^2 = 1.69$. Отже, площа становить 169% від початкової, тобто збільшилася на 69%."
+  },
+  {
+    "id": 27,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "З міста виїхав вантажний автомобіль зі швидкістю 60 км/год. Через 2 години слідом за ним виїхав легковий автомобіль зі швидкістю 90 км/год. Через скільки годин ПІСЛЯ СВОГО ВИЇЗДУ легковий автомобіль наздожене вантажний?",
+    "options": [
+      "2 години",
+      "3 години",
+      "4 години",
+      "5 годин"
+    ],
+    "correctAnswer": 2,
+    "explanation": "За 2 години вантажівка проїхала $60 \\times 2 = 120$ км. Це початкова відстань між ними в момент виїзду легкового авто. Швидкість зближення: $90 - 60 = 30$ км/год. Час, необхідний щоб скоротити 120 км: $t = 120 / 30 = 4$ години."
+  },
+  {
+    "id": 28,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Кидають два стандартні гральні кубики. Яка ймовірність того, що сума очок на обох кубиках буде дорівнювати 4?",
+    "options": [
+      "1/12",
+      "1/9",
+      "1/6",
+      "1/36"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Загальна кількість можливих комбінацій при киданні двох кубиків: $6 \\times 6 = 36$. Комбінації, які дають у сумі 4, це: (1,3), (2,2), (3,1) — всього 3 варіанти. Ймовірність: $P = 3 / 36$. Після скорочення отримуємо 1/12."
+  },
+  {
+    "id": 29,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Середній бал групи з 10 студентів за тест становить 80. Якщо не враховувати результат найгіршого студента, середній бал решти 9 студентів становить 85. Який бал отримав найгірший студент?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Сума балів усіх 10 студентів: $10 \\times 80 = 800$. Сума балів 9 найкращих: $9 \\times 85 = 765$. Бал найгіршого студента — це різниця цих двох сум: $800 - 765 = 35$."
+  },
+  {
+    "id": 30,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Периметр прямокутника дорівнює 40 см, а його довжина на 4 см більша за ширину. Знайдіть площу цього прямокутника.",
+    "options": [
+      "84 см²",
+      "96 см²",
+      "100 см²",
+      "144 см²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Нехай ширина $x$, тоді довжина $(x + 4)$. Формула периметра: $P = 2(a + b)$. Підставляємо: $40 = 2(x + x + 4)$. Отримуємо $20 = 2x + 4$. Звідси $2x = 16$, $x = 8$ (ширина). Довжина: $8 + 4 = 12$. Площа: $S = 8 \\times 12 = 96$ см²."
+  },
+  {
+    "id": 31,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У 400 г розчину міститься 15% солі. Скільки грамів чистої води потрібно додати до цього розчину, щоб концентрація солі зменшилася до 10%?",
+    "options": [
+      "100 г",
+      "150 г",
+      "200 г",
+      "250 г"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Спочатку знайдемо масу солі: $400 \\times 0.15 = 60$ г. Ця сіль має становити 10% у НОВОМУ розчині. Якщо 60 г — це 10%, то вся маса нового розчину дорівнює $60 / 0.10 = 600$ г. Початкова маса була 400 г, отже треба додати $600 - 400 = 200$ г води."
+  },
+  {
+    "id": 32,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Яка з наведених точок належить графіку функції $y = 3x - 5$?",
+    "options": [
+      "(1; 2)",
+      "(-2; -11)",
+      "(3; 5)",
+      "(0; 5)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Потрібно підставити координату $x$ кожної точки в рівняння і перевірити, чи вийде координата $y$. Перевіримо точку (-2; -11): $y = 3 \\times (-2) - 5 = -6 - 5 = -11$. Рівність виконується."
+  },
+  {
+    "id": 33,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У магазин завезли яблука у ящиках по 10 кг та по 15 кг. Всього завезли 14 ящиків загальною масою 180 кг. Скільки завезли ящиків по 15 кг?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Нехай $x$ — ящиків по 15 кг, а $y$ — по 10 кг. Система рівнянь: 1) $x + y = 14$ (звідси $y = 14 - x$). 2) $15x + 10y = 180$. Підставляємо $y$: $15x + 10(14 - x) = 180$. Розкриваємо: $15x + 140 - 10x = 180$. $5x = 40$. $x = 8$. Отже, ящиків по 15 кг було 8."
+  },
+  {
+    "id": 34,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The COVID-19 pandemic abruptly forced millions of employees to transition to remote work. Initially viewed as a temporary measure, telecommuting has sparked a lasting debate about the future of the traditional office. Proponents argue that working from home eliminates stressful commutes and allows for a more flexible schedule, which often boosts individual productivity and work-life balance.\n\nHowever, the shift is not without its critics. Business leaders frequently express concerns about the erosion of company culture and the difficulty of fostering spontaneous collaboration. When interactions are scheduled via video calls, the casual 'watercooler' conversations that often lead to innovative ideas are lost. Furthermore, some younger employees report feeling isolated and missing out on crucial mentorship opportunities.\n\nAs a result, many companies are now adopting a 'hybrid' model, requiring employees to be in the office two or three days a week while allowing remote work for the rest. This approach attempts to offer the best of both worlds: the focused, uninterrupted time of working from home and the collaborative energy of the physical office.",
+    "question": "What is the primary advantage of remote work mentioned by its proponents in the first paragraph?",
+    "options": [
+      "It allows employees to work longer hours without getting tired.",
+      "It removes the need for stressful travel to work and offers flexibility.",
+      "It guarantees a higher salary for most employees.",
+      "It makes company culture much stronger."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У першому абзаці чітко сказано, що прихильники (proponents) віддаленої роботи стверджують, що вона усуває стресові поїздки на роботу (eliminates stressful commutes) та дозволяє мати гнучкіший графік (flexible schedule). Це відповідає варіанту B."
+  },
+  {
+    "id": 35,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The COVID-19 pandemic abruptly forced millions of employees to transition to remote work. Initially viewed as a temporary measure, telecommuting has sparked a lasting debate about the future of the traditional office. Proponents argue that working from home eliminates stressful commutes and allows for a more flexible schedule, which often boosts individual productivity and work-life balance.\n\nHowever, the shift is not without its critics. Business leaders frequently express concerns about the erosion of company culture and the difficulty of fostering spontaneous collaboration. When interactions are scheduled via video calls, the casual 'watercooler' conversations that often lead to innovative ideas are lost. Furthermore, some younger employees report feeling isolated and missing out on crucial mentorship opportunities.\n\nAs a result, many companies are now adopting a 'hybrid' model, requiring employees to be in the office two or three days a week while allowing remote work for the rest. This approach attempts to offer the best of both worlds: the focused, uninterrupted time of working from home and the collaborative energy of the physical office.",
+    "question": "According to the second paragraph, what is lost when all interactions are scheduled via video calls?",
+    "options": [
+      "The ability to record important meetings for younger employees.",
+      "The casual, spontaneous conversations that can spark innovation.",
+      "The strict discipline required for a traditional office environment.",
+      "The opportunity to work without any interruptions."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У другому абзаці зазначається: 'When interactions are scheduled via video calls, the casual 'watercooler' conversations that often lead to innovative ideas are lost' (Коли всі взаємодії плануються через відеодзвінки, втрачаються невимушені розмови, що часто призводять до інноваційних ідей). Варіант B ідеально перефразовує цю думку."
+  },
+  {
+    "id": 36,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The COVID-19 pandemic abruptly forced millions of employees to transition to remote work. Initially viewed as a temporary measure, telecommuting has sparked a lasting debate about the future of the traditional office. Proponents argue that working from home eliminates stressful commutes and allows for a more flexible schedule, which often boosts individual productivity and work-life balance.\n\nHowever, the shift is not without its critics. Business leaders frequently express concerns about the erosion of company culture and the difficulty of fostering spontaneous collaboration. When interactions are scheduled via video calls, the casual 'watercooler' conversations that often lead to innovative ideas are lost. Furthermore, some younger employees report feeling isolated and missing out on crucial mentorship opportunities.\n\nAs a result, many companies are now adopting a 'hybrid' model, requiring employees to be in the office two or three days a week while allowing remote work for the rest. This approach attempts to offer the best of both worlds: the focused, uninterrupted time of working from home and the collaborative energy of the physical office.",
+    "question": "Which of the following best defines the word 'fostering' as used in the second paragraph?",
+    "options": [
+      "Preventing",
+      "Encouraging or promoting",
+      "Ignoring",
+      "Analyzing mathematically"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Дієслово 'foster' означає 'сприяти', 'заохочувати', 'плекати'. У контексті 'fostering spontaneous collaboration' (сприяння спонтанній співпраці) найближчим синонімом є 'encouraging or promoting'."
+  },
+  {
+    "id": 37,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The COVID-19 pandemic abruptly forced millions of employees to transition to remote work. Initially viewed as a temporary measure, telecommuting has sparked a lasting debate about the future of the traditional office. Proponents argue that working from home eliminates stressful commutes and allows for a more flexible schedule, which often boosts individual productivity and work-life balance.\n\nHowever, the shift is not without its critics. Business leaders frequently express concerns about the erosion of company culture and the difficulty of fostering spontaneous collaboration. When interactions are scheduled via video calls, the casual 'watercooler' conversations that often lead to innovative ideas are lost. Furthermore, some younger employees report feeling isolated and missing out on crucial mentorship opportunities.\n\nAs a result, many companies are now adopting a 'hybrid' model, requiring employees to be in the office two or three days a week while allowing remote work for the rest. This approach attempts to offer the best of both worlds: the focused, uninterrupted time of working from home and the collaborative energy of the physical office.",
+    "question": "Why are some younger employees unhappy with full-time remote work?",
+    "options": [
+      "They feel lonely and lack guidance from experienced colleagues.",
+      "They are forced to work more days a week than older employees.",
+      "They do not know how to use video calling software properly.",
+      "They dislike the quiet atmosphere of working from home."
+    ],
+    "correctAnswer": 0,
+    "explanation": "У другому абзаці вказано причину невдоволення молоді: 'feeling isolated and missing out on crucial mentorship opportunities' (відчувають ізоляцію та втрачають важливі можливості наставництва). Варіант А переказує це: відчувають самотність (lonely) та брак настанов від досвідчених колег (lack guidance)."
+  },
+  {
+    "id": 38,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The COVID-19 pandemic abruptly forced millions of employees to transition to remote work. Initially viewed as a temporary measure, telecommuting has sparked a lasting debate about the future of the traditional office. Proponents argue that working from home eliminates stressful commutes and allows for a more flexible schedule, which often boosts individual productivity and work-life balance.\n\nHowever, the shift is not without its critics. Business leaders frequently express concerns about the erosion of company culture and the difficulty of fostering spontaneous collaboration. When interactions are scheduled via video calls, the casual 'watercooler' conversations that often lead to innovative ideas are lost. Furthermore, some younger employees report feeling isolated and missing out on crucial mentorship opportunities.\n\nAs a result, many companies are now adopting a 'hybrid' model, requiring employees to be in the office two or three days a week while allowing remote work for the rest. This approach attempts to offer the best of both worlds: the focused, uninterrupted time of working from home and the collaborative energy of the physical office.",
+    "question": "What is the main purpose of the 'hybrid' model according to the text?",
+    "options": [
+      "To gradually force all employees to return to the office full-time.",
+      "To save money by renting smaller office spaces.",
+      "To combine the benefits of working from home with the teamwork of the office.",
+      "To completely replace traditional offices with virtual reality environments."
+    ],
+    "correctAnswer": 2,
+    "explanation": "В останньому абзаці пояснюється мета гібридної моделі: 'attempts to offer the best of both worlds' (намагається запропонувати найкраще з обох світів) — поєднання сфокусованої роботи вдома з енергією співпраці в офісі. Це точно відповідає варіанту C."
+  },
+  {
+    "id": 39,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Coffee is one of the most widely consumed beverages in the world, but its journey from a regional discovery to a global commodity is a fascinating tale. Legend has it that coffee was first discovered in the Ethiopian highlands by a goat herder named Kaldi. He noticed that his goats became unusually energetic after eating berries from a certain tree. This discovery soon spread to the Arabian Peninsula, where coffee was cultivated and traded.\n\nBy the 17th century, coffee had reached Europe, and 'coffeehouses' quickly sprang up across the continent. These establishments became vital centers of social interaction and intellectual exchange. Unlike taverns, where alcohol dulled the mind, coffeehouses stimulated sober discussion. They were often referred to as 'penny universities' in England, because for the price of a penny, anyone could enter, listen to debates, and learn the latest news.\n\nToday, the coffee industry faces a modern challenge: climate change. Rising temperatures and unpredictable rainfall patterns are threatening the high-altitude regions where premium Arabica beans are grown. In response, scientists and farmers are working together to develop more resilient coffee varieties and sustainable farming practices to ensure that the world's favorite morning drink survives for future generations.",
+    "question": "According to legend, how was the effect of coffee first discovered?",
+    "options": [
+      "A scientist from Arabia tested the berries in a laboratory.",
+      "A goat herder saw his animals acting energetically after eating the berries.",
+      "European merchants brought the beans back from their travels.",
+      "Farmers accidentally boiled the beans while making soup."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У першому абзаці розповідається легенда про Калді: 'He noticed that his goats became unusually energetic after eating berries' (Він помітив, що його кози стали незвично енергійними після того, як з'їли ягоди)."
+  },
+  {
+    "id": 40,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Coffee is one of the most widely consumed beverages in the world, but its journey from a regional discovery to a global commodity is a fascinating tale. Legend has it that coffee was first discovered in the Ethiopian highlands by a goat herder named Kaldi. He noticed that his goats became unusually energetic after eating berries from a certain tree. This discovery soon spread to the Arabian Peninsula, where coffee was cultivated and traded.\n\nBy the 17th century, coffee had reached Europe, and 'coffeehouses' quickly sprang up across the continent. These establishments became vital centers of social interaction and intellectual exchange. Unlike taverns, where alcohol dulled the mind, coffeehouses stimulated sober discussion. They were often referred to as 'penny universities' in England, because for the price of a penny, anyone could enter, listen to debates, and learn the latest news.\n\nToday, the coffee industry faces a modern challenge: climate change. Rising temperatures and unpredictable rainfall patterns are threatening the high-altitude regions where premium Arabica beans are grown. In response, scientists and farmers are working together to develop more resilient coffee varieties and sustainable farming practices to ensure that the world's favorite morning drink survives for future generations.",
+    "question": "Why were 17th-century English coffeehouses called 'penny universities'?",
+    "options": [
+      "Because they were usually located inside university campuses.",
+      "Because only wealthy university professors could afford to drink there.",
+      "Because for a cheap entry fee, people could learn from intellectual debates.",
+      "Because the coffee served there was of very poor educational quality."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Другий абзац прямо пояснює цю назву: 'because for the price of a penny, anyone could enter, listen to debates, and learn the latest news' (тому що за ціну в один пенні будь-хто міг увійти, послухати дебати та дізнатися останні новини)."
+  },
+  {
+    "id": 41,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Coffee is one of the most widely consumed beverages in the world, but its journey from a regional discovery to a global commodity is a fascinating tale. Legend has it that coffee was first discovered in the Ethiopian highlands by a goat herder named Kaldi. He noticed that his goats became unusually energetic after eating berries from a certain tree. This discovery soon spread to the Arabian Peninsula, where coffee was cultivated and traded.\n\nBy the 17th century, coffee had reached Europe, and 'coffeehouses' quickly sprang up across the continent. These establishments became vital centers of social interaction and intellectual exchange. Unlike taverns, where alcohol dulled the mind, coffeehouses stimulated sober discussion. They were often referred to as 'penny universities' in England, because for the price of a penny, anyone could enter, listen to debates, and learn the latest news.\n\nToday, the coffee industry faces a modern challenge: climate change. Rising temperatures and unpredictable rainfall patterns are threatening the high-altitude regions where premium Arabica beans are grown. In response, scientists and farmers are working together to develop more resilient coffee varieties and sustainable farming practices to ensure that the world's favorite morning drink survives for future generations.",
+    "question": "What difference between coffeehouses and taverns is highlighted in the text?",
+    "options": [
+      "Coffeehouses were much more expensive than taverns.",
+      "Coffeehouses encouraged clear thinking, whereas taverns did not.",
+      "Taverns were for reading the news, while coffeehouses were for dancing.",
+      "Taverns only allowed men, while coffeehouses allowed everyone."
+    ],
+    "correctAnswer": 1,
+    "explanation": "У тексті є пряме порівняння: 'Unlike taverns, where alcohol dulled the mind, coffeehouses stimulated sober discussion' (На відміну від таверн, де алкоголь затуманював розум, кав'ярні стимулювали тверезі дискусії)."
+  },
+  {
+    "id": 42,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Coffee is one of the most widely consumed beverages in the world, but its journey from a regional discovery to a global commodity is a fascinating tale. Legend has it that coffee was first discovered in the Ethiopian highlands by a goat herder named Kaldi. He noticed that his goats became unusually energetic after eating berries from a certain tree. This discovery soon spread to the Arabian Peninsula, where coffee was cultivated and traded.\n\nBy the 17th century, coffee had reached Europe, and 'coffeehouses' quickly sprang up across the continent. These establishments became vital centers of social interaction and intellectual exchange. Unlike taverns, where alcohol dulled the mind, coffeehouses stimulated sober discussion. They were often referred to as 'penny universities' in England, because for the price of a penny, anyone could enter, listen to debates, and learn the latest news.\n\nToday, the coffee industry faces a modern challenge: climate change. Rising temperatures and unpredictable rainfall patterns are threatening the high-altitude regions where premium Arabica beans are grown. In response, scientists and farmers are working together to develop more resilient coffee varieties and sustainable farming practices to ensure that the world's favorite morning drink survives for future generations.",
+    "question": "What is the modern threat to Arabica coffee beans mentioned in the text?",
+    "options": [
+      "A sudden decrease in global demand for coffee.",
+      "Insects that are destroying the coffee trees in Europe.",
+      "Global warming and unstable weather conditions.",
+      "The invention of synthetic coffee in laboratories."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Останній абзац вказує на загрозу від зміни клімату (climate change): 'Rising temperatures and unpredictable rainfall patterns...' (Підвищення температур та непередбачувані опади). Це синонімічно до 'Global warming and unstable weather conditions'."
+  },
+  {
+    "id": 43,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Coffee is one of the most widely consumed beverages in the world, but its journey from a regional discovery to a global commodity is a fascinating tale. Legend has it that coffee was first discovered in the Ethiopian highlands by a goat herder named Kaldi. He noticed that his goats became unusually energetic after eating berries from a certain tree. This discovery soon spread to the Arabian Peninsula, where coffee was cultivated and traded.\n\nBy the 17th century, coffee had reached Europe, and 'coffeehouses' quickly sprang up across the continent. These establishments became vital centers of social interaction and intellectual exchange. Unlike taverns, where alcohol dulled the mind, coffeehouses stimulated sober discussion. They were often referred to as 'penny universities' in England, because for the price of a penny, anyone could enter, listen to debates, and learn the latest news.\n\nToday, the coffee industry faces a modern challenge: climate change. Rising temperatures and unpredictable rainfall patterns are threatening the high-altitude regions where premium Arabica beans are grown. In response, scientists and farmers are working together to develop more resilient coffee varieties and sustainable farming practices to ensure that the world's favorite morning drink survives for future generations.",
+    "question": "Which word best describes the tone of the final paragraph?",
+    "options": [
+      "Humorous",
+      "Angry",
+      "Informative and somewhat concerned",
+      "Indifferent"
+    ],
+    "correctAnswer": 2,
+    "explanation": "В останньому абзаці автор наводить факти про зміну клімату (informative) і описує загрозу для врожаю, що демонструє певну стурбованість (concerned), але також згадує про пошуки рішень, зберігаючи об'єктивний тон."
+  },
+  {
+    "id": 44,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Please be careful what you say to Mary; she is very ______ and cries easily.",
+    "options": [
+      "sensible",
+      "sensitive",
+      "sensory",
+      "sensational"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це класична пара 'false friends' (хибних друзів перекладача). 'Sensitive' означає 'чутливий, вразливий'. 'Sensible' означає 'розсудливий, розумний'. За контекстом ('cries easily') нам підходить 'sensitive'."
+  },
+  {
+    "id": 45,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: I need to ______ a quick phone call before we enter the meeting room.",
+    "options": [
+      "do",
+      "make",
+      "take",
+      "get"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Вибір між 'make' та 'do'. Стійка колокація англійської мови: 'to make a phone call' (зробити дзвінок). Ми 'створюємо' звук/комунікацію, тому використовується дієслово make."
+  },
+  {
+    "id": 46,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The doctor gave me some excellent ______ on how to improve my diet.",
+    "options": [
+      "advise",
+      "advices",
+      "advice",
+      "advises"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Слово 'advice' (порада) в англійській мові є незлічуваним іменником, тому воно ніколи не має закінчення '-s' у множині (не буває advices). 'Advise' (через s) — це дієслово 'радити'."
+  },
+  {
+    "id": 47,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Wearing a helmet is ______ for all construction workers on this site.",
+    "options": [
+      "optional",
+      "compulsory",
+      "flexible",
+      "recommended"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Слово 'compulsory' перекладається як 'обов'язковий' (за законом або правилами). У контексті будівельного майданчика каски є обов'язковими для безпеки. 'Optional' означає за бажанням, що суперечить правилам безпеки."
+  },
+  {
+    "id": 48,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Because the hotel was fully booked, we had to find alternative ______ for the night.",
+    "options": [
+      "habitation",
+      "residence",
+      "accommodation",
+      "shelter"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Слово 'accommodation' є стандартним терміном у сфері туризму та подорожей, що означає 'житло, приміщення для ночівлі' (готелі, хостели, квартири). Інші слова є занадто формальними або специфічними (shelter - притулок, сховище)."
+  },
+  {
+    "id": 49,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: My grandfather decided to ______ up smoking after his doctor warned him about his heart.",
+    "options": [
+      "give",
+      "put",
+      "take",
+      "bring"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Фразове дієслово 'give up' означає 'кинути (звичку), відмовитися від чогось'. Інші варіанти ('put up', 'take up', 'bring up') мають зовсім інші значення (терпіти, почати займатися хобі, виховувати дитину)."
+  },
+  {
+    "id": 50,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The new teacher is very strict and will not ______ any bad behavior in her classroom.",
+    "options": [
+      "tolerate",
+      "approve",
+      "suffer",
+      "consent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Дієслово 'tolerate' означає 'терпіти, миритися з чимось'. Вираз 'won't tolerate' ідеально підходить до опису суворого вчителя. 'Approve' (схвалювати) та 'consent' (погоджуватися) не підходять за сенсом. 'Suffer' частіше означає фізично або морально страждати."
+  },
+  {
+    "id": 51,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The candidate was hired because she has a wide ______ of experience in digital marketing.",
+    "options": [
+      "amount",
+      "range",
+      "level",
+      "scale"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Стійка колокація: 'a wide range of experience / skills / products', що перекладається як 'широкий спектр / діапазон'. Слово 'amount' (кількість) зазвичай використовується з незлічуваними поняттями, але не утворює стійкого виразу 'wide amount'."
+  },
+  {
+    "id": 52,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: I would like to ______ your attention to the statistics shown on page 4.",
+    "options": [
+      "pull",
+      "catch",
+      "pay",
+      "draw"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Стійкий вираз 'to draw someone's attention to something' означає 'звернути чиюсь увагу на щось'. Вираз 'pay attention' означає 'звертати увагу самому', а не вказувати іншому."
+  },
+  {
+    "id": 53,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: Everyone was invited to the company dinner ______ the security guards, who had to work the night shift.",
+    "options": [
+      "accept",
+      "expect",
+      "except",
+      "access"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Слово 'except' є прийменником і перекладається як 'крім, за винятком'. 'Accept' — це дієслово 'приймати', а 'expect' — 'очікувати'."
+  },
+  {
+    "id": 54,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: If I had known it was your birthday yesterday, I ______ a gift.",
+    "options": [
+      "would buy",
+      "bought",
+      "would have bought",
+      "had bought"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це умовне речення 3-го типу (Third Conditional), яке виражає жаль про минуле. Структура: If + Past Perfect (had known), у головній частині — would have + V3 (would have bought)."
+  },
+  {
+    "id": 55,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: By the time we finally arrive at the theater, the play ______.",
+    "options": [
+      "will start",
+      "is starting",
+      "will have started",
+      "starts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Час Future Perfect (will have + V3). Фраза 'By the time...' (до того моменту як) вказує, що дія в головному реченні повністю завершиться до певної точки в майбутньому (фільм вже почнеться до моменту нашого приїзду)."
+  },
+  {
+    "id": 56,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: This beautiful cathedral ______ by a famous Italian architect in the 18th century.",
+    "options": [
+      "designed",
+      "has been designed",
+      "was designed",
+      "is designed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Оскільки собор не міг спроєктувати сам себе, нам потрібен пасивний стан (Passive Voice). Маркер 'in the 18th century' вказує на точний час у минулому (Past Simple). Пасивна форма Past Simple утворюється за допомогою 'was/were + V3' (was designed)."
+  },
+  {
+    "id": 57,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: My sister is incredibly talented; she plays ______ piano and the violin.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "-"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Граматичне правило використання артиклів: перед назвами музичних інструментів, коли ми говоримо про вміння грати на них (play the guitar, play the piano), обов'язково використовується означений артикль 'the'."
+  },
+  {
+    "id": 58,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: The manager suggested ______ the deadline to give the team more time.",
+    "options": [
+      "to extend",
+      "extending",
+      "extend",
+      "extended"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Дієслово 'suggest' (пропонувати) завжди вимагає після себе використання герундія (дієслова із закінченням -ing). Правильно: 'suggest doing something', отже 'suggested extending'."
+  },
+  {
+    "id": 59,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: The student ______ essay won the national competition is from our school.",
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Відносний займенник. Нам потрібно вказати на приналежність: студент, ЧИЄ (whose) есе перемогло. 'Who' означає 'хто/який', 'which' використовується для неживих предметів."
+  },
+  {
+    "id": 60,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: During the interview, they asked me where I ______ for the previous three years.",
+    "options": [
+      "have worked",
+      "worked",
+      "work",
+      "had worked"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Непряма мова (Reported Speech). Дієслово головного речення стоїть у минулому часі ('asked'). Фраза 'for the previous three years' підказує, що оригінальне запитання було в Present Perfect ('Where have you worked?'). При переході в непряму мову Present Perfect змінюється на Past Perfect (had worked)."
+  },
+  {
+    "id": 61,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: We are completely satisfied ______ the results of the recent marketing campaign.",
+    "options": [
+      "with",
+      "by",
+      "from",
+      "of"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Залежні прийменники (Dependent Prepositions). Прикметник 'satisfied' (задоволений) вимагає після себе прийменника 'with' (be satisfied with something)."
+  },
+  {
+    "id": 62,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: You have been driving for ten hours straight. You ______ be exhausted!",
+    "options": [
+      "must",
+      "can",
+      "ought",
+      "should"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Модальні дієслова логічного висновку. Коли ми на 100% впевнені в чомусь (роблячи висновок з наявної ситуації: ти їхав 10 годин, отже, ти точно втомився), використовується модальне дієслово 'must'."
+  },
+  {
+    "id": 63,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammar form to complete the sentence: Not only ______ the gold medal, but she also broke the world record.",
+    "options": [
+      "did she win",
+      "she won",
+      "she did win",
+      "won she"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Правило інверсії. Якщо речення починається з конструкції 'Not only...' (Не тільки), то в першій частині речення використовується зворотний (питальний) порядок слів: допоміжне дієслово + підмет + основне дієслово (did she win)."
+  }
+]
