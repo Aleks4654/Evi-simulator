@@ -1,5 +1,5 @@
 // --- НАЛАШТУВАННЯ ---
-const AVAILABLE_VARIANTS = 1; 
+const AVAILABLE_VARIANTS = 3; 
 
 // ВСТАВ СВОЇ ДАНІ ТЕЛЕГРАМ ТУТ (в лапках):
 const TELEGRAM_BOT_TOKEN = '8917414128:AAFEYegWbpJTvmAYw1RsRkRA9WI-90xSvyA';
