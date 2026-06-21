@@ -1,0 +1,947 @@
+[
+  {
+    "id": 1,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Сучасні дослідження свідчать, що люди, які регулярно читають художню літературу, виявляють вищий рівень емпатії. Це пояснюють тим, що під час читання читач подумки ставить себе на місце персонажів, переживаючи їхні емоції та осмислюючи мотиви вчинків. Натомість читання виключно нон-фікшн такого ефекту майже не дає.",
+    "question": "Яка основна думка тексту?",
+    "options": [
+      "Нон-фікшн шкодить розвитку емоційного інтелекту.",
+      "Усі люди, які читають, обов'язково стають емпатійними.",
+      "Художня література підвищує рівень емпатії, оскільки спонукає читача співпереживати персонажам.",
+      "Емпатію неможливо розвинути без читання."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Текст прямо стверджує зв'язок між читанням художньої літератури та вищим рівнем емпатії й пояснює механізм (читач ставить себе на місце персонажів). Варіанти про шкоду нон-фікшн чи неможливість емпатії без читання у тексті не озвучені, а твердження «усі читачі обов'язково стають емпатійними» є надто категоричним перебільшенням."
+  },
+  {
+    "id": 2,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Директор оголосив, що премію отримають лише ті працівники, які виконали план на понад 100%. Іван виконав план на 95%, Олена — на 120%, а Петро — рівно на 100%.",
+    "question": "Хто з працівників отримає премію?",
+    "options": [
+      "Олена і Петро",
+      "Тільки Олена",
+      "Усі троє",
+      "Ніхто"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ключове слово — «понад 100%», тобто строго більше за 100%. Іван (95%) не дотягує. Петро виконав рівно 100%, що НЕ є «понад», тому премії не отримує. Лише Олена (120%) перевищила поріг. Уважне читання умови «понад» проти «рівно» дає відповідь «тільки Олена»."
+  },
+  {
+    "id": 3,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Доберіть слово, яке є синонімом до слова «лаконічний».",
+    "options": [
+      "Багатослівний",
+      "Заплутаний",
+      "Гучний",
+      "Стислий"
+    ],
+    "correctAnswer": 3,
+    "explanation": "«Лаконічний» означає короткий, чіткий, без зайвих слів. Найближчий синонім — «стислий». «Багатослівний» є антонімом, а «заплутаний» і «гучний» не пов'язані за значенням."
+  },
+  {
+    "id": 4,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Укажіть значення слова «амбівалентний».",
+    "options": [
+      "Двоїстий, суперечливий (одночасне переживання протилежних почуттів)",
+      "Цілком однозначний",
+      "Цілком байдужий",
+      "Надмірно агресивний"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Амбівалентність — це двоїстість, одночасна наявність протилежних оцінок чи почуттів щодо того самого об'єкта (наприклад, любов і ненависть водночас). Тому правильне значення — «двоїстий, суперечливий». Решта варіантів описують протилежні або не пов'язані поняття."
+  },
+  {
+    "id": 5,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Виберіть слово, що порушує логічний ряд: яблуко, морква, груша, слива.",
+    "options": [
+      "Яблуко",
+      "Морква",
+      "Груша",
+      "Слива"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Яблуко, груша та слива належать до фруктів, тоді як морква — це овоч (коренеплід). За ознакою «фрукт» зайвим є саме слово «морква»."
+  },
+  {
+    "id": 6,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Як ви розумієте значення прислів'я «Не все те золото, що блищить»?",
+    "options": [
+      "Справжнє золото завжди має блищати.",
+      "Не варто купувати золоті прикраси.",
+      "Зовнішня привабливість не завжди свідчить про справжню цінність.",
+      "Усе цінне обов'язково помітне зовні."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Прислів'я має переносне значення: яскрава, приваблива зовнішність ще не гарантує справжньої цінності чи якості. Інші варіанти трактують вислів буквально (про метал чи прикраси) і не передають його іносказання."
+  },
+  {
+    "id": 7,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Через рясні дощі рівень води в річці піднявся, і місцева влада ухвалила рішення евакуювати мешканців прибережних будинків. Попри попередження, кілька родин відмовилися залишати домівки.",
+    "question": "Що стало безпосередньою причиною рішення про евакуацію?",
+    "options": [
+      "Відмова родин залишати домівки",
+      "Бажання влади продемонструвати активність",
+      "Попередження мешканців про небезпеку",
+      "Підняття рівня води в річці через рясні дощі"
+    ],
+    "correctAnswer": 3,
+    "explanation": "У тексті чітко простежується причиново-наслідковий ланцюг: рясні дощі → підняття рівня води → рішення про евакуацію. Відмова родин і попередження є наслідками рішення, а не його причиною. Безпосередня причина — підняття рівня води."
+  },
+  {
+    "id": 8,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Доберіть правильний паронім: «Нові ліки виявилися дуже ___ у лікуванні застуди».",
+    "options": [
+      "ефективними",
+      "ефектними",
+      "дефективними",
+      "перфектними"
+    ],
+    "correctAnswer": 0,
+    "explanation": "«Ефективний» — той, що дає бажаний результат, дієвий (саме це потрібно для ліків). «Ефектний» — той, що справляє сильне зовнішнє враження. «Дефективний» — з вадою. Тому в контексті лікування правильно «ефективними»."
+  },
+  {
+    "id": 9,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Знову ця нескінченна черга в поліклініці. Дві години чекання заради двох хвилин розмови з лікарем — і так щоразу. Цікаво, чи замислюється хтось «нагорі», скільки робочих годин люди марно втрачають у цих коридорах?",
+    "question": "Яке ставлення автора до описаної ситуації?",
+    "options": [
+      "Захоплення злагодженою роботою поліклініки",
+      "Роздратування та критика наявної системи",
+      "Цілковита байдужість до проблеми",
+      "Радість від тривалого спілкування з лікарем"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Лексика тексту («знову», «нескінченна черга», «марно втрачають», іронічне «хтось нагорі») передає негативну емоційну оцінку та критичне ставлення. Це вказує на роздратування й незадоволення системою, а не на захоплення, байдужість чи радість."
+  },
+  {
+    "id": 10,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Що означає фразеологізм «бити байдики»?",
+    "options": [
+      "Старанно й наполегливо працювати",
+      "Голосно з кимось сваритися",
+      "Ледарювати, нічого не робити",
+      "Дуже швидко кудись бігти"
+    ],
+    "correctAnswer": 2,
+    "explanation": "«Бити байдики» — усталений вислів зі значенням «байдикувати, марнувати час, нічого не робити». Решта варіантів не відповідають закріпленому в мові значенню цього фразеологізму."
+  },
+  {
+    "id": 11,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Установіть аналогію: «письменник — книга», як «художник — ...».",
+    "options": [
+      "пензель",
+      "фарба",
+      "музей",
+      "картина"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Відношення в парі «письменник — книга» — це «творець та продукт його творчості». Художник так само створює картину. Пензель і фарба — лише інструменти/матеріали, а музей — місце зберігання, тому вони не відтворюють потрібного зв'язку."
+  },
+  {
+    "id": 12,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "«Усі троянди — квіти. Деякі квіти швидко в'януть.» Який висновок є логічно коректним?",
+    "options": [
+      "Можливо, що деякі троянди швидко в'януть",
+      "Усі троянди швидко в'януть",
+      "Жодна троянда не в'яне",
+      "Усі квіти, що в'януть, — троянди"
+    ],
+    "correctAnswer": 0,
+    "explanation": "З посилок не випливає жодного категоричного твердження про троянди: «деякі квіти» можуть і не охоплювати троянд. Тому єдиний коректний (необов'язковий, ймовірнісний) висновок — що це лише можливо. Решта варіантів роблять необґрунтовано категоричні узагальнення."
+  },
+  {
+    "id": 13,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Марина старша за Олега. Олег старший за Софію. Хто наймолодший?",
+    "options": [
+      "Олег",
+      "Марина",
+      "Софія",
+      "Неможливо визначити"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Вибудовуємо ряд за віком від старшого до молодшого: Марина > Олег > Софія. Отже, наймолодша — Софія."
+  },
+  {
+    "id": 14,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Якщо твердження «Усі студенти склали іспит» є хибним, то яке твердження обов'язково істинне?",
+    "options": [
+      "Жоден студент не склав іспит",
+      "Принаймні один студент не склав іспит",
+      "Усі студенти не склали іспит",
+      "Рівно половина студентів склала іспит"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Заперечення квантора загальності «всі» дає квантор існування: «існує принаймні один, який не склав». Це не означає, що провалили всі чи половина — достатньо щонайменше одного. Тому істинне саме «принаймні один не склав»."
+  },
+  {
+    "id": 15,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "«Якщо йде дощ, то дорога мокра. Дорога суха.» Що логічно випливає?",
+    "options": [
+      "Дощ іде",
+      "Дорога мокра",
+      "Нічого визначеного сказати не можна",
+      "Дощу немає"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це правило modus tollens: якщо A → B, а B хибне (дорога не мокра, тобто суха), то й A хибне. Отже, дощу немає. Якби дорога була мокра, дощ міг би й не йти — але тут вона суха, тож висновок однозначний."
+  },
+  {
+    "id": 16,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У групі кожен, хто знає французьку, знає також іспанську. Андрій не знає іспанської. Що можна стверджувати?",
+    "options": [
+      "Андрій не знає французької",
+      "Андрій знає французьку",
+      "Андрій знає обидві мови",
+      "Андрій знає лише іспанську"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Маємо імплікацію «французька → іспанська». За контрапозицією: «не іспанська → не французька». Оскільки Андрій не знає іспанської, він не може знати й французької. Тому правильно — «не знає французької»."
+  },
+  {
+    "id": 17,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Продовжте числову послідовність: 2, 6, 12, 20, 30, ...?",
+    "options": [
+      "40",
+      "36",
+      "42",
+      "44"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Різниці між сусідніми членами зростають: 4, 6, 8, 10. Наступна різниця — 12, тож 30 + 12 = 42. Це підтверджує і формула n·(n+1): 1·2=2, 2·3=6, 3·4=12, 4·5=20, 5·6=30, 6·7=42."
+  },
+  {
+    "id": 18,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Троє друзів — Аня, Богдан і Віка — мають різні професії: лікар, учитель, інженер. Аня не лікар і не інженер. Богдан не інженер. Хто інженер?",
+    "options": [
+      "Аня",
+      "Віка",
+      "Богдан",
+      "Неможливо визначити"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Аня не лікар і не інженер, отже Аня — учитель. Богдан не інженер, а посада вчителя зайнята, тож Богдан — лікар. Залишається єдина вільна професія для Віки — інженер."
+  },
+  {
+    "id": 19,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "«Жоден кіт не є собакою. Мурчик — кіт.» Який висновок правильний?",
+    "options": [
+      "Мурчик — собака",
+      "Деякі коти — собаки",
+      "Усі собаки — коти",
+      "Мурчик не є собакою"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це класичний коректний силогізм: якщо жоден представник класу «коти» не належить до класу «собаки», а Мурчик — кіт, то Мурчик гарантовано не є собакою."
+  },
+  {
+    "id": 20,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "На острові живуть лицарі (завжди кажуть правду) і брехуни (завжди брешуть). Мешканець каже: «Я брехун». Ким він є насправді?",
+    "options": [
+      "Таке твердження неможливе для жодного з них",
+      "Лицарем",
+      "Брехуном",
+      "Випадковим туристом"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Якщо він лицар, то мав би казати правду, але фраза «я брехун» була б неправдою — суперечність. Якщо він брехун, то фраза «я брехун» виявилася б правдою, а брехун правди не каже — знову суперечність. Отже, жоден мешканець острова такого сказати не може."
+  },
+  {
+    "id": 21,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Якщо деякі А є Б, і всі Б є В, то що обов'язково істинне?",
+    "options": [
+      "Усі А є В",
+      "Жодне А не є В",
+      "Деякі А є В",
+      "Усі В є А"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ті «деякі А», які є Б, автоматично потрапляють у клас В, бо всі Б є В. Тому гарантовано істинно «деякі А є В». Стверджувати «всі А є В» не можна, адже про решту А нічого не відомо."
+  },
+  {
+    "id": 22,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Петро сидить ліворуч від Олі. Оля сидить ліворуч від Тараса. Хто сидить посередині?",
+    "options": [
+      "Петро",
+      "Оля",
+      "Тарас",
+      "Неможливо визначити"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Розташуємо їх зліва направо: Петро — Оля — Тарас. Оля опиняється між Петром і Тарасом, отже посередині сидить саме Оля."
+  },
+  {
+    "id": 23,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Товар коштував 800 грн. Спочатку ціну підвищили на 20%, а потім нову ціну знизили на 20%. Скільки коштує товар тепер?",
+    "options": [
+      "800 грн",
+      "760 грн",
+      "820 грн",
+      "768 грн"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Після підвищення на 20%: 800 · 1,20 = 960 грн. Після зниження на 20% від нової ціни: 960 · 0,80 = 768 грн. Послідовні зміни на однаковий відсоток не компенсують одна одну, бо рахуються від різних баз. Відповідь — 768 грн."
+  },
+  {
+    "id": 24,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Скільки відсотків становить число 15 від числа 60?",
+    "options": [
+      "25%",
+      "20%",
+      "40%",
+      "15%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Відсоток частини від цілого: (частина / ціле) · 100% = (15 / 60) · 100% = 0,25 · 100% = 25%."
+  },
+  {
+    "id": 25,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "5 робітників виконують роботу за 12 днів. За скільки днів цю саму роботу виконають 6 робітників за тієї ж продуктивності?",
+    "options": [
+      "14 днів",
+      "9 днів",
+      "10 днів",
+      "15 днів"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Кількість робітників і час обернено пропорційні. Загальний обсяг роботи = 5 · 12 = 60 людино-днів. Тоді для 6 робітників: 60 / 6 = 10 днів."
+  },
+  {
+    "id": 26,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Розв'яжіть рівняння: 3x − 7 = 2x + 5.",
+    "options": [
+      "x = 2",
+      "x = 12",
+      "x = −12",
+      "x = 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Переносимо доданки зі змінною ліворуч, а числа праворуч: 3x − 2x = 5 + 7, звідси x = 12. Перевірка: 3·12 − 7 = 29 і 2·12 + 5 = 29 — рівність виконується."
+  },
+  {
+    "id": 27,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Периметр прямокутника дорівнює 28 см, а одна його сторона — 6 см. Знайдіть площу прямокутника.",
+    "options": [
+      "42 см²",
+      "36 см²",
+      "168 см²",
+      "48 см²"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Формула периметра: P = 2(a + b). Підставляємо: 28 = 2(6 + b) → 14 = 6 + b → b = 8 см. Площа: S = a · b = 6 · 8 = 48 см²."
+  },
+  {
+    "id": 28,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Зарплата зросла з 20 000 грн до 23 000 грн. На скільки відсотків вона зросла?",
+    "options": [
+      "15%",
+      "13%",
+      "23%",
+      "3%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Абсолютний приріст: 23 000 − 20 000 = 3 000 грн. Відсоток зростання рахується від початкового значення: (3 000 / 20 000) · 100% = 15%."
+  },
+  {
+    "id": 29,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "За графіком руху автомобіль за перші 2 години проїхав 120 км, потім стояв 1 годину, після чого за наступну 1 годину проїхав ще 80 км. Якою була середня швидкість за весь час руху (разом зі стоянкою)?",
+    "options": [
+      "60 км/год",
+      "100 км/год",
+      "50 км/год",
+      "40 км/год"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Середня швидкість = вся пройдена відстань / увесь витрачений час. Відстань = 120 + 80 = 200 км. Час = 2 + 1 + 1 = 4 год (стоянку теж враховуємо). Отже, v = 200 / 4 = 50 км/год."
+  },
+  {
+    "id": 30,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Знайдіть корені рівняння x² − 5x + 6 = 0.",
+    "options": [
+      "x = −2 і x = −3",
+      "x = 2 і x = 3",
+      "x = 1 і x = 6",
+      "x = 5 і x = 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "За теоремою Вієта для зведеного рівняння: сума коренів x₁ + x₂ = 5, добуток x₁ · x₂ = 6. Підходять числа 2 і 3 (2 + 3 = 5, 2 · 3 = 6). Перевірка через дискримінант: D = 25 − 24 = 1, x = (5 ± 1)/2 = 3 або 2."
+  },
+  {
+    "id": 31,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У 200 г розчину міститься 10% солі. Скільки грамів солі треба додати, щоб її концентрація стала 20%?",
+    "options": [
+      "20 г",
+      "40 г",
+      "10 г",
+      "25 г"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Солі спочатку: 200 · 0,10 = 20 г. Нехай додамо x г солі. Тоді нова концентрація: (20 + x) / (200 + x) = 0,20. Розв'язуємо: 20 + x = 0,2·(200 + x) = 40 + 0,2x → x − 0,2x = 20 → 0,8x = 20 → x = 25 г."
+  },
+  {
+    "id": 32,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Катети прямокутного трикутника дорівнюють 6 см і 8 см. Знайдіть довжину гіпотенузи.",
+    "options": [
+      "10 см",
+      "12 см",
+      "14 см",
+      "7 см"
+    ],
+    "correctAnswer": 0,
+    "explanation": "За теоремою Піфагора: c² = a² + b² = 6² + 8² = 36 + 64 = 100. Звідси c = √100 = 10 см. Це відомий «єгипетський» трикутник зі сторонами 6–8–10."
+  },
+  {
+    "id": 33,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Учень прочитав 3/8 книги, що становить 90 сторінок. Скільки всього сторінок у книзі?",
+    "options": [
+      "270",
+      "180",
+      "240",
+      "320"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Якщо 3/8 книги — це 90 сторінок, то 1/8 = 90 / 3 = 30 сторінок. Уся книга складається з 8 восьмих: 8 · 30 = 240 сторінок."
+  },
+  {
+    "id": 34,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The rise of remote work has transformed the way millions of people approach their careers. What began as a temporary solution during global disruptions has gradually evolved into a permanent feature of the modern workplace. Many employees now report higher levels of job satisfaction, pointing to the elimination of long commutes and greater flexibility in managing their daily schedules.\n\nHowever, the shift has not been without challenges. Some workers struggle with feelings of isolation, finding it difficult to separate their professional and personal lives when both take place within the same four walls. Managers, too, have had to rethink traditional methods of supervision, focusing less on the number of hours spent at a desk and more on measurable results.\n\nCompanies have responded in various ways. While some have embraced fully remote models, others have adopted a hybrid approach, requiring staff to be present in the office for only a few days each week. Experts suggest that this middle path may prove the most sustainable, combining the benefits of flexibility with the value of in-person collaboration.",
+    "question": "According to the passage, what was remote work originally?",
+    "options": [
+      "A permanent feature of every company",
+      "A temporary solution during global disruptions",
+      "A method invented by managers to control staff",
+      "A way to increase commuting time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У першому абзаці прямо сказано, що віддалена робота почалася як тимчасове рішення під час глобальних потрясінь («began as a temporary solution during global disruptions») і лише згодом стала постійною. Тому правильний варіант — «A temporary solution during global disruptions»."
+  },
+  {
+    "id": 35,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The rise of remote work has transformed the way millions of people approach their careers. What began as a temporary solution during global disruptions has gradually evolved into a permanent feature of the modern workplace. Many employees now report higher levels of job satisfaction, pointing to the elimination of long commutes and greater flexibility in managing their daily schedules.\n\nHowever, the shift has not been without challenges. Some workers struggle with feelings of isolation, finding it difficult to separate their professional and personal lives when both take place within the same four walls. Managers, too, have had to rethink traditional methods of supervision, focusing less on the number of hours spent at a desk and more on measurable results.\n\nCompanies have responded in various ways. While some have embraced fully remote models, others have adopted a hybrid approach, requiring staff to be present in the office for only a few days each week. Experts suggest that this middle path may prove the most sustainable, combining the benefits of flexibility with the value of in-person collaboration.",
+    "question": "Why do many employees report higher job satisfaction?",
+    "options": [
+      "Because they earn significantly more money",
+      "Because they never feel isolated anymore",
+      "Because they are required to work longer hours",
+      "Because they avoid long commutes and gain more flexibility"
+    ],
+    "correctAnswer": 3,
+    "explanation": "У тексті причини вищого задоволення названі прямо: усунення довгих поїздок на роботу та більша гнучкість у керуванні власним розкладом («the elimination of long commutes and greater flexibility»). Про зарплату чи довші години не йдеться, а ізоляція названа, навпаки, проблемою."
+  },
+  {
+    "id": 36,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The rise of remote work has transformed the way millions of people approach their careers. What began as a temporary solution during global disruptions has gradually evolved into a permanent feature of the modern workplace. Many employees now report higher levels of job satisfaction, pointing to the elimination of long commutes and greater flexibility in managing their daily schedules.\n\nHowever, the shift has not been without challenges. Some workers struggle with feelings of isolation, finding it difficult to separate their professional and personal lives when both take place within the same four walls. Managers, too, have had to rethink traditional methods of supervision, focusing less on the number of hours spent at a desk and more on measurable results.\n\nCompanies have responded in various ways. While some have embraced fully remote models, others have adopted a hybrid approach, requiring staff to be present in the office for only a few days each week. Experts suggest that this middle path may prove the most sustainable, combining the benefits of flexibility with the value of in-person collaboration.",
+    "question": "What challenge do some remote workers face, according to the text?",
+    "options": [
+      "A feeling of isolation and difficulty separating work and personal life",
+      "Spending too many hours commuting to the office",
+      "A complete lack of any flexibility in their schedules",
+      "Being supervised constantly by their managers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "У другому абзаці зазначено, що деякі працівники потерпають від відчуття ізоляції та труднощів із розмежуванням професійного й особистого життя, коли все відбувається в одних стінах. Саме це є описаним викликом."
+  },
+  {
+    "id": 37,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The rise of remote work has transformed the way millions of people approach their careers. What began as a temporary solution during global disruptions has gradually evolved into a permanent feature of the modern workplace. Many employees now report higher levels of job satisfaction, pointing to the elimination of long commutes and greater flexibility in managing their daily schedules.\n\nHowever, the shift has not been without challenges. Some workers struggle with feelings of isolation, finding it difficult to separate their professional and personal lives when both take place within the same four walls. Managers, too, have had to rethink traditional methods of supervision, focusing less on the number of hours spent at a desk and more on measurable results.\n\nCompanies have responded in various ways. While some have embraced fully remote models, others have adopted a hybrid approach, requiring staff to be present in the office for only a few days each week. Experts suggest that this middle path may prove the most sustainable, combining the benefits of flexibility with the value of in-person collaboration.",
+    "question": "How have managers changed their approach to supervision?",
+    "options": [
+      "They count only the hours employees spend in the office",
+      "They have stopped supervising employees altogether",
+      "They focus more on measurable results than on hours at a desk",
+      "They require everyone to work much longer days"
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті сказано, що менеджери переосмислили традиційні методи контролю й тепер зосереджуються менше на кількості годин за столом і більше на вимірюваних результатах («more on measurable results»)."
+  },
+  {
+    "id": 38,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "The rise of remote work has transformed the way millions of people approach their careers. What began as a temporary solution during global disruptions has gradually evolved into a permanent feature of the modern workplace. Many employees now report higher levels of job satisfaction, pointing to the elimination of long commutes and greater flexibility in managing their daily schedules.\n\nHowever, the shift has not been without challenges. Some workers struggle with feelings of isolation, finding it difficult to separate their professional and personal lives when both take place within the same four walls. Managers, too, have had to rethink traditional methods of supervision, focusing less on the number of hours spent at a desk and more on measurable results.\n\nCompanies have responded in various ways. While some have embraced fully remote models, others have adopted a hybrid approach, requiring staff to be present in the office for only a few days each week. Experts suggest that this middle path may prove the most sustainable, combining the benefits of flexibility with the value of in-person collaboration.",
+    "question": "What do experts say about the hybrid approach?",
+    "options": [
+      "It is the worst possible working model",
+      "It may prove to be the most sustainable option",
+      "It completely eliminates in-person collaboration",
+      "It forces everyone to work fully remotely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "В останньому абзаці експерти припускають, що саме гібридний (змішаний) шлях може виявитися найбільш життєздатним, оскільки поєднує переваги гнучкості з цінністю особистої співпраці («the most sustainable»)."
+  },
+  {
+    "id": 39,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Honeybees are among the most important creatures on the planet, yet their contribution often goes unnoticed. As they travel from flower to flower in search of nectar, they transfer pollen, enabling plants to reproduce. This process, known as pollination, is essential for the growth of countless fruits, vegetables, and nuts that humans rely on for food.\n\nIn recent decades, scientists have grown increasingly concerned about declining bee populations. A combination of factors appears to be responsible, including the loss of natural habitats, the widespread use of certain pesticides, and the spread of diseases. The disappearance of bees could have serious consequences, not only for ecosystems but also for global agriculture.\n\nFortunately, efforts to protect these vital insects are gaining momentum. Some farmers have reduced their use of harmful chemicals, while many city dwellers have begun planting bee-friendly flowers on balconies and rooftops. Educational campaigns aim to raise awareness, reminding people that the survival of bees is closely linked to our own.",
+    "question": "What is the main role of honeybees described in the passage?",
+    "options": [
+      "Producing honey purely for commercial sale",
+      "Destroying crops and ruining gardens",
+      "Spreading diseases among wild plants",
+      "Pollinating plants by transferring pollen between flowers"
+    ],
+    "correctAnswer": 3,
+    "explanation": "У першому абзаці пояснено, що, перелітаючи з квітки на квітку, бджоли переносять пилок і дають рослинам змогу розмножуватися — це і є запилення («pollination»). Саме запилення названо їхньою ключовою роллю."
+  },
+  {
+    "id": 40,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Honeybees are among the most important creatures on the planet, yet their contribution often goes unnoticed. As they travel from flower to flower in search of nectar, they transfer pollen, enabling plants to reproduce. This process, known as pollination, is essential for the growth of countless fruits, vegetables, and nuts that humans rely on for food.\n\nIn recent decades, scientists have grown increasingly concerned about declining bee populations. A combination of factors appears to be responsible, including the loss of natural habitats, the widespread use of certain pesticides, and the spread of diseases. The disappearance of bees could have serious consequences, not only for ecosystems but also for global agriculture.\n\nFortunately, efforts to protect these vital insects are gaining momentum. Some farmers have reduced their use of harmful chemicals, while many city dwellers have begun planting bee-friendly flowers on balconies and rooftops. Educational campaigns aim to raise awareness, reminding people that the survival of bees is closely linked to our own.",
+    "question": "Why is pollination important for humans?",
+    "options": [
+      "It enables the growth of many fruits, vegetables, and nuts we eat",
+      "It increases the number of pesticides in farming",
+      "It removes natural habitats for animals",
+      "It prevents plants from reproducing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "У тексті прямо сказано, що запилення необхідне для росту незліченних фруктів, овочів і горіхів, на які люди покладаються в харчуванні. Тому правильна відповідь стосується вирощування їстівних рослин."
+  },
+  {
+    "id": 41,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Honeybees are among the most important creatures on the planet, yet their contribution often goes unnoticed. As they travel from flower to flower in search of nectar, they transfer pollen, enabling plants to reproduce. This process, known as pollination, is essential for the growth of countless fruits, vegetables, and nuts that humans rely on for food.\n\nIn recent decades, scientists have grown increasingly concerned about declining bee populations. A combination of factors appears to be responsible, including the loss of natural habitats, the widespread use of certain pesticides, and the spread of diseases. The disappearance of bees could have serious consequences, not only for ecosystems but also for global agriculture.\n\nFortunately, efforts to protect these vital insects are gaining momentum. Some farmers have reduced their use of harmful chemicals, while many city dwellers have begun planting bee-friendly flowers on balconies and rooftops. Educational campaigns aim to raise awareness, reminding people that the survival of bees is closely linked to our own.",
+    "question": "According to the text, which of the following is NOT a cause of declining bee populations?",
+    "options": [
+      "The loss of natural habitats",
+      "The widespread use of certain pesticides",
+      "Planting bee-friendly flowers on rooftops",
+      "The spread of diseases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "У тексті причинами скорочення популяцій названі втрата природних середовищ, використання певних пестицидів і поширення хвороб. А висаджування дружніх до бджіл квітів — це, навпаки, захід захисту, а не причина зменшення. Тому це «зайвий» варіант."
+  },
+  {
+    "id": 42,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Honeybees are among the most important creatures on the planet, yet their contribution often goes unnoticed. As they travel from flower to flower in search of nectar, they transfer pollen, enabling plants to reproduce. This process, known as pollination, is essential for the growth of countless fruits, vegetables, and nuts that humans rely on for food.\n\nIn recent decades, scientists have grown increasingly concerned about declining bee populations. A combination of factors appears to be responsible, including the loss of natural habitats, the widespread use of certain pesticides, and the spread of diseases. The disappearance of bees could have serious consequences, not only for ecosystems but also for global agriculture.\n\nFortunately, efforts to protect these vital insects are gaining momentum. Some farmers have reduced their use of harmful chemicals, while many city dwellers have begun planting bee-friendly flowers on balconies and rooftops. Educational campaigns aim to raise awareness, reminding people that the survival of bees is closely linked to our own.",
+    "question": "What have many city dwellers done to help bees?",
+    "options": [
+      "Increased the use of chemicals in cities",
+      "Planted bee-friendly flowers on balconies and rooftops",
+      "Removed all flowers from urban areas",
+      "Stopped growing any plants at all"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У третьому абзаці сказано, що мешканці міст почали висаджувати дружні до бджіл квіти на балконах і дахах. Це конкретний приклад дій городян на захист бджіл."
+  },
+  {
+    "id": 43,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Honeybees are among the most important creatures on the planet, yet their contribution often goes unnoticed. As they travel from flower to flower in search of nectar, they transfer pollen, enabling plants to reproduce. This process, known as pollination, is essential for the growth of countless fruits, vegetables, and nuts that humans rely on for food.\n\nIn recent decades, scientists have grown increasingly concerned about declining bee populations. A combination of factors appears to be responsible, including the loss of natural habitats, the widespread use of certain pesticides, and the spread of diseases. The disappearance of bees could have serious consequences, not only for ecosystems but also for global agriculture.\n\nFortunately, efforts to protect these vital insects are gaining momentum. Some farmers have reduced their use of harmful chemicals, while many city dwellers have begun planting bee-friendly flowers on balconies and rooftops. Educational campaigns aim to raise awareness, reminding people that the survival of bees is closely linked to our own.",
+    "question": "What is the main message of the final paragraph?",
+    "options": [
+      "Bees can no longer be saved by anyone",
+      "Farmers should use even more pesticides",
+      "Bees are not actually important for humans",
+      "Protecting bees matters, and their survival is linked to ours"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Останній абзац присвячено зусиллям зі збереження бджіл і завершується думкою, що виживання бджіл тісно пов'язане з нашим власним. Головна ідея — захист бджіл важливий саме тому, що від нього залежить і людина."
+  },
+  {
+    "id": 44,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"The detective managed to ___ the mystery after weeks of investigation.\"",
+    "options": [
+      "solve",
+      "answer",
+      "resolve",
+      "reply"
+    ],
+    "correctAnswer": 0,
+    "explanation": "«Solve a mystery / a problem» — стійка сполука зі значенням «розкрити, розв'язати». «Resolve» означає радше «владнати конфлікт чи суперечку», а «answer/reply» вживаються щодо запитань, а не таємниць. Тому правильно «solve»."
+  },
+  {
+    "id": 45,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"Despite the heavy rain, they ___ to finish the hike on time.\"",
+    "options": [
+      "succeeded",
+      "achieved",
+      "managed",
+      "won"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Конструкція «manage to do something» означає «спромогтися, зуміти щось зробити» і вимагає інфінітива з to. «Succeed» вживається як succeed IN doing, «achieve» — з іменником (achieve a goal), а «win» означає «перемогти». Тут граматично й за змістом підходить лише «managed»."
+  },
+  {
+    "id": 46,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"The new policy will have a significant ___ on small businesses.\"",
+    "options": [
+      "affect",
+      "impact",
+      "result",
+      "consequence"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Стійка сполука «have an impact on» означає «мати вплив на». «Affect» — це дієслово, а не іменник, тому після «a significant» воно не годиться. «Result» і «consequence» вживаються з прийменником of, а не on. Тому правильно «impact»."
+  },
+  {
+    "id": 47,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"He is a very ___ person; he always tells the truth.\"",
+    "options": [
+      "honourable",
+      "fair",
+      "loyal",
+      "honest"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Контекст «always tells the truth» вказує на правдивість. Саме «honest» означає «чесний, правдивий». «Honourable» — благородний, «fair» — справедливий, «loyal» — відданий; вони мають інші відтінки й не підкреслюють саме правдивість."
+  },
+  {
+    "id": 48,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"It is hard to ___ the difference between these two shades of blue.\"",
+    "options": [
+      "tell",
+      "say",
+      "speak",
+      "talk"
+    ],
+    "correctAnswer": 0,
+    "explanation": "«Tell the difference (between)» — усталений вираз зі значенням «розрізняти». Дієслова say, speak, talk у цій конструкції не вживаються, хоча всі вони пов'язані з мовленням. Тому правильно «tell»."
+  },
+  {
+    "id": 49,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"The company decided to ___ a new product onto the market.\"",
+    "options": [
+      "throw",
+      "drop",
+      "launch",
+      "start"
+    ],
+    "correctAnswer": 2,
+    "explanation": "«Launch a product» — стандартна бізнес-колокація зі значенням «запустити, вивести продукт на ринок». «Throw» і «drop» означають фізичні дії (кинути, упустити), а «start» не сполучається зі словом «onto the market» у цьому значенні."
+  },
+  {
+    "id": 50,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"The museum offers a wide ___ of exhibits, from ancient art to modern sculpture.\"",
+    "options": [
+      "number",
+      "range",
+      "amount",
+      "level"
+    ],
+    "correctAnswer": 1,
+    "explanation": "«A wide range of» — стійкий вираз зі значенням «широкий спектр, різноманіття». «Number» вживається з обчислюваними (a number of), «amount» — з необчислюваними, а «level» означає «рівень». Для позначення розмаїття видів підходить саме «range»."
+  },
+  {
+    "id": 51,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"Please ___ your seatbelt before the plane takes off.\"",
+    "options": [
+      "close",
+      "lock",
+      "tie",
+      "fasten"
+    ],
+    "correctAnswer": 3,
+    "explanation": "«Fasten a seatbelt» — стійка сполука зі значенням «застебнути ремінь безпеки». «Close» (зачинити), «lock» (замкнути) і «tie» (зав'язати) до ременя безпеки не вживаються."
+  },
+  {
+    "id": 52,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"Students should ___ attention to the safety instructions before the experiment.\"",
+    "options": [
+      "pay",
+      "give",
+      "make",
+      "take"
+    ],
+    "correctAnswer": 0,
+    "explanation": "«Pay attention to» — фіксована колокація зі значенням «звертати/приділяти увагу». Англійська вимагає саме дієслова «pay» у цьому виразі; «give/make/take attention» не вживаються."
+  },
+  {
+    "id": 53,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: \"I need to ___ up some information about this author before the seminar.\"",
+    "options": [
+      "see",
+      "watch",
+      "look",
+      "find"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Фразове дієслово «look up» означає «шукати/знаходити інформацію» (у словнику, довіднику, інтернеті). Сполук «see up», «watch up» чи «find up» в англійській не існує, тому правильно «look»."
+  },
+  {
+    "id": 54,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammatical form: \"By the time we arrived at the cinema, the film ___.\"",
+    "options": [
+      "has already started",
+      "had already started",
+      "already started",
+      "was already starting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Маркер «By the time + Past Simple (arrived)» вказує, що одна минула дія відбулася раніше за іншу. Для цього вживають Past Perfect: had + V3 → «had already started». Дія «початок фільму» передує дії «прибуття»."
+  },
+  {
+    "id": 55,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammatical form: \"If I ___ more free time, I would travel around the world.\"",
+    "options": [
+      "have",
+      "will have",
+      "would have",
+      "had"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Це Second Conditional (друга умовна), що описує нереальну/малоймовірну ситуацію в теперішньому. Структура: If + Past Simple, would + інфінітив. Тому в умовній частині потрібна форма «had»."
+  },
+  {
+    "id": 56,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word: \"She has lived in this city ___ 2015.\"",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "during"
+    ],
+    "correctAnswer": 0,
+    "explanation": "У Present Perfect «since» вживається з конкретною точкою відліку в минулому (since 2015 — «починаючи з 2015 року»). «For» означає тривалість (for 8 years), «during» — «протягом» з іменником, а «from» зазвичай потребує пари «from… to…»."
+  },
+  {
+    "id": 57,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammatical form: \"Look! The children ___ in the garden right now.\"",
+    "options": [
+      "play",
+      "plays",
+      "are playing",
+      "played"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Маркери «Look!» і «right now» сигналізують про дію, що триває в момент мовлення, тобто Present Continuous: am/is/are + V-ing. Для «the children» (множина) — «are playing»."
+  },
+  {
+    "id": 58,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammatical form: \"This is ___ interesting book I have ever read.\"",
+    "options": [
+      "most",
+      "the most",
+      "a most",
+      "more"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Найвищий ступінь порівняння багатоскладового прикметника утворюється через «the most + adjective». Конструкція «the most … (that) I have ever…» є типовою. Тому правильно «the most interesting»."
+  },
+  {
+    "id": 59,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct articles: \"I saw ___ elephant at the zoo. ___ elephant was huge.\"",
+    "options": [
+      "a / A",
+      "the / An",
+      "an / A",
+      "an / The"
+    ],
+    "correctAnswer": 3,
+    "explanation": "При першій згадці предмета вживають неозначений артикль, причому перед голосним звуком — «an elephant». При повторній згадці того самого слона предмет уже відомий, тому потрібен означений артикль «The». Отже, «an / The»."
+  },
+  {
+    "id": 60,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct preposition: \"My brother is very good ___ playing the guitar.\"",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Стійка сполука «be good at (doing) something» означає «добре вмію щось робити». Після «good» у цьому значенні завжди вживається прийменник «at», а не in, on чи for."
+  },
+  {
+    "id": 61,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammatical form: \"If it ___ tomorrow, we will stay at home.\"",
+    "options": [
+      "will rain",
+      "rained",
+      "rains",
+      "would rain"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Це First Conditional (перша умовна) — реальна умова в майбутньому. Структура: If + Present Simple, will + інфінітив. Після «if» майбутній час «will» не вживається, тому в умовній частині потрібна форма «rains»."
+  },
+  {
+    "id": 62,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct grammatical form: \"The report ___ by the marketing team last week.\"",
+    "options": [
+      "wrote",
+      "was written",
+      "has written",
+      "is writing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Звіт є об'єктом дії (його написали), тому потрібен пасивний стан. Маркер «last week» вказує на Past Simple Passive: was/were + V3 → «was written». Активні форми wrote/has written/is writing тут не підходять за змістом і часом."
+  },
+  {
+    "id": 63,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct modal verb: \"You ___ smoke here; it is strictly forbidden by the rules.\"",
+    "options": [
+      "don't have to",
+      "needn't",
+      "shouldn't have",
+      "mustn't"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Контекст «strictly forbidden» означає сувору заборону, яку передає модальне «mustn't» (не можна, заборонено). «Don't have to» і «needn't» означають відсутність необхідності (не зобов'язаний), а «shouldn't have» — докір про минулу дію, тож вони не передають заборони."
+  }
+]
