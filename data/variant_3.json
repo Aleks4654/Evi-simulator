@@ -1,0 +1,947 @@
+[
+  {
+    "id": 1,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Інформаційна перевантаженість стала однією з прихованих проблем сучасності. Людина щодня отримує більше повідомлень, ніж її предки за все життя. Парадокс полягає в тому, що доступ до безмежної кількості даних не робить нас автоматично мудрішими. Навпаки, без навички відбирати головне ми ризикуємо потонути в потоці фактів, так і не дійшовши жодного висновку.",
+    "question": "Яка основна думка тексту?",
+    "options": [
+      "Сучасні люди отримують надто багато повідомлень.",
+      "Доступ до інформації сам по собі не гарантує мудрості без уміння її відбирати.",
+      "Предки сучасної людини були мудрішими за нас.",
+      "Фактів стало настільки багато, що висновки робити неможливо."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ключове речення тексту — про парадокс: безмежний доступ до даних не робить мудрішими. Автор підкреслює саме потребу у вмінні відбирати головне (варіант B). Варіанти A і D описують лише окремі деталі, а не головну ідею, а C спотворює зміст (текст не стверджує, що предки були мудрішими)."
+  },
+  {
+    "id": 2,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Інформаційна перевантаженість стала однією з прихованих проблем сучасності. Людина щодня отримує більше повідомлень, ніж її предки за все життя. Парадокс полягає в тому, що доступ до безмежної кількості даних не робить нас автоматично мудрішими. Навпаки, без навички відбирати головне ми ризикуємо потонути в потоці фактів, так і не дійшовши жодного висновку.",
+    "question": "Який висновок логічно випливає з тексту?",
+    "options": [
+      "Слід повністю відмовитися від отримання інформації.",
+      "Уміння фільтрувати інформацію є важливою сучасною навичкою.",
+      "Кількість даних варто штучно обмежувати законом.",
+      "Мудрість залежить лише від обсягу прочитаного."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Текст наголошує, що проблема не в обсязі даних, а у відсутності навички відбору головного. Звідси прямо випливає цінність уміння фільтрувати інформацію (B). Варіанти A і C — крайнощі, яких автор не пропонує; D суперечить тексту, бо саме обсяг мудрості не гарантує."
+  },
+  {
+    "id": 3,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Виберіть слово, протилежне за значенням до слова «лаконічний».",
+    "options": [
+      "Стислий",
+      "Багатослівний",
+      "Точний",
+      "Зрозумілий"
+    ],
+    "correctAnswer": 1,
+    "explanation": "«Лаконічний» означає короткий, стислий, без зайвих слів. Антонімом є «багатослівний» (B). «Стислий» і «точний» — навпаки, синоніми або близькі за значенням, а «зрозумілий» характеризує іншу ознаку."
+  },
+  {
+    "id": 4,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Установіть аналогію: ЛІКАР — ПАЦІЄНТ, як УЧИТЕЛЬ — ?",
+    "options": [
+      "Школа",
+      "Урок",
+      "Учень",
+      "Підручник"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Відношення в парі «лікар — пацієнт» — це «той, хто надає послугу/допомогу — той, хто її отримує». За тією самою логікою вчитель навчає учня (C). Школа — це місце, урок — процес, підручник — інструмент, тож вони не відповідають типу відношення."
+  },
+  {
+    "id": 5,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Дослідники зауважують: люди частіше довіряють інформації, яка підтверджує їхні попередні переконання, і відкидають ту, що їм суперечить. Це явище називають упередженням підтвердження. Воно діє непомітно, тому навіть досвідчений фахівець може стати його жертвою, якщо свідомо не шукатиме аргументів проти власної позиції.",
+    "question": "Що, згідно з текстом, допомагає протистояти упередженню підтвердження?",
+    "options": [
+      "Довіряти лише власному досвіду.",
+      "Свідомо шукати аргументи, що суперечать власній позиції.",
+      "Уникати будь-якої нової інформації.",
+      "Покладатися на думку досвідчених фахівців."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Останнє речення прямо вказує: навіть фахівець стає жертвою, якщо свідомо не шукає контраргументів. Отже, протидія — це активний пошук аргументів проти своєї позиції (B). Решта варіантів або підсилюють упередження (A, D), або є нелогічною крайністю (C)."
+  },
+  {
+    "id": 6,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Виберіть зайве слово у логічному ряду.",
+    "options": [
+      "Береза",
+      "Дуб",
+      "Сосна",
+      "Тюльпан"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Береза, дуб і сосна — дерева. Тюльпан — квітка (трав'яниста рослина), тому він зайвий (D). Об'єднавча ознака решти — належність до дерев."
+  },
+  {
+    "id": 7,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Продовжте послідовність за змістом: «слово — речення — абзац — ...».",
+    "options": [
+      "Буква",
+      "Текст",
+      "Звук",
+      "Склад"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ряд побудований за принципом зростання мовної одиниці: слово < речення < абзац < текст. Наступний, більший рівень — текст (B). Буква, звук і склад — навпаки, менші одиниці, ніж слово."
+  },
+  {
+    "id": 8,
+    "block": "ТЗНК",
+    "type": "reading",
+    "passage": "Меценат не просто давав гроші митцям — він брав на себе ризик. Підтримуючи невідомого художника, він не знав, чи стане той геніальним, чи залишиться непоміченим. Саме ця готовність вкладатися в невизначеність відрізняла справжнього покровителя мистецтв від звичайного багатія, який купував лише вже визнані шедеври.",
+    "question": "Яке ставлення автора до меценатів виражене в тексті?",
+    "options": [
+      "Іронічне й засуджувальне.",
+      "Нейтрально-байдуже.",
+      "Поважне, що підкреслює їхню сміливість.",
+      "Скептичне щодо їхніх мотивів."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Автор протиставляє мецената «звичайному багатієві» й наголошує на готовності ризикувати, вкладаючись у невизначеність. Це формує поважний тон із акцентом на сміливості (C). Ознак іронії, байдужості чи скепсису в тексті немає."
+  },
+  {
+    "id": 9,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Яке твердження є прихованим припущенням у фразі: «Він знову запізнився, тому його варто звільнити»?",
+    "options": [
+      "Запізнення — це достатня підстава для звільнення.",
+      "Він — хороший працівник.",
+      "Звільнення завжди несправедливе.",
+      "Запізнення трапляється з усіма."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Щоб висновок «варто звільнити» випливав із факту запізнення, потрібне невисловлене припущення, що запізнення є достатньою підставою для звільнення (A). Без цього зв'язок між посилкою і висновком руйнується. Інші варіанти не є логічно необхідними для цього умовиводу."
+  },
+  {
+    "id": 10,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Як ви розумієте прислів'я «Не все те золото, що блищить»?",
+    "options": [
+      "Золото завжди має блискучу поверхню.",
+      "Зовнішня привабливість не завжди свідчить про справжню цінність.",
+      "Блискучі речі коштують дорого.",
+      "Слід купувати лише справжнє золото."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Прислів'я має переносне значення: ефектний зовнішній вигляд не гарантує справжньої вартості чи якості (B). Варіанти A і C тлумачать вислів буквально, а D відходить від теми зовнішності та суті."
+  },
+  {
+    "id": 11,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У реченні «Більшість студентів склали іспит, проте дехто потребуватиме перескладання» сполучник «проте» виражає:",
+    "options": [
+      "Причину",
+      "Наслідок",
+      "Протиставлення",
+      "Умову"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Сполучник «проте» (як і «але», «однак») вводить протиставлення двох частин речення: одна група склала іспит, інша — ні (C). Причину виражали б «бо», «тому що»; наслідок — «тому»; умову — «якщо»."
+  },
+  {
+    "id": 12,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі троянди — квіти. Деякі квіти швидко в'януть. Який висновок є коректним?",
+    "options": [
+      "Усі троянди швидко в'януть.",
+      "Деякі троянди швидко в'януть.",
+      "Жодна троянда не в'яне швидко.",
+      "З наведеного не можна зробити однозначного висновку про троянди."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Те, що «деякі квіти» в'януть швидко, не дозволяє стверджувати нічого конкретно про троянди: вони можуть як належати до цієї частини квітів, так і ні. Тому жоден визначений висновок про троянди некоректний (D). Це класична помилка нерозподіленого середнього терміна."
+  },
+  {
+    "id": 13,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Усі металли проводять струм. Мідь — метал. Отже:",
+    "options": [
+      "Мідь не проводить струм.",
+      "Мідь проводить струм.",
+      "Лише мідь проводить струм.",
+      "Деякі метали не проводять струм."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це коректний силогізм за схемою: усі М є П; S є М; отже, S є П. Якщо всі метали проводять струм, а мідь — метал, то мідь проводить струм (B). Варіанти C і D додають інформацію, якої немає в посилках."
+  },
+  {
+    "id": 14,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Якщо йде дощ, то вулиця мокра. Вулиця суха. Що з цього випливає?",
+    "options": [
+      "Іде дощ.",
+      "Дощу немає.",
+      "Вулиця мокра.",
+      "Неможливо визначити."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це правило modus tollens: якщо A → B, а B хибне, то й A хибне. «Вулиця суха» означає, що наслідок (мокра вулиця) не настав, отже причина (дощ) відсутня — дощу немає (B). Стверджувати наявність дощу (A) було б порушенням логіки."
+  },
+  {
+    "id": 15,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Андрій вищий за Бориса, а Борис вищий за Віктора. Хто найнижчий?",
+    "options": [
+      "Андрій",
+      "Борис",
+      "Віктор",
+      "Визначити неможливо"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Вибудуємо порядок за зростанням зросту: Віктор < Борис < Андрій. Найнижчим є Віктор (C), оскільки він нижчий за Бориса, який, своєю чергою, нижчий за Андрія."
+  },
+  {
+    "id": 16,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Жоден птах не є ссавцем. Кажан — ссавець. Отже:",
+    "options": [
+      "Кажан — птах.",
+      "Кажан — не птах.",
+      "Деякі ссавці — птахи.",
+      "Усі ссавці літають."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Якщо жоден птах не є ссавцем, а кажан — ссавець, то кажан не може належати до птахів (B). Це коректне заперечне умовиводження. Варіант C прямо суперечить першій посилці, а D не випливає з посилок."
+  },
+  {
+    "id": 17,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "У ряду чисел 2, 6, 12, 20, 30, ... яке наступне число?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Різниці між сусідніми числами зростають: 6−2=4, 12−6=6, 20−12=8, 30−20=10. Наступна різниця — 12, тож 30+12=42 (C). Альтернативно n-й член дорівнює n·(n+1): 6·7=42."
+  },
+  {
+    "id": 18,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Якщо всі А є Б, і всі Б є В, то який висновок правильний?",
+    "options": [
+      "Усі В є А.",
+      "Усі А є В.",
+      "Деякі В не є Б.",
+      "Жодне А не є В."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це транзитивне відношення включення: А ⊆ Б ⊆ В, отже А ⊆ В, тобто всі А є В (B). Зворотне твердження «усі В є А» (A) не випливає, бо В може бути ширшою множиною."
+  },
+  {
+    "id": 19,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Марія, Олена та Софія мають різні професії: лікар, юрист, інженер. Марія не лікар і не юрист. Олена не юрист. Хто юрист?",
+    "options": [
+      "Марія",
+      "Олена",
+      "Софія",
+      "Визначити неможливо"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Марія не лікар і не юрист, отже вона інженер. Тоді лікар і юрист — серед Олени та Софії. Олена не юрист, отже Олена — лікар, а юристом залишається Софія (C)."
+  },
+  {
+    "id": 20,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Деякі студенти грають у шахи. Усі, хто грає в шахи, люблять логіку. Що випливає?",
+    "options": [
+      "Усі студенти люблять логіку.",
+      "Деякі студенти люблять логіку.",
+      "Жоден студент не любить логіку.",
+      "Лише шахісти є студентами."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Частина студентів грає в шахи, а всі шахісти люблять логіку, отже принаймні ці студенти люблять логіку — «деякі студенти люблять логіку» (B). Поширити це на всіх студентів (A) не можна, бо про решту нічого не відомо."
+  },
+  {
+    "id": 21,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Сьогодні середа. Який день тижня буде через 100 днів?",
+    "options": [
+      "Понеділок",
+      "Вівторок",
+      "Четвер",
+      "П'ятниця"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Дні тижня повторюються кожні 7 днів. Ділимо 100 на 7: 100 = 14·7 + 2, остача 2. Отже потрібно відрахувати 2 дні від середи: середа → четвер → п'ятниця (D)."
+  },
+  {
+    "id": 22,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Якщо твердження «Усі учні були присутні» хибне, то яке твердження точно є істинним?",
+    "options": [
+      "Жоден учень не був присутній.",
+      "Принаймні один учень був відсутній.",
+      "Усі учні були відсутні.",
+      "Половина учнів була відсутня."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Заперечення висловлювання «усі присутні» — це «існує принаймні один відсутній» (B). Хибність «усі» не означає «жоден» чи «усі відсутні» (A, C — це надмірне заперечення), а точна частка (D) з умови не відома."
+  },
+  {
+    "id": 23,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Товар коштував 200 грн. Спочатку ціну підвищили на 15%, потім знизили на 10%. Скільки коштує товар тепер?",
+    "options": [
+      "205 грн",
+      "207 грн",
+      "210 грн",
+      "215 грн"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Крок 1: підвищення на 15%: 200 × 1,15 = 230 грн. Крок 2: зниження на 10% від нової ціни: 230 × 0,90 = 207 грн (B). Важливо: відсотки беруться від різних баз, тому +15% і −10% не дають −5%."
+  },
+  {
+    "id": 24,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "5 робітників виконують роботу за 12 днів. За скільки днів виконають ту саму роботу 6 робітників (за однакової продуктивності)?",
+    "options": [
+      "8 днів",
+      "10 днів",
+      "14 днів",
+      "15 днів"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це обернена пропорційність: більше робітників — менше днів. Обсяг роботи сталий: 5 × 12 = 60 людино-днів. Тоді 60 ÷ 6 = 10 днів (B)."
+  },
+  {
+    "id": 25,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Скільки відсотків становить число 18 від числа 45?",
+    "options": [
+      "35%",
+      "40%",
+      "45%",
+      "50%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Формула: (частина ÷ ціле) × 100%. Отже (18 ÷ 45) × 100% = 0,4 × 100% = 40% (B)."
+  },
+  {
+    "id": 26,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Периметр прямокутника дорівнює 36 см, а його довжина вдвічі більша за ширину. Чому дорівнює площа прямокутника?",
+    "options": [
+      "54 см²",
+      "64 см²",
+      "72 см²",
+      "81 см²"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Периметр P = 2(a + b) = 36, звідси a + b = 18. Нехай ширина b, тоді довжина a = 2b. Маємо 2b + b = 18, 3b = 18, b = 6 см, a = 12 см. Площа S = a × b = 12 × 6 = 72 см² (C)."
+  },
+  {
+    "id": 27,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Розв'яжіть рівняння: 3x − 7 = 2x + 5.",
+    "options": [
+      "x = 2",
+      "x = 10",
+      "x = 12",
+      "x = −12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Переносимо невідомі вліво, числа вправо: 3x − 2x = 5 + 7, тобто x = 12 (C). Перевірка: 3·12 − 7 = 29 і 2·12 + 5 = 29 — рівність виконується."
+  },
+  {
+    "id": 28,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "На товар вартістю 800 грн діє знижка 25%. Скільки потрібно заплатити?",
+    "options": [
+      "575 грн",
+      "600 грн",
+      "625 грн",
+      "650 грн"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Знижка 25% означає, що сплачується 100% − 25% = 75% ціни. Отже 800 × 0,75 = 600 грн (B). Альтернативно: сума знижки 800 × 0,25 = 200 грн, 800 − 200 = 600 грн."
+  },
+  {
+    "id": 29,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Середнє арифметичне п'яти чисел дорівнює 14. З набору прибрали одне число — 10. Яким стане середнє арифметичне решти чотирьох чисел?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Сума п'яти чисел = середнє × кількість = 14 × 5 = 70. Після вилучення числа 10 сума = 70 − 10 = 60 для 4 чисел. Нове середнє = 60 ÷ 4 = 15 (C)."
+  },
+  {
+    "id": 30,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Катети прямокутного трикутника дорівнюють 6 см і 8 см. Чому дорівнює гіпотенуза?",
+    "options": [
+      "10 см",
+      "12 см",
+      "14 см",
+      "48 см"
+    ],
+    "correctAnswer": 0,
+    "explanation": "За теоремою Піфагора c² = a² + b² = 6² + 8² = 36 + 64 = 100, звідси c = √100 = 10 см (A)."
+  },
+  {
+    "id": 31,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Автомобіль проїхав 240 км за 3 години зі сталою швидкістю. Яку відстань він подолає за 5 годин з тією ж швидкістю?",
+    "options": [
+      "360 км",
+      "380 км",
+      "400 км",
+      "420 км"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Швидкість v = шлях ÷ час = 240 ÷ 3 = 80 км/год. За 5 годин: 80 × 5 = 400 км (C). Це пряма пропорційність між часом і відстанню за сталої швидкості."
+  },
+  {
+    "id": 32,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Населення міста зросло з 2000 до 2500 осіб. На скільки відсотків воно збільшилося?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "50%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Приріст = 2500 − 2000 = 500 осіб. Відсоток зміни беремо від початкового значення: (500 ÷ 2000) × 100% = 25% (B)."
+  },
+  {
+    "id": 33,
+    "block": "ТЗНК",
+    "type": "normal",
+    "passage": null,
+    "question": "Розв'яжіть рівняння: x² − 5x + 6 = 0. Виберіть правильну множину коренів.",
+    "options": [
+      "x = 1 і x = 6",
+      "x = 2 і x = 3",
+      "x = −2 і x = −3",
+      "x = 1 і x = 5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "За теоремою Вієта шукаємо два числа, добуток яких 6, а сума 5. Це 2 і 3 (B). Перевірка через дискримінант: D = (−5)² − 4·1·6 = 25 − 24 = 1, x = (5 ± 1)/2, тобто x = 3 або x = 2."
+  },
+  {
+    "id": 34,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Community gardens have quietly transformed many city neighbourhoods over the past two decades. Once-empty plots of land, often covered with rubbish or weeds, have been turned into green spaces where local residents grow vegetables, herbs and flowers together. These gardens are usually run by volunteers, and anyone living nearby can rent a small bed for a modest fee or simply help with shared tasks.\n\nThe benefits go far beyond fresh food. Studies show that people who spend time gardening tend to feel less stressed and more connected to those around them. For older residents in particular, the gardens offer a reason to leave home and a chance to meet neighbours they might otherwise never speak to. Children, meanwhile, learn where their food actually comes from, which can encourage healthier eating habits later in life.\n\nOf course, running a community garden is not without challenges. Volunteers must agree on rules, share tools fairly and decide what to do during the cold winter months when little grows. Funding can also be a problem, since most gardens rely on small donations rather than government support. Despite these difficulties, the number of community gardens continues to rise, suggesting that their value to city life is widely recognised.",
+    "question": "What were many community garden sites like before they were transformed?",
+    "options": [
+      "Busy markets",
+      "Empty plots covered with rubbish or weeds",
+      "Public car parks",
+      "Private farms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У першому абзаці прямо сказано, що це були порожні ділянки, часто вкриті сміттям або бур'янами ('Once-empty plots of land, often covered with rubbish or weeds'). Тому правильна відповідь B."
+  },
+  {
+    "id": 35,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Community gardens have quietly transformed many city neighbourhoods over the past two decades. Once-empty plots of land, often covered with rubbish or weeds, have been turned into green spaces where local residents grow vegetables, herbs and flowers together. These gardens are usually run by volunteers, and anyone living nearby can rent a small bed for a modest fee or simply help with shared tasks.\n\nThe benefits go far beyond fresh food. Studies show that people who spend time gardening tend to feel less stressed and more connected to those around them. For older residents in particular, the gardens offer a reason to leave home and a chance to meet neighbours they might otherwise never speak to. Children, meanwhile, learn where their food actually comes from, which can encourage healthier eating habits later in life.\n\nOf course, running a community garden is not without challenges. Volunteers must agree on rules, share tools fairly and decide what to do during the cold winter months when little grows. Funding can also be a problem, since most gardens rely on small donations rather than government support. Despite these difficulties, the number of community gardens continues to rise, suggesting that their value to city life is widely recognised.",
+    "question": "How can a local resident usually take part in a community garden?",
+    "options": [
+      "By buying the whole plot of land",
+      "By renting a small bed for a modest fee or helping with shared tasks",
+      "By paying a large government tax",
+      "Only by becoming a full-time gardener"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У тексті зазначено, що будь-хто поблизу може орендувати невелику грядку за помірну плату або просто допомагати зі спільними завданнями. Це відповідає варіанту B."
+  },
+  {
+    "id": 36,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Community gardens have quietly transformed many city neighbourhoods over the past two decades. Once-empty plots of land, often covered with rubbish or weeds, have been turned into green spaces where local residents grow vegetables, herbs and flowers together. These gardens are usually run by volunteers, and anyone living nearby can rent a small bed for a modest fee or simply help with shared tasks.\n\nThe benefits go far beyond fresh food. Studies show that people who spend time gardening tend to feel less stressed and more connected to those around them. For older residents in particular, the gardens offer a reason to leave home and a chance to meet neighbours they might otherwise never speak to. Children, meanwhile, learn where their food actually comes from, which can encourage healthier eating habits later in life.\n\nOf course, running a community garden is not without challenges. Volunteers must agree on rules, share tools fairly and decide what to do during the cold winter months when little grows. Funding can also be a problem, since most gardens rely on small donations rather than government support. Despite these difficulties, the number of community gardens continues to rise, suggesting that their value to city life is widely recognised.",
+    "question": "According to the text, why are the gardens especially valuable for older residents?",
+    "options": [
+      "They provide a free place to live",
+      "They give a reason to go out and meet neighbours",
+      "They guarantee a paid job",
+      "They replace medical care"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У другому абзаці сказано, що для літніх людей сади дають привід вийти з дому й нагоду познайомитися із сусідами. Отже, правильна відповідь B."
+  },
+  {
+    "id": 37,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Community gardens have quietly transformed many city neighbourhoods over the past two decades. Once-empty plots of land, often covered with rubbish or weeds, have been turned into green spaces where local residents grow vegetables, herbs and flowers together. These gardens are usually run by volunteers, and anyone living nearby can rent a small bed for a modest fee or simply help with shared tasks.\n\nThe benefits go far beyond fresh food. Studies show that people who spend time gardening tend to feel less stressed and more connected to those around them. For older residents in particular, the gardens offer a reason to leave home and a chance to meet neighbours they might otherwise never speak to. Children, meanwhile, learn where their food actually comes from, which can encourage healthier eating habits later in life.\n\nOf course, running a community garden is not without challenges. Volunteers must agree on rules, share tools fairly and decide what to do during the cold winter months when little grows. Funding can also be a problem, since most gardens rely on small donations rather than government support. Despite these difficulties, the number of community gardens continues to rise, suggesting that their value to city life is widely recognised.",
+    "question": "Which of the following is mentioned as a challenge of running a community garden?",
+    "options": [
+      "Too many government rules",
+      "Lack of interest from residents",
+      "Funding, since gardens rely on small donations",
+      "Excessive profits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "У третьому абзаці фінансування назване проблемою, оскільки сади покладаються переважно на невеликі пожертви, а не на державну підтримку. Це варіант C."
+  },
+  {
+    "id": 38,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "Community gardens have quietly transformed many city neighbourhoods over the past two decades. Once-empty plots of land, often covered with rubbish or weeds, have been turned into green spaces where local residents grow vegetables, herbs and flowers together. These gardens are usually run by volunteers, and anyone living nearby can rent a small bed for a modest fee or simply help with shared tasks.\n\nThe benefits go far beyond fresh food. Studies show that people who spend time gardening tend to feel less stressed and more connected to those around them. For older residents in particular, the gardens offer a reason to leave home and a chance to meet neighbours they might otherwise never speak to. Children, meanwhile, learn where their food actually comes from, which can encourage healthier eating habits later in life.\n\nOf course, running a community garden is not without challenges. Volunteers must agree on rules, share tools fairly and decide what to do during the cold winter months when little grows. Funding can also be a problem, since most gardens rely on small donations rather than government support. Despite these difficulties, the number of community gardens continues to rise, suggesting that their value to city life is widely recognised.",
+    "question": "What does the final sentence suggest about community gardens?",
+    "options": [
+      "Their number is falling",
+      "Their value to city life is widely recognised",
+      "They will soon be banned",
+      "They are only popular in villages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Останнє речення зазначає, що, попри труднощі, кількість садів зростає, що свідчить про широке визнання їхньої цінності для міського життя. Правильна відповідь B."
+  },
+  {
+    "id": 39,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "For most of human history, people went to sleep when it got dark and woke when the sun rose. The invention of electric light changed that completely, and today many of us stay awake long after sunset, surrounded by glowing screens. Scientists are increasingly concerned about what this is doing to our sleep.\n\nThe problem lies partly in a type of light known as blue light, which is produced in large amounts by phones, tablets and computers. Blue light tricks the brain into thinking it is still daytime. As a result, the body delays the release of melatonin, the hormone that makes us feel sleepy. Someone who scrolls through their phone in bed may therefore find it much harder to fall asleep than they expect.\n\nExperts suggest several simple solutions. Turning off screens at least an hour before bed gives the brain time to relax. Many devices now include a 'night mode' that reduces blue light in the evening, although researchers warn that this is not a complete cure. Perhaps the most effective advice is also the oldest: keep the bedroom dark, quiet and reserved for sleep, rather than for work or entertainment.",
+    "question": "How did the invention of electric light change human behaviour?",
+    "options": [
+      "People started waking up earlier",
+      "People began staying awake long after sunset",
+      "People stopped using candles entirely",
+      "People slept more than before"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У першому абзаці сказано, що електричне світло все змінило, і тепер багато людей не сплять ще довго після заходу сонця. Це відповідає варіанту B."
+  },
+  {
+    "id": 40,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "For most of human history, people went to sleep when it got dark and woke when the sun rose. The invention of electric light changed that completely, and today many of us stay awake long after sunset, surrounded by glowing screens. Scientists are increasingly concerned about what this is doing to our sleep.\n\nThe problem lies partly in a type of light known as blue light, which is produced in large amounts by phones, tablets and computers. Blue light tricks the brain into thinking it is still daytime. As a result, the body delays the release of melatonin, the hormone that makes us feel sleepy. Someone who scrolls through their phone in bed may therefore find it much harder to fall asleep than they expect.\n\nExperts suggest several simple solutions. Turning off screens at least an hour before bed gives the brain time to relax. Many devices now include a 'night mode' that reduces blue light in the evening, although researchers warn that this is not a complete cure. Perhaps the most effective advice is also the oldest: keep the bedroom dark, quiet and reserved for sleep, rather than for work or entertainment.",
+    "question": "What effect does blue light have on the brain?",
+    "options": [
+      "It makes the brain release more melatonin",
+      "It tricks the brain into thinking it is still daytime",
+      "It immediately causes sleep",
+      "It has no measurable effect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У другому абзаці пояснено, що блакитне світло обманює мозок, змушуючи його думати, що ще день. Тому правильний варіант B."
+  },
+  {
+    "id": 41,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "For most of human history, people went to sleep when it got dark and woke when the sun rose. The invention of electric light changed that completely, and today many of us stay awake long after sunset, surrounded by glowing screens. Scientists are increasingly concerned about what this is doing to our sleep.\n\nThe problem lies partly in a type of light known as blue light, which is produced in large amounts by phones, tablets and computers. Blue light tricks the brain into thinking it is still daytime. As a result, the body delays the release of melatonin, the hormone that makes us feel sleepy. Someone who scrolls through their phone in bed may therefore find it much harder to fall asleep than they expect.\n\nExperts suggest several simple solutions. Turning off screens at least an hour before bed gives the brain time to relax. Many devices now include a 'night mode' that reduces blue light in the evening, although researchers warn that this is not a complete cure. Perhaps the most effective advice is also the oldest: keep the bedroom dark, quiet and reserved for sleep, rather than for work or entertainment.",
+    "question": "What is melatonin, according to the passage?",
+    "options": [
+      "A type of screen",
+      "A hormone that makes us feel sleepy",
+      "A kind of blue light",
+      "A device setting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Текст прямо називає мелатонін гормоном, який викликає відчуття сонливості ('the hormone that makes us feel sleepy'). Правильна відповідь B."
+  },
+  {
+    "id": 42,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "For most of human history, people went to sleep when it got dark and woke when the sun rose. The invention of electric light changed that completely, and today many of us stay awake long after sunset, surrounded by glowing screens. Scientists are increasingly concerned about what this is doing to our sleep.\n\nThe problem lies partly in a type of light known as blue light, which is produced in large amounts by phones, tablets and computers. Blue light tricks the brain into thinking it is still daytime. As a result, the body delays the release of melatonin, the hormone that makes us feel sleepy. Someone who scrolls through their phone in bed may therefore find it much harder to fall asleep than they expect.\n\nExperts suggest several simple solutions. Turning off screens at least an hour before bed gives the brain time to relax. Many devices now include a 'night mode' that reduces blue light in the evening, although researchers warn that this is not a complete cure. Perhaps the most effective advice is also the oldest: keep the bedroom dark, quiet and reserved for sleep, rather than for work or entertainment.",
+    "question": "What do researchers say about the 'night mode' feature?",
+    "options": [
+      "It completely cures sleep problems",
+      "It is not a complete cure",
+      "It increases blue light",
+      "It is dangerous to health"
+    ],
+    "correctAnswer": 1,
+    "explanation": "У третьому абзаці дослідники попереджають, що нічний режим не є повноцінним вирішенням проблеми ('not a complete cure'). Це відповідає варіанту B."
+  },
+  {
+    "id": 43,
+    "block": "Іноземна мова",
+    "type": "reading",
+    "passage": "For most of human history, people went to sleep when it got dark and woke when the sun rose. The invention of electric light changed that completely, and today many of us stay awake long after sunset, surrounded by glowing screens. Scientists are increasingly concerned about what this is doing to our sleep.\n\nThe problem lies partly in a type of light known as blue light, which is produced in large amounts by phones, tablets and computers. Blue light tricks the brain into thinking it is still daytime. As a result, the body delays the release of melatonin, the hormone that makes us feel sleepy. Someone who scrolls through their phone in bed may therefore find it much harder to fall asleep than they expect.\n\nExperts suggest several simple solutions. Turning off screens at least an hour before bed gives the brain time to relax. Many devices now include a 'night mode' that reduces blue light in the evening, although researchers warn that this is not a complete cure. Perhaps the most effective advice is also the oldest: keep the bedroom dark, quiet and reserved for sleep, rather than for work or entertainment.",
+    "question": "What is described as 'the oldest' and perhaps most effective advice?",
+    "options": [
+      "Using a phone in bed",
+      "Keeping the bedroom dark, quiet and only for sleep",
+      "Buying new devices",
+      "Working in the bedroom"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Останнє речення називає найдавнішою і, можливо, найдієвішою порадою — тримати спальню темною, тихою та призначеною лише для сну. Правильна відповідь B."
+  },
+  {
+    "id": 44,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: After years of practice, she finally managed to ___ her fear of public speaking.",
+    "options": [
+      "overcome",
+      "overtake",
+      "overlook",
+      "override"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'Overcome a fear' — стійка сполука зі значенням «подолати страх». 'Overtake' — обігнати, 'overlook' — недогледіти/мати краєвид, 'override' — скасувати/переважити. За змістом підходить лише 'overcome' (A)."
+  },
+  {
+    "id": 45,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The new evidence completely ___ his theory.",
+    "options": [
+      "denied",
+      "refused",
+      "disproved",
+      "rejected"
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Disprove a theory' означає «спростувати теорію», довести її хибність — саме це підходить за змістом (C). 'Deny' — заперечувати факт, 'refuse' — відмовлятися (від пропозиції), 'reject' — відхиляти (заявку чи ідею), але не «спростовувати доказами»."
+  },
+  {
+    "id": 46,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: I can't ___ the difference between these two shades of blue.",
+    "options": [
+      "tell",
+      "say",
+      "talk",
+      "speak"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'Tell the difference' — усталений вираз зі значенням «розрізняти, бачити різницю». 'Say', 'talk' і 'speak' у цій конструкції не вживаються, тому правильна відповідь A."
+  },
+  {
+    "id": 47,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The company decided to ___ the meeting until next week.",
+    "options": [
+      "put off",
+      "put on",
+      "put up",
+      "put out"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Фразове дієслово 'put off' означає «відкласти, перенести на пізніше», що пасує до перенесення зустрічі (A). 'Put on' — надягати/вмикати, 'put up' — піднімати/розміщувати, 'put out' — гасити."
+  },
+  {
+    "id": 48,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: She gave a ___ description of the accident, including every small detail.",
+    "options": [
+      "brief",
+      "vague",
+      "detailed",
+      "rough"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Контекст 'including every small detail' вимагає слова 'detailed' — «детальний» (C). 'Brief' — стислий, 'vague' — нечіткий, 'rough' — приблизний, що суперечать згадці про всі дрібні деталі."
+  },
+  {
+    "id": 49,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: He was ___ tired after the long journey and fell asleep immediately.",
+    "options": [
+      "strongly",
+      "deeply",
+      "completely",
+      "highly"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Прислівник 'completely' (повністю, цілком) природно поєднується з 'tired' для підсилення (C). 'Strongly' і 'highly' з 'tired' не вживаються, а 'deeply' пасує радше до 'asleep' чи емоцій, ніж до 'tired'."
+  },
+  {
+    "id": 50,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The teacher asked the students to ___ their answers before submitting the test.",
+    "options": [
+      "watch",
+      "look",
+      "check",
+      "see"
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Check your answers' — стандартна сполука зі значенням «перевірити відповіді» (C). 'Watch', 'look' і 'see' стосуються зорового сприйняття, а не перевірки правильності."
+  },
+  {
+    "id": 51,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: This medicine can have serious side ___ if taken incorrectly.",
+    "options": [
+      "results",
+      "effects",
+      "outcomes",
+      "consequences"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Side effects' — усталений медичний термін «побічні ефекти/дії» (B). Хоча 'consequences' і 'outcomes' близькі за змістом, сполучення зі словом 'side' утворює лише 'side effects'."
+  },
+  {
+    "id": 52,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: They had to ___ a lot of money to buy their first house.",
+    "options": [
+      "borrow",
+      "lend",
+      "owe",
+      "earn"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'Borrow' означає «позичати в когось» (брати), що логічно для купівлі будинку (A). 'Lend' — навпаки, давати в борг; 'owe' — бути винним; 'earn' — заробляти. Тут гроші саме беруть у борг."
+  },
+  {
+    "id": 53,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Choose the correct word to complete the sentence: The view from the top of the mountain was absolutely ___.",
+    "options": [
+      "nice",
+      "good",
+      "breathtaking",
+      "fine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Підсилювач 'absolutely' поєднується з «сильними» (non-gradable) прикметниками, як-от 'breathtaking' — «захопливий до нестями» (C). 'Nice', 'good' і 'fine' — нейтральні «градуйовані» прикметники, з 'absolutely' звучать неприродно."
+  },
+  {
+    "id": 54,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "By the time we arrived, the film ___ already.",
+    "options": [
+      "started",
+      "has started",
+      "had started",
+      "was starting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Дія сталася раніше за іншу минулу дію ('arrived'), тому потрібен Past Perfect — 'had started' (C). Маркер 'by the time ... already' указує на передминулість."
+  },
+  {
+    "id": 55,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "If I ___ more time, I would travel around the world.",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "would have"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це Second Conditional (нереальна теперішня умова): if + Past Simple, would + інфінітив. Тому в умовній частині — 'had' (B). 'Will have' і 'would have' тут граматично неправильні."
+  },
+  {
+    "id": 56,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "She has lived in this city ___ 2010.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "during"
+    ],
+    "correctAnswer": 1,
+    "explanation": "З вказівкою на момент початку (рік 2010) у Present Perfect вживається 'since' (B). 'For' використовують з відрізком часу (for 10 years), а 'from' і 'during' тут не підходять."
+  },
+  {
+    "id": 57,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "This is ___ interesting book I have ever read.",
+    "options": [
+      "the most",
+      "most",
+      "a most",
+      "more"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Конструкція 'the ... I have ever' вимагає найвищого ступеня з означеним артиклем — 'the most interesting' (A). Це класичний контекст для superlative."
+  },
+  {
+    "id": 58,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "Look at those clouds! It ___ rain soon.",
+    "options": [
+      "will",
+      "is going to",
+      "rains",
+      "would"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Прогноз на основі видимих ознак (хмари) виражають через 'be going to' — 'is going to rain' (B). 'Will' уживають для спонтанних рішень чи припущень без видимих доказів."
+  },
+  {
+    "id": 59,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "I saw ___ elephant at the zoo. ___ elephant was huge.",
+    "options": [
+      "a / A",
+      "an / The",
+      "the / An",
+      "an / A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Уперше згадуємо об'єкт — неозначений артикль перед голосним звуком: 'an elephant'. Удруге йдеться про вже відомий предмет — означений 'The elephant'. Тому правильна пара 'an / The' (B)."
+  },
+  {
+    "id": 60,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "The report ___ by the team yesterday.",
+    "options": [
+      "wrote",
+      "was written",
+      "is written",
+      "has written"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Підмет 'the report' зазнає дії, тож потрібен пасивний стан. Маркер 'yesterday' указує на минулий час, отже Past Simple Passive — 'was written' (B)."
+  },
+  {
+    "id": 61,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "She is good ___ mathematics but bad ___ drawing.",
+    "options": [
+      "in / at",
+      "at / at",
+      "on / in",
+      "at / in"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Прикметники 'good' і 'bad' щодо вмінь керують прийменником 'at': 'good at', 'bad at'. Тому правильна пара 'at / at' (B)."
+  },
+  {
+    "id": 62,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "If you heat ice, it ___.",
+    "options": [
+      "melted",
+      "melts",
+      "will melt",
+      "would melt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Це Zero Conditional (загальна істина, закон природи): if + Present Simple, Present Simple. Тому 'it melts' (B). Тут немає елемента припущення про майбутнє, тож 'will melt' недоречне."
+  },
+  {
+    "id": 63,
+    "block": "Іноземна мова",
+    "type": "normal",
+    "passage": null,
+    "question": "I'm not used to ___ up so early.",
+    "options": [
+      "get",
+      "getting",
+      "got",
+      "gets"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Після виразу 'be used to' (звикнути до чогось) уживають герундій (-ing форму), тому 'getting up' (B). Не плутати з 'used to + інфінітив', що означає минулу звичку."
+  }
+]
